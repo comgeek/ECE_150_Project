@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Nov 04 21:37:13 2021
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : Homework4
+Top-level Entity Name : Homework4
+Family : Cyclone IV E
+Total logic elements : 8,717
+    Total combinational functions : 6,910
+    Dedicated logic registers : 5,105
+Total registers : 5105
+Total pins : 163
+Total virtual pins : 0
+Total memory bits : 292,224
+Embedded Multiplier 9-bit elements : 12
+Total PLLs : 1

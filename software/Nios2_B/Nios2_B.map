@@ -1,0 +1,602 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o)
+                              obj/default/hello_world_small.o (puts)
+c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+                              c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o) (strlen)
+c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-fvwrite_small_dev.o)
+                              c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o) (__sfvwrite_small_dev)
+c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-impure.o)
+                              c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o) (_impure_ptr)
+c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-writer.o)
+                              c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-fvwrite_small_dev.o) (_write_r)
+c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+                              c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-writer.o) (errno)
+c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_load.o)
+                              c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp//obj/HAL/src/crt0.o (alt_load)
+c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_main.o)
+                              c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp//obj/HAL/src/crt0.o (alt_main)
+c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_write.o)
+                              c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-writer.o) (write)
+c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_sys_init.o)
+                              c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_main.o) (alt_irq_init)
+c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                              c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_write.o) (altera_avalon_jtag_uart_write)
+c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                              c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_load.o) (alt_dcache_flush_all)
+c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_errno.o)
+                              c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_write.o) (alt_errno)
+c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                              c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_load.o) (alt_icache_flush_all)
+c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+                              c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_sys_init.o) (altera_nios2_gen2_irq_init)
+c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_icache_flush.o)
+                              c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_icache_flush_all.o) (alt_icache_flush)
+c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-memcpy.o)
+                              c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_load.o) (memcpy)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+reset            0x0000000000010000 0x0000000000000020
+Nios2_B_onchip_memory2_0 0x0000000000010020 0x0000000000004f90
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp//obj/HAL/src/crt0.o
+LOAD obj/default/hello_world_small.o
+LOAD c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libstdc++.a
+LOAD c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libm.a
+LOAD c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1\libgcc.a
+START GROUP
+LOAD c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a
+LOAD c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1\libgcc.a
+LOAD c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a
+LOAD c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libm.a
+END GROUP
+LOAD c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1\libgcc.a
+                0x0000000000010000                __alt_mem_Nios2_B_onchip_memory2_0 = 0x10000
+
+.entry          0x0000000000010000       0x20
+ *(.entry)
+ .entry         0x0000000000010000       0x20 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp//obj/HAL/src/crt0.o
+                0x0000000000010000                __reset
+                0x000000000001001c                _exit
+
+.exceptions     0x0000000000010020        0x0
+                0x0000000000010020                PROVIDE (__ram_exceptions_start = ABSOLUTE (.))
+                0x0000000000010020                . = ALIGN (0x20)
+ *(.irq)
+ *(.exceptions.entry.label)
+ *(.exceptions.entry.user)
+ *(.exceptions.entry.ecc_fatal)
+ *(.exceptions.entry)
+ *(.exceptions.irqtest.user)
+ *(.exceptions.irqtest)
+ *(.exceptions.irqhandler.user)
+ *(.exceptions.irqhandler)
+ *(.exceptions.irqreturn.user)
+ *(.exceptions.irqreturn)
+ *(.exceptions.notirq.label)
+ *(.exceptions.notirq.user)
+ *(.exceptions.notirq)
+ *(.exceptions.soft.user)
+ *(.exceptions.soft)
+ *(.exceptions.unknown.user)
+ *(.exceptions.unknown)
+ *(.exceptions.exit.label)
+ *(.exceptions.exit.user)
+ *(.exceptions.exit)
+ *(.exceptions)
+                0x0000000000010020                PROVIDE (__ram_exceptions_end = ABSOLUTE (.))
+                0x0000000000010020                PROVIDE (__flash_exceptions_start = LOADADDR (.exceptions))
+
+.text           0x0000000000010020      0x424
+                [!provide]                        PROVIDE (stext = ABSOLUTE (.))
+ *(.interp)
+ *(.hash)
+ *(.dynsym)
+ *(.dynstr)
+ *(.gnu.version)
+ *(.gnu.version_d)
+ *(.gnu.version_r)
+ *(.rel.init)
+ *(.rela.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rela.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rela.ctors)
+ *(.rel.dtors)
+ *(.rela.dtors)
+ *(.rel.got)
+ *(.rela.got)
+ *(.rel.sdata .rel.sdata.* .rel.gnu.linkonce.s.*)
+ *(.rela.sdata .rela.sdata.* .rela.gnu.linkonce.s.*)
+ *(.rel.sbss .rel.sbss.* .rel.gnu.linkonce.sb.*)
+ *(.rela.sbss .rela.sbss.* .rela.gnu.linkonce.sb.*)
+ *(.rel.sdata2 .rel.sdata2.* .rel.gnu.linkonce.s2.*)
+ *(.rela.sdata2 .rela.sdata2.* .rela.gnu.linkonce.s2.*)
+ *(.rel.sbss2 .rel.sbss2.* .rel.gnu.linkonce.sb2.*)
+ *(.rela.sbss2 .rela.sbss2.* .rela.gnu.linkonce.sb2.*)
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rel.plt)
+ *(.rela.plt)
+ *(.rel.dyn)
+ *(.init)
+ *(.plt)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000010020       0x4c c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp//obj/HAL/src/crt0.o
+                0x0000000000010020                _start
+ .text          0x000000000001006c        0x0 obj/default/hello_world_small.o
+ .text.startup  0x000000000001006c       0x24 obj/default/hello_world_small.o
+                0x000000000001006c                main
+ .text          0x0000000000010090        0x0 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o)
+ .text._puts_r  0x0000000000010090       0x80 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o)
+                0x0000000000010090                _puts_r
+ .text.puts     0x0000000000010110       0x10 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o)
+                0x0000000000010110                puts
+ .text          0x0000000000010120        0x0 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+ .text.strlen   0x0000000000010120       0x1c c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+                0x0000000000010120                strlen
+ .text          0x000000000001013c        0x0 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .text.__sfvwrite_small_dev
+                0x000000000001013c       0xa8 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-fvwrite_small_dev.o)
+                0x000000000001013c                __sfvwrite_small_dev
+ .text          0x00000000000101e4        0x0 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-impure.o)
+ .text          0x00000000000101e4        0x0 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-writer.o)
+ .text._write_r
+                0x00000000000101e4       0x50 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-writer.o)
+                0x00000000000101e4                _write_r
+ .text          0x0000000000010234        0x0 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+ .text          0x0000000000010234       0x84 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_load.o)
+                0x0000000000010234                alt_load
+ .text          0x00000000000102b8       0x2c c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_main.o)
+                0x00000000000102b8                alt_main
+ .text          0x00000000000102e4       0x5c c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_write.o)
+                0x00000000000102e4                write
+ .text          0x0000000000010340       0x24 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_sys_init.o)
+                0x0000000000010340                alt_irq_init
+                0x0000000000010360                alt_sys_init
+ .text          0x0000000000010364       0x30 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                0x0000000000010364                altera_avalon_jtag_uart_write
+ .text          0x0000000000010394       0x18 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                0x0000000000010394                alt_dcache_flush_all
+ .text          0x00000000000103ac        0x0 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_errno.o)
+ .text          0x00000000000103ac        0xc c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                0x00000000000103ac                alt_icache_flush_all
+ .text          0x00000000000103b8        0x8 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+                0x00000000000103b8                altera_nios2_gen2_irq_init
+ .text          0x00000000000103c0       0x5c c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_icache_flush.o)
+                0x00000000000103c0                alt_icache_flush
+ .text          0x000000000001041c        0x0 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-memcpy.o)
+ .text.memcpy   0x000000000001041c       0x28 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-memcpy.o)
+                0x000000000001041c                memcpy
+ *(.gnu.warning.*)
+ *(.fini)
+                [!provide]                        PROVIDE (__etext = ABSOLUTE (.))
+                [!provide]                        PROVIDE (_etext = ABSOLUTE (.))
+                [!provide]                        PROVIDE (etext = ABSOLUTE (.))
+ *(.eh_frame_hdr)
+                0x0000000000010444                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__preinit_array_start = ABSOLUTE (.))
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end = ABSOLUTE (.))
+                [!provide]                        PROVIDE (__init_array_start = ABSOLUTE (.))
+ *(.init_array)
+                [!provide]                        PROVIDE (__init_array_end = ABSOLUTE (.))
+                [!provide]                        PROVIDE (__fini_array_start = ABSOLUTE (.))
+ *(.fini_array)
+                [!provide]                        PROVIDE (__fini_array_end = ABSOLUTE (.))
+ *(.eh_frame)
+ *(.gcc_except_table .gcc_except_table.*)
+ *(.dynamic)
+                [!provide]                        PROVIDE (__CTOR_LIST__ = ABSOLUTE (.))
+ *(.ctors)
+ *(SORT_BY_NAME(.ctors.*))
+                [!provide]                        PROVIDE (__CTOR_END__ = ABSOLUTE (.))
+                [!provide]                        PROVIDE (__DTOR_LIST__ = ABSOLUTE (.))
+ *(.dtors)
+ *(SORT_BY_NAME(.dtors.*))
+                [!provide]                        PROVIDE (__DTOR_END__ = ABSOLUTE (.))
+ *(.jcr)
+                0x0000000000010444                . = ALIGN (0x4)
+
+.rodata         0x0000000000010444       0x1c
+                0x0000000000010444                PROVIDE (__ram_rodata_start = ABSOLUTE (.))
+                0x0000000000010444                . = ALIGN (0x4)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.4
+                0x0000000000010444       0x18 obj/default/hello_world_small.o
+ .rodata._puts_r.str1.4
+                0x000000000001045c        0x2 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o)
+ *(.rodata1)
+                0x0000000000010460                . = ALIGN (0x4)
+ *fill*         0x000000000001045e        0x2 
+                0x0000000000010460                PROVIDE (__ram_rodata_end = ABSOLUTE (.))
+                0x0000000000010444                PROVIDE (__flash_rodata_start = LOADADDR (.rodata))
+
+.rwdata         0x0000000000010460       0xf4 load address 0x0000000000010554
+                0x0000000000010460                PROVIDE (__ram_rwdata_start = ABSOLUTE (.))
+                0x0000000000010460                . = ALIGN (0x4)
+ *(.got.plt)
+ *(.got)
+ *(.data1)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000000000010460        0x0 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp//obj/HAL/src/crt0.o
+ .data          0x0000000000010460        0x0 obj/default/hello_world_small.o
+ .data          0x0000000000010460        0x0 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o)
+ .data          0x0000000000010460        0x0 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+ .data          0x0000000000010460        0x0 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .data          0x0000000000010460        0x0 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-impure.o)
+ .data.impure_data
+                0x0000000000010460       0xe4 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-impure.o)
+ .data          0x0000000000010544        0x0 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-writer.o)
+ .data          0x0000000000010544        0x0 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+ .data          0x0000000000010544        0x0 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_load.o)
+ .data          0x0000000000010544        0x0 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_main.o)
+ .data          0x0000000000010544        0x0 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_write.o)
+ .data          0x0000000000010544        0x0 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .data          0x0000000000010544        0x0 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .data          0x0000000000010544        0x0 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .data          0x0000000000010544        0x0 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_errno.o)
+ .data          0x0000000000010544        0x0 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .data          0x0000000000010544        0x0 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .data          0x0000000000010544        0x0 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .data          0x0000000000010544        0x0 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-memcpy.o)
+                0x0000000000018544                _gp = ABSOLUTE ((. + 0x8000))
+                [!provide]                        PROVIDE (gp = _gp)
+ *(.rwdata .rwdata.*)
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+ .sdata._global_impure_ptr
+                0x0000000000010544        0x4 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-impure.o)
+                0x0000000000010544                _global_impure_ptr
+ .sdata._impure_ptr
+                0x0000000000010548        0x4 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-impure.o)
+                0x0000000000010548                _impure_ptr
+ .sdata         0x000000000001054c        0x4 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_sys_init.o)
+                0x000000000001054c                Nios2_B_jtag_uart_0
+ .sdata         0x0000000000010550        0x4 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_errno.o)
+                0x0000000000010550                alt_errno
+ *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+                0x0000000000010554                . = ALIGN (0x4)
+                0x0000000000010554                _edata = ABSOLUTE (.)
+                [!provide]                        PROVIDE (edata = ABSOLUTE (.))
+                0x0000000000010554                PROVIDE (__ram_rwdata_end = ABSOLUTE (.))
+                0x0000000000010554                PROVIDE (__flash_rwdata_start = LOADADDR (.rwdata))
+
+.bss            0x0000000000010648       0x10
+                0x0000000000010648                __bss_start = ABSOLUTE (.)
+                [!provide]                        PROVIDE (__sbss_start = ABSOLUTE (.))
+                [!provide]                        PROVIDE (___sbss_start = ABSOLUTE (.))
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ .sbss.errno    0x0000000000010648        0x4 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+                0x0000000000010648                errno
+ .sbss          0x000000000001064c        0xc c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_main.o)
+                0x000000000001064c                alt_envp
+                0x0000000000010650                alt_argv
+                0x0000000000010654                alt_argc
+ *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
+ *(.scommon)
+                [!provide]                        PROVIDE (__sbss_end = ABSOLUTE (.))
+                [!provide]                        PROVIDE (___sbss_end = ABSOLUTE (.))
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000010658        0x0 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp//obj/HAL/src/crt0.o
+ .bss           0x0000000000010658        0x0 obj/default/hello_world_small.o
+ .bss           0x0000000000010658        0x0 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o)
+ .bss           0x0000000000010658        0x0 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+ .bss           0x0000000000010658        0x0 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .bss           0x0000000000010658        0x0 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-impure.o)
+ .bss           0x0000000000010658        0x0 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-writer.o)
+ .bss           0x0000000000010658        0x0 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+ .bss           0x0000000000010658        0x0 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_load.o)
+ .bss           0x0000000000010658        0x0 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_main.o)
+ .bss           0x0000000000010658        0x0 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_write.o)
+ .bss           0x0000000000010658        0x0 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .bss           0x0000000000010658        0x0 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .bss           0x0000000000010658        0x0 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .bss           0x0000000000010658        0x0 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_errno.o)
+ .bss           0x0000000000010658        0x0 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .bss           0x0000000000010658        0x0 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .bss           0x0000000000010658        0x0 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .bss           0x0000000000010658        0x0 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-memcpy.o)
+ *(COMMON)
+                0x0000000000010658                . = ALIGN (0x4)
+                0x0000000000010658                __bss_end = ABSOLUTE (.)
+
+.Nios2_B_onchip_memory2_0
+                0x0000000000010658        0x0
+                [!provide]                        PROVIDE (_alt_partition_Nios2_B_onchip_memory2_0_start = ABSOLUTE (.))
+ *(.Nios2_B_onchip_memory2_0 .Nios2_B_onchip_memory2_0. Nios2_B_onchip_memory2_0.*)
+                0x0000000000010658                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (_alt_partition_Nios2_B_onchip_memory2_0_end = ABSOLUTE (.))
+                0x0000000000010658                _end = ABSOLUTE (.)
+                0x0000000000010658                end = ABSOLUTE (.)
+                0x0000000000010658                __alt_stack_base = ABSOLUTE (.)
+                [!provide]                        PROVIDE (_alt_partition_Nios2_B_onchip_memory2_0_load_addr = LOADADDR (.Nios2_B_onchip_memory2_0))
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x2d
+ *(.comment)
+ .comment       0x0000000000000000       0x2d obj/default/hello_world_small.o
+                                         0x2e (size before relaxing)
+ .comment       0x000000000000002d       0x2e c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o)
+ .comment       0x000000000000002d       0x2e c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+ .comment       0x000000000000002d       0x2e c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .comment       0x000000000000002d       0x2e c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-impure.o)
+ .comment       0x000000000000002d       0x2e c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-writer.o)
+ .comment       0x000000000000002d       0x2e c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+ .comment       0x000000000000002d       0x2e c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_load.o)
+ .comment       0x000000000000002d       0x2e c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_main.o)
+ .comment       0x000000000000002d       0x2e c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_write.o)
+ .comment       0x000000000000002d       0x2e c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .comment       0x000000000000002d       0x2e c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .comment       0x000000000000002d       0x2e c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .comment       0x000000000000002d       0x2e c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_errno.o)
+ .comment       0x000000000000002d       0x2e c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .comment       0x000000000000002d       0x2e c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .comment       0x000000000000002d       0x2e c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .comment       0x000000000000002d       0x2e c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-memcpy.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x258
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x28 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp//obj/HAL/src/crt0.o
+ .debug_aranges
+                0x0000000000000028       0x20 obj/default/hello_world_small.o
+ .debug_aranges
+                0x0000000000000048       0x28 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o)
+ .debug_aranges
+                0x0000000000000070       0x20 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+ .debug_aranges
+                0x0000000000000090       0x20 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_aranges
+                0x00000000000000b0       0x18 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-impure.o)
+ .debug_aranges
+                0x00000000000000c8       0x20 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-writer.o)
+ .debug_aranges
+                0x00000000000000e8       0x18 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+ .debug_aranges
+                0x0000000000000100       0x20 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_aranges
+                0x0000000000000120       0x20 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_aranges
+                0x0000000000000140       0x20 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_write.o)
+ .debug_aranges
+                0x0000000000000160       0x20 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_aranges
+                0x0000000000000180       0x20 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_aranges
+                0x00000000000001a0       0x20 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_aranges
+                0x00000000000001c0       0x18 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_aranges
+                0x00000000000001d8       0x20 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_aranges
+                0x00000000000001f8       0x20 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_aranges
+                0x0000000000000218       0x20 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_aranges
+                0x0000000000000238       0x20 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-memcpy.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0x28ce
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000       0x22 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp//obj/HAL/src/crt0.o
+ .debug_info    0x0000000000000022       0xb3 obj/default/hello_world_small.o
+ .debug_info    0x00000000000000d5      0x6ea c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o)
+ .debug_info    0x00000000000007bf       0xd0 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+ .debug_info    0x000000000000088f      0x6b3 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_info    0x0000000000000f42      0x61e c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-impure.o)
+ .debug_info    0x0000000000001560      0x6b3 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-writer.o)
+ .debug_info    0x0000000000001c13       0x84 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+ .debug_info    0x0000000000001c97      0x267 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_info    0x0000000000001efe      0x129 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_info    0x0000000000002027      0x19b c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_write.o)
+ .debug_info    0x00000000000021c2      0x12a c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_info    0x00000000000022ec      0x14a c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_info    0x0000000000002436       0xa5 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_info    0x00000000000024db       0x9d c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_info    0x0000000000002578       0xb3 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_info    0x000000000000262b       0x8c c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_info    0x00000000000026b7       0xef c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_info    0x00000000000027a6      0x128 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-memcpy.o)
+
+.debug_abbrev   0x0000000000000000     0x105f
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000       0x12 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp//obj/HAL/src/crt0.o
+ .debug_abbrev  0x0000000000000012       0x6e obj/default/hello_world_small.o
+ .debug_abbrev  0x0000000000000080      0x20b c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o)
+ .debug_abbrev  0x000000000000028b       0x8d c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+ .debug_abbrev  0x0000000000000318      0x1ed c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_abbrev  0x0000000000000505      0x17a c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-impure.o)
+ .debug_abbrev  0x000000000000067f      0x1d9 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-writer.o)
+ .debug_abbrev  0x0000000000000858       0x39 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+ .debug_abbrev  0x0000000000000891      0x125 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_abbrev  0x00000000000009b6       0xba c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_abbrev  0x0000000000000a70      0x12b c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_write.o)
+ .debug_abbrev  0x0000000000000b9b      0x10b c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_abbrev  0x0000000000000ca6       0xea c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_abbrev  0x0000000000000d90       0x61 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_abbrev  0x0000000000000df1       0x5a c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_abbrev  0x0000000000000e4b       0x73 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_abbrev  0x0000000000000ebe       0x44 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_abbrev  0x0000000000000f02       0x9f c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_abbrev  0x0000000000000fa1       0xbe c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-memcpy.o)
+
+.debug_line     0x0000000000000000     0x13e7
+ *(.debug_line)
+ .debug_line    0x0000000000000000       0x72 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp//obj/HAL/src/crt0.o
+ .debug_line    0x0000000000000072       0x69 obj/default/hello_world_small.o
+ .debug_line    0x00000000000000db      0x23d c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o)
+ .debug_line    0x0000000000000318      0x17a c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+ .debug_line    0x0000000000000492      0x250 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_line    0x00000000000006e2      0x15a c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-impure.o)
+ .debug_line    0x000000000000083c      0x223 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-writer.o)
+ .debug_line    0x0000000000000a5f       0x5e c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+ .debug_line    0x0000000000000abd      0x101 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_line    0x0000000000000bbe       0xe0 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_line    0x0000000000000c9e      0x182 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_write.o)
+ .debug_line    0x0000000000000e20       0xe7 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_line    0x0000000000000f07       0xd6 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_line    0x0000000000000fdd       0x85 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_line    0x0000000000001062       0x51 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_line    0x00000000000010b3       0x77 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_line    0x000000000000112a       0x5a c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_line    0x0000000000001184       0xd9 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_line    0x000000000000125d      0x18a c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-memcpy.o)
+
+.debug_frame    0x0000000000000000      0x280
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000       0x2c obj/default/hello_world_small.o
+ .debug_frame   0x000000000000002c       0x48 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o)
+ .debug_frame   0x0000000000000074       0x20 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+ .debug_frame   0x0000000000000094       0x3c c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_frame   0x00000000000000d0       0x30 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-writer.o)
+ .debug_frame   0x0000000000000100       0x2c c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_frame   0x000000000000012c       0x2c c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_frame   0x0000000000000158       0x2c c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_write.o)
+ .debug_frame   0x0000000000000184       0x3c c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_frame   0x00000000000001c0       0x20 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_frame   0x00000000000001e0       0x20 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_frame   0x0000000000000200       0x20 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_frame   0x0000000000000220       0x20 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_frame   0x0000000000000240       0x20 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_frame   0x0000000000000260       0x20 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-memcpy.o)
+
+.debug_str      0x0000000000000000      0xb90
+ *(.debug_str)
+ .debug_str     0x0000000000000000       0x65 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp//obj/HAL/src/crt0.o
+ .debug_str     0x0000000000000065      0x112 obj/default/hello_world_small.o
+                                        0x155 (size before relaxing)
+ .debug_str     0x0000000000000177      0x3f6 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o)
+                                        0x4bd (size before relaxing)
+ .debug_str     0x000000000000056d       0xc7 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+                                        0x1c2 (size before relaxing)
+ .debug_str     0x0000000000000634       0x62 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-fvwrite_small_dev.o)
+                                        0x4c4 (size before relaxing)
+ .debug_str     0x0000000000000696       0xe4 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-impure.o)
+                                        0x4ae (size before relaxing)
+ .debug_str     0x000000000000077a       0x44 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-writer.o)
+                                        0x4a8 (size before relaxing)
+ .debug_str     0x00000000000007be       0x3e c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+                                        0x1b5 (size before relaxing)
+ .debug_str     0x00000000000007fc      0x12c c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_load.o)
+                                        0x25f (size before relaxing)
+ .debug_str     0x0000000000000928       0x5e c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_main.o)
+                                        0x18f (size before relaxing)
+ .debug_str     0x0000000000000986       0x7e c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_write.o)
+                                        0x1c2 (size before relaxing)
+ .debug_str     0x0000000000000a04       0x6b c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_sys_init.o)
+                                        0x1e5 (size before relaxing)
+ .debug_str     0x0000000000000a6f       0x33 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                                        0x1cc (size before relaxing)
+ .debug_str     0x0000000000000aa2       0x1f c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                                        0x160 (size before relaxing)
+ .debug_str     0x0000000000000ac1       0x14 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_errno.o)
+                                        0x14a (size before relaxing)
+ .debug_str     0x0000000000000ad5       0x30 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                                        0x171 (size before relaxing)
+ .debug_str     0x0000000000000b05       0x20 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+                                        0x167 (size before relaxing)
+ .debug_str     0x0000000000000b25       0x1b c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_icache_flush.o)
+                                        0x166 (size before relaxing)
+ .debug_str     0x0000000000000b40       0x50 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-memcpy.o)
+                                        0x1d0 (size before relaxing)
+
+.debug_loc      0x0000000000000000      0x650
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000       0xab c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o)
+ .debug_loc     0x00000000000000ab       0x44 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+ .debug_loc     0x00000000000000ef      0x123 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_loc     0x0000000000000212       0xd0 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-writer.o)
+ .debug_loc     0x00000000000002e2       0xd2 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_write.o)
+ .debug_loc     0x00000000000003b4       0x25 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_loc     0x00000000000003d9       0x93 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_loc     0x000000000000046c       0x23 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_loc     0x000000000000048f       0x97 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_loc     0x0000000000000526      0x12a c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-memcpy.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_alt_sim_info
+                0x0000000000000000       0x30
+ *(.debug_alt_sim_info)
+ .debug_alt_sim_info
+                0x0000000000000000       0x30 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp//obj/HAL/src/crt0.o
+                0x0000000000014fb0                __alt_data_end = 0x14fb0
+                0x0000000000014fb0                PROVIDE (__alt_stack_pointer = __alt_data_end)
+                [!provide]                        PROVIDE (__alt_stack_limit = __alt_stack_base)
+                [!provide]                        PROVIDE (__alt_heap_start = end)
+                [!provide]                        PROVIDE (__alt_heap_limit = 0x14fb0)
+OUTPUT(Nios2_B.elf elf32-littlenios2)
+LOAD linker stubs
+
+.debug_ranges   0x0000000000000000       0xe8
+ .debug_ranges  0x0000000000000000       0x20 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp//obj/HAL/src/crt0.o
+ .debug_ranges  0x0000000000000020       0x10 obj/default/hello_world_small.o
+ .debug_ranges  0x0000000000000030       0x18 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o)
+ .debug_ranges  0x0000000000000048       0x10 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+ .debug_ranges  0x0000000000000058       0x10 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_ranges  0x0000000000000068       0x10 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-writer.o)
+ .debug_ranges  0x0000000000000078       0x30 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_ranges  0x00000000000000a8       0x20 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_write.o)
+ .debug_ranges  0x00000000000000c8       0x10 c:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/software/Nios2_B_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_ranges  0x00000000000000d8       0x10 c:/intelfpga_lite/20.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/10.1.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-memcpy.o)

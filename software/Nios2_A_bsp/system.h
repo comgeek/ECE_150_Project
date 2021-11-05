@@ -1,0 +1,647 @@
+/*
+ * system.h - SOPC Builder system and BSP software package information
+ *
+ * Machine generated for CPU 'Nios2_A_nios2_gen2_0' in SOPC Builder design 'unsaved'
+ * SOPC Builder design path: C:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/unsaved.sopcinfo
+ *
+ * Generated: Thu Nov 04 21:49:16 PDT 2021
+ */
+
+/*
+ * DO NOT MODIFY THIS FILE
+ *
+ * Changing this file will have subtle consequences
+ * which will almost certainly lead to a nonfunctioning
+ * system. If you do modify this file, be aware that your
+ * changes will be overwritten and lost when this file
+ * is generated again.
+ *
+ * DO NOT MODIFY THIS FILE
+ */
+
+/*
+ * License Agreement
+ *
+ * Copyright (c) 2008
+ * Altera Corporation, San Jose, California, USA.
+ * All rights reserved.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a
+ * copy of this software and associated documentation files (the "Software"),
+ * to deal in the Software without restriction, including without limitation
+ * the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ * and/or sell copies of the Software, and to permit persons to whom the
+ * Software is furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+ * DEALINGS IN THE SOFTWARE.
+ *
+ * This agreement shall be governed in all respects by the laws of the State
+ * of California and by the laws of the United States of America.
+ */
+
+#ifndef __SYSTEM_H_
+#define __SYSTEM_H_
+
+/* Include definitions from linker script generator */
+#include "linker.h"
+
+
+/*
+ * CPU configuration
+ *
+ */
+
+#define ALT_CPU_ARCHITECTURE "altera_nios2_gen2"
+#define ALT_CPU_BIG_ENDIAN 0
+#define ALT_CPU_BREAK_ADDR 0x10000820
+#define ALT_CPU_CPU_ARCH_NIOS2_R1
+#define ALT_CPU_CPU_FREQ 50000000u
+#define ALT_CPU_CPU_ID_SIZE 1
+#define ALT_CPU_CPU_ID_VALUE 0x00000000
+#define ALT_CPU_CPU_IMPLEMENTATION "fast"
+#define ALT_CPU_DATA_ADDR_WIDTH 0x1d
+#define ALT_CPU_DCACHE_BYPASS_MASK 0x80000000
+#define ALT_CPU_DCACHE_LINE_SIZE 32
+#define ALT_CPU_DCACHE_LINE_SIZE_LOG2 5
+#define ALT_CPU_DCACHE_SIZE 2048
+#define ALT_CPU_EXCEPTION_ADDR 0x08000020
+#define ALT_CPU_FLASH_ACCELERATOR_LINES 0
+#define ALT_CPU_FLASH_ACCELERATOR_LINE_SIZE 0
+#define ALT_CPU_FLUSHDA_SUPPORTED
+#define ALT_CPU_FREQ 50000000
+#define ALT_CPU_HARDWARE_DIVIDE_PRESENT 0
+#define ALT_CPU_HARDWARE_MULTIPLY_PRESENT 1
+#define ALT_CPU_HARDWARE_MULX_PRESENT 0
+#define ALT_CPU_HAS_DEBUG_CORE 1
+#define ALT_CPU_HAS_DEBUG_STUB
+#define ALT_CPU_HAS_EXTRA_EXCEPTION_INFO
+#define ALT_CPU_HAS_ILLEGAL_INSTRUCTION_EXCEPTION
+#define ALT_CPU_HAS_JMPI_INSTRUCTION
+#define ALT_CPU_ICACHE_LINE_SIZE 32
+#define ALT_CPU_ICACHE_LINE_SIZE_LOG2 5
+#define ALT_CPU_ICACHE_SIZE 4096
+#define ALT_CPU_INITDA_SUPPORTED
+#define ALT_CPU_INST_ADDR_WIDTH 0x1d
+#define ALT_CPU_NAME "Nios2_A_nios2_gen2_0"
+#define ALT_CPU_NUM_OF_SHADOW_REG_SETS 0
+#define ALT_CPU_OCI_VERSION 1
+#define ALT_CPU_RESET_ADDR 0x08000000
+
+
+/*
+ * CPU configuration (with legacy prefix - don't use these anymore)
+ *
+ */
+
+#define NIOS2_BIG_ENDIAN 0
+#define NIOS2_BREAK_ADDR 0x10000820
+#define NIOS2_CPU_ARCH_NIOS2_R1
+#define NIOS2_CPU_FREQ 50000000u
+#define NIOS2_CPU_ID_SIZE 1
+#define NIOS2_CPU_ID_VALUE 0x00000000
+#define NIOS2_CPU_IMPLEMENTATION "fast"
+#define NIOS2_DATA_ADDR_WIDTH 0x1d
+#define NIOS2_DCACHE_BYPASS_MASK 0x80000000
+#define NIOS2_DCACHE_LINE_SIZE 32
+#define NIOS2_DCACHE_LINE_SIZE_LOG2 5
+#define NIOS2_DCACHE_SIZE 2048
+#define NIOS2_EXCEPTION_ADDR 0x08000020
+#define NIOS2_FLASH_ACCELERATOR_LINES 0
+#define NIOS2_FLASH_ACCELERATOR_LINE_SIZE 0
+#define NIOS2_FLUSHDA_SUPPORTED
+#define NIOS2_HARDWARE_DIVIDE_PRESENT 0
+#define NIOS2_HARDWARE_MULTIPLY_PRESENT 1
+#define NIOS2_HARDWARE_MULX_PRESENT 0
+#define NIOS2_HAS_DEBUG_CORE 1
+#define NIOS2_HAS_DEBUG_STUB
+#define NIOS2_HAS_EXTRA_EXCEPTION_INFO
+#define NIOS2_HAS_ILLEGAL_INSTRUCTION_EXCEPTION
+#define NIOS2_HAS_JMPI_INSTRUCTION
+#define NIOS2_ICACHE_LINE_SIZE 32
+#define NIOS2_ICACHE_LINE_SIZE_LOG2 5
+#define NIOS2_ICACHE_SIZE 4096
+#define NIOS2_INITDA_SUPPORTED
+#define NIOS2_INST_ADDR_WIDTH 0x1d
+#define NIOS2_NUM_OF_SHADOW_REG_SETS 0
+#define NIOS2_OCI_VERSION 1
+#define NIOS2_RESET_ADDR 0x08000000
+
+
+/*
+ * Define for each module class mastered by the CPU
+ *
+ */
+
+#define __ALTERA_AVALON_JTAG_UART
+#define __ALTERA_AVALON_NEW_SDRAM_CONTROLLER
+#define __ALTERA_AVALON_PIO
+#define __ALTERA_AVALON_SYSID_QSYS
+#define __ALTERA_AVALON_TIMER
+#define __ALTERA_NIOS2_GEN2
+
+
+/*
+ * Nios2_A_HEX_0 configuration
+ *
+ */
+
+#define ALT_MODULE_CLASS_Nios2_A_HEX_0 altera_avalon_pio
+#define NIOS2_A_HEX_0_BASE 0x100010d0
+#define NIOS2_A_HEX_0_BIT_CLEARING_EDGE_REGISTER 0
+#define NIOS2_A_HEX_0_BIT_MODIFYING_OUTPUT_REGISTER 0
+#define NIOS2_A_HEX_0_CAPTURE 0
+#define NIOS2_A_HEX_0_DATA_WIDTH 7
+#define NIOS2_A_HEX_0_DO_TEST_BENCH_WIRING 0
+#define NIOS2_A_HEX_0_DRIVEN_SIM_VALUE 0
+#define NIOS2_A_HEX_0_EDGE_TYPE "NONE"
+#define NIOS2_A_HEX_0_FREQ 50000000
+#define NIOS2_A_HEX_0_HAS_IN 0
+#define NIOS2_A_HEX_0_HAS_OUT 1
+#define NIOS2_A_HEX_0_HAS_TRI 0
+#define NIOS2_A_HEX_0_IRQ -1
+#define NIOS2_A_HEX_0_IRQ_INTERRUPT_CONTROLLER_ID -1
+#define NIOS2_A_HEX_0_IRQ_TYPE "NONE"
+#define NIOS2_A_HEX_0_NAME "/dev/Nios2_A_HEX_0"
+#define NIOS2_A_HEX_0_RESET_VALUE 0
+#define NIOS2_A_HEX_0_SPAN 16
+#define NIOS2_A_HEX_0_TYPE "altera_avalon_pio"
+
+
+/*
+ * Nios2_A_HEX_1 configuration
+ *
+ */
+
+#define ALT_MODULE_CLASS_Nios2_A_HEX_1 altera_avalon_pio
+#define NIOS2_A_HEX_1_BASE 0x100010c0
+#define NIOS2_A_HEX_1_BIT_CLEARING_EDGE_REGISTER 0
+#define NIOS2_A_HEX_1_BIT_MODIFYING_OUTPUT_REGISTER 0
+#define NIOS2_A_HEX_1_CAPTURE 0
+#define NIOS2_A_HEX_1_DATA_WIDTH 7
+#define NIOS2_A_HEX_1_DO_TEST_BENCH_WIRING 0
+#define NIOS2_A_HEX_1_DRIVEN_SIM_VALUE 0
+#define NIOS2_A_HEX_1_EDGE_TYPE "NONE"
+#define NIOS2_A_HEX_1_FREQ 50000000
+#define NIOS2_A_HEX_1_HAS_IN 0
+#define NIOS2_A_HEX_1_HAS_OUT 1
+#define NIOS2_A_HEX_1_HAS_TRI 0
+#define NIOS2_A_HEX_1_IRQ -1
+#define NIOS2_A_HEX_1_IRQ_INTERRUPT_CONTROLLER_ID -1
+#define NIOS2_A_HEX_1_IRQ_TYPE "NONE"
+#define NIOS2_A_HEX_1_NAME "/dev/Nios2_A_HEX_1"
+#define NIOS2_A_HEX_1_RESET_VALUE 0
+#define NIOS2_A_HEX_1_SPAN 16
+#define NIOS2_A_HEX_1_TYPE "altera_avalon_pio"
+
+
+/*
+ * Nios2_A_HEX_2 configuration
+ *
+ */
+
+#define ALT_MODULE_CLASS_Nios2_A_HEX_2 altera_avalon_pio
+#define NIOS2_A_HEX_2_BASE 0x100010b0
+#define NIOS2_A_HEX_2_BIT_CLEARING_EDGE_REGISTER 0
+#define NIOS2_A_HEX_2_BIT_MODIFYING_OUTPUT_REGISTER 0
+#define NIOS2_A_HEX_2_CAPTURE 0
+#define NIOS2_A_HEX_2_DATA_WIDTH 7
+#define NIOS2_A_HEX_2_DO_TEST_BENCH_WIRING 0
+#define NIOS2_A_HEX_2_DRIVEN_SIM_VALUE 0
+#define NIOS2_A_HEX_2_EDGE_TYPE "NONE"
+#define NIOS2_A_HEX_2_FREQ 50000000
+#define NIOS2_A_HEX_2_HAS_IN 0
+#define NIOS2_A_HEX_2_HAS_OUT 1
+#define NIOS2_A_HEX_2_HAS_TRI 0
+#define NIOS2_A_HEX_2_IRQ -1
+#define NIOS2_A_HEX_2_IRQ_INTERRUPT_CONTROLLER_ID -1
+#define NIOS2_A_HEX_2_IRQ_TYPE "NONE"
+#define NIOS2_A_HEX_2_NAME "/dev/Nios2_A_HEX_2"
+#define NIOS2_A_HEX_2_RESET_VALUE 0
+#define NIOS2_A_HEX_2_SPAN 16
+#define NIOS2_A_HEX_2_TYPE "altera_avalon_pio"
+
+
+/*
+ * Nios2_A_HEX_3 configuration
+ *
+ */
+
+#define ALT_MODULE_CLASS_Nios2_A_HEX_3 altera_avalon_pio
+#define NIOS2_A_HEX_3_BASE 0x100010a0
+#define NIOS2_A_HEX_3_BIT_CLEARING_EDGE_REGISTER 0
+#define NIOS2_A_HEX_3_BIT_MODIFYING_OUTPUT_REGISTER 0
+#define NIOS2_A_HEX_3_CAPTURE 0
+#define NIOS2_A_HEX_3_DATA_WIDTH 7
+#define NIOS2_A_HEX_3_DO_TEST_BENCH_WIRING 0
+#define NIOS2_A_HEX_3_DRIVEN_SIM_VALUE 0
+#define NIOS2_A_HEX_3_EDGE_TYPE "NONE"
+#define NIOS2_A_HEX_3_FREQ 50000000
+#define NIOS2_A_HEX_3_HAS_IN 0
+#define NIOS2_A_HEX_3_HAS_OUT 1
+#define NIOS2_A_HEX_3_HAS_TRI 0
+#define NIOS2_A_HEX_3_IRQ -1
+#define NIOS2_A_HEX_3_IRQ_INTERRUPT_CONTROLLER_ID -1
+#define NIOS2_A_HEX_3_IRQ_TYPE "NONE"
+#define NIOS2_A_HEX_3_NAME "/dev/Nios2_A_HEX_3"
+#define NIOS2_A_HEX_3_RESET_VALUE 0
+#define NIOS2_A_HEX_3_SPAN 16
+#define NIOS2_A_HEX_3_TYPE "altera_avalon_pio"
+
+
+/*
+ * Nios2_A_HEX_4 configuration
+ *
+ */
+
+#define ALT_MODULE_CLASS_Nios2_A_HEX_4 altera_avalon_pio
+#define NIOS2_A_HEX_4_BASE 0x10001090
+#define NIOS2_A_HEX_4_BIT_CLEARING_EDGE_REGISTER 0
+#define NIOS2_A_HEX_4_BIT_MODIFYING_OUTPUT_REGISTER 0
+#define NIOS2_A_HEX_4_CAPTURE 0
+#define NIOS2_A_HEX_4_DATA_WIDTH 7
+#define NIOS2_A_HEX_4_DO_TEST_BENCH_WIRING 0
+#define NIOS2_A_HEX_4_DRIVEN_SIM_VALUE 0
+#define NIOS2_A_HEX_4_EDGE_TYPE "NONE"
+#define NIOS2_A_HEX_4_FREQ 50000000
+#define NIOS2_A_HEX_4_HAS_IN 0
+#define NIOS2_A_HEX_4_HAS_OUT 1
+#define NIOS2_A_HEX_4_HAS_TRI 0
+#define NIOS2_A_HEX_4_IRQ -1
+#define NIOS2_A_HEX_4_IRQ_INTERRUPT_CONTROLLER_ID -1
+#define NIOS2_A_HEX_4_IRQ_TYPE "NONE"
+#define NIOS2_A_HEX_4_NAME "/dev/Nios2_A_HEX_4"
+#define NIOS2_A_HEX_4_RESET_VALUE 0
+#define NIOS2_A_HEX_4_SPAN 16
+#define NIOS2_A_HEX_4_TYPE "altera_avalon_pio"
+
+
+/*
+ * Nios2_A_HEX_5 configuration
+ *
+ */
+
+#define ALT_MODULE_CLASS_Nios2_A_HEX_5 altera_avalon_pio
+#define NIOS2_A_HEX_5_BASE 0x10001080
+#define NIOS2_A_HEX_5_BIT_CLEARING_EDGE_REGISTER 0
+#define NIOS2_A_HEX_5_BIT_MODIFYING_OUTPUT_REGISTER 0
+#define NIOS2_A_HEX_5_CAPTURE 0
+#define NIOS2_A_HEX_5_DATA_WIDTH 7
+#define NIOS2_A_HEX_5_DO_TEST_BENCH_WIRING 0
+#define NIOS2_A_HEX_5_DRIVEN_SIM_VALUE 0
+#define NIOS2_A_HEX_5_EDGE_TYPE "NONE"
+#define NIOS2_A_HEX_5_FREQ 50000000
+#define NIOS2_A_HEX_5_HAS_IN 0
+#define NIOS2_A_HEX_5_HAS_OUT 1
+#define NIOS2_A_HEX_5_HAS_TRI 0
+#define NIOS2_A_HEX_5_IRQ -1
+#define NIOS2_A_HEX_5_IRQ_INTERRUPT_CONTROLLER_ID -1
+#define NIOS2_A_HEX_5_IRQ_TYPE "NONE"
+#define NIOS2_A_HEX_5_NAME "/dev/Nios2_A_HEX_5"
+#define NIOS2_A_HEX_5_RESET_VALUE 0
+#define NIOS2_A_HEX_5_SPAN 16
+#define NIOS2_A_HEX_5_TYPE "altera_avalon_pio"
+
+
+/*
+ * Nios2_A_HEX_6 configuration
+ *
+ */
+
+#define ALT_MODULE_CLASS_Nios2_A_HEX_6 altera_avalon_pio
+#define NIOS2_A_HEX_6_BASE 0x10001070
+#define NIOS2_A_HEX_6_BIT_CLEARING_EDGE_REGISTER 0
+#define NIOS2_A_HEX_6_BIT_MODIFYING_OUTPUT_REGISTER 0
+#define NIOS2_A_HEX_6_CAPTURE 0
+#define NIOS2_A_HEX_6_DATA_WIDTH 7
+#define NIOS2_A_HEX_6_DO_TEST_BENCH_WIRING 0
+#define NIOS2_A_HEX_6_DRIVEN_SIM_VALUE 0
+#define NIOS2_A_HEX_6_EDGE_TYPE "NONE"
+#define NIOS2_A_HEX_6_FREQ 50000000
+#define NIOS2_A_HEX_6_HAS_IN 0
+#define NIOS2_A_HEX_6_HAS_OUT 1
+#define NIOS2_A_HEX_6_HAS_TRI 0
+#define NIOS2_A_HEX_6_IRQ -1
+#define NIOS2_A_HEX_6_IRQ_INTERRUPT_CONTROLLER_ID -1
+#define NIOS2_A_HEX_6_IRQ_TYPE "NONE"
+#define NIOS2_A_HEX_6_NAME "/dev/Nios2_A_HEX_6"
+#define NIOS2_A_HEX_6_RESET_VALUE 0
+#define NIOS2_A_HEX_6_SPAN 16
+#define NIOS2_A_HEX_6_TYPE "altera_avalon_pio"
+
+
+/*
+ * Nios2_A_HEX_7 configuration
+ *
+ */
+
+#define ALT_MODULE_CLASS_Nios2_A_HEX_7 altera_avalon_pio
+#define NIOS2_A_HEX_7_BASE 0x10001060
+#define NIOS2_A_HEX_7_BIT_CLEARING_EDGE_REGISTER 0
+#define NIOS2_A_HEX_7_BIT_MODIFYING_OUTPUT_REGISTER 0
+#define NIOS2_A_HEX_7_CAPTURE 0
+#define NIOS2_A_HEX_7_DATA_WIDTH 7
+#define NIOS2_A_HEX_7_DO_TEST_BENCH_WIRING 0
+#define NIOS2_A_HEX_7_DRIVEN_SIM_VALUE 0
+#define NIOS2_A_HEX_7_EDGE_TYPE "NONE"
+#define NIOS2_A_HEX_7_FREQ 50000000
+#define NIOS2_A_HEX_7_HAS_IN 0
+#define NIOS2_A_HEX_7_HAS_OUT 1
+#define NIOS2_A_HEX_7_HAS_TRI 0
+#define NIOS2_A_HEX_7_IRQ -1
+#define NIOS2_A_HEX_7_IRQ_INTERRUPT_CONTROLLER_ID -1
+#define NIOS2_A_HEX_7_IRQ_TYPE "NONE"
+#define NIOS2_A_HEX_7_NAME "/dev/Nios2_A_HEX_7"
+#define NIOS2_A_HEX_7_RESET_VALUE 0
+#define NIOS2_A_HEX_7_SPAN 16
+#define NIOS2_A_HEX_7_TYPE "altera_avalon_pio"
+
+
+/*
+ * Nios2_A_LEDG configuration
+ *
+ */
+
+#define ALT_MODULE_CLASS_Nios2_A_LEDG altera_avalon_pio
+#define NIOS2_A_LEDG_BASE 0x100010e0
+#define NIOS2_A_LEDG_BIT_CLEARING_EDGE_REGISTER 0
+#define NIOS2_A_LEDG_BIT_MODIFYING_OUTPUT_REGISTER 0
+#define NIOS2_A_LEDG_CAPTURE 0
+#define NIOS2_A_LEDG_DATA_WIDTH 8
+#define NIOS2_A_LEDG_DO_TEST_BENCH_WIRING 0
+#define NIOS2_A_LEDG_DRIVEN_SIM_VALUE 0
+#define NIOS2_A_LEDG_EDGE_TYPE "NONE"
+#define NIOS2_A_LEDG_FREQ 50000000
+#define NIOS2_A_LEDG_HAS_IN 0
+#define NIOS2_A_LEDG_HAS_OUT 1
+#define NIOS2_A_LEDG_HAS_TRI 0
+#define NIOS2_A_LEDG_IRQ -1
+#define NIOS2_A_LEDG_IRQ_INTERRUPT_CONTROLLER_ID -1
+#define NIOS2_A_LEDG_IRQ_TYPE "NONE"
+#define NIOS2_A_LEDG_NAME "/dev/Nios2_A_LEDG"
+#define NIOS2_A_LEDG_RESET_VALUE 0
+#define NIOS2_A_LEDG_SPAN 16
+#define NIOS2_A_LEDG_TYPE "altera_avalon_pio"
+
+
+/*
+ * Nios2_A_LEDR configuration
+ *
+ */
+
+#define ALT_MODULE_CLASS_Nios2_A_LEDR altera_avalon_pio
+#define NIOS2_A_LEDR_BASE 0x100010f0
+#define NIOS2_A_LEDR_BIT_CLEARING_EDGE_REGISTER 0
+#define NIOS2_A_LEDR_BIT_MODIFYING_OUTPUT_REGISTER 0
+#define NIOS2_A_LEDR_CAPTURE 0
+#define NIOS2_A_LEDR_DATA_WIDTH 18
+#define NIOS2_A_LEDR_DO_TEST_BENCH_WIRING 0
+#define NIOS2_A_LEDR_DRIVEN_SIM_VALUE 0
+#define NIOS2_A_LEDR_EDGE_TYPE "NONE"
+#define NIOS2_A_LEDR_FREQ 50000000
+#define NIOS2_A_LEDR_HAS_IN 0
+#define NIOS2_A_LEDR_HAS_OUT 1
+#define NIOS2_A_LEDR_HAS_TRI 0
+#define NIOS2_A_LEDR_IRQ -1
+#define NIOS2_A_LEDR_IRQ_INTERRUPT_CONTROLLER_ID -1
+#define NIOS2_A_LEDR_IRQ_TYPE "NONE"
+#define NIOS2_A_LEDR_NAME "/dev/Nios2_A_LEDR"
+#define NIOS2_A_LEDR_RESET_VALUE 0
+#define NIOS2_A_LEDR_SPAN 16
+#define NIOS2_A_LEDR_TYPE "altera_avalon_pio"
+
+
+/*
+ * Nios2_A_highres configuration
+ *
+ */
+
+#define ALT_MODULE_CLASS_Nios2_A_highres altera_avalon_timer
+#define NIOS2_A_HIGHRES_ALWAYS_RUN 0
+#define NIOS2_A_HIGHRES_BASE 0x10001000
+#define NIOS2_A_HIGHRES_COUNTER_SIZE 32
+#define NIOS2_A_HIGHRES_FIXED_PERIOD 0
+#define NIOS2_A_HIGHRES_FREQ 50000000
+#define NIOS2_A_HIGHRES_IRQ 3
+#define NIOS2_A_HIGHRES_IRQ_INTERRUPT_CONTROLLER_ID 0
+#define NIOS2_A_HIGHRES_LOAD_VALUE 49
+#define NIOS2_A_HIGHRES_MULT 1.0E-6
+#define NIOS2_A_HIGHRES_NAME "/dev/Nios2_A_highres"
+#define NIOS2_A_HIGHRES_PERIOD 1
+#define NIOS2_A_HIGHRES_PERIOD_UNITS "us"
+#define NIOS2_A_HIGHRES_RESET_OUTPUT 0
+#define NIOS2_A_HIGHRES_SNAPSHOT 1
+#define NIOS2_A_HIGHRES_SPAN 32
+#define NIOS2_A_HIGHRES_TICKS_PER_SEC 1000000
+#define NIOS2_A_HIGHRES_TIMEOUT_PULSE_OUTPUT 0
+#define NIOS2_A_HIGHRES_TYPE "altera_avalon_timer"
+
+
+/*
+ * Nios2_A_jtag_uart_0 configuration
+ *
+ */
+
+#define ALT_MODULE_CLASS_Nios2_A_jtag_uart_0 altera_avalon_jtag_uart
+#define NIOS2_A_JTAG_UART_0_BASE 0x10001108
+#define NIOS2_A_JTAG_UART_0_IRQ 2
+#define NIOS2_A_JTAG_UART_0_IRQ_INTERRUPT_CONTROLLER_ID 0
+#define NIOS2_A_JTAG_UART_0_NAME "/dev/Nios2_A_jtag_uart_0"
+#define NIOS2_A_JTAG_UART_0_READ_DEPTH 64
+#define NIOS2_A_JTAG_UART_0_READ_THRESHOLD 8
+#define NIOS2_A_JTAG_UART_0_SPAN 8
+#define NIOS2_A_JTAG_UART_0_TYPE "altera_avalon_jtag_uart"
+#define NIOS2_A_JTAG_UART_0_WRITE_DEPTH 64
+#define NIOS2_A_JTAG_UART_0_WRITE_THRESHOLD 8
+
+
+/*
+ * Nios2_A_key configuration
+ *
+ */
+
+#define ALT_MODULE_CLASS_Nios2_A_key altera_avalon_pio
+#define NIOS2_A_KEY_BASE 0x10001040
+#define NIOS2_A_KEY_BIT_CLEARING_EDGE_REGISTER 0
+#define NIOS2_A_KEY_BIT_MODIFYING_OUTPUT_REGISTER 0
+#define NIOS2_A_KEY_CAPTURE 1
+#define NIOS2_A_KEY_DATA_WIDTH 4
+#define NIOS2_A_KEY_DO_TEST_BENCH_WIRING 0
+#define NIOS2_A_KEY_DRIVEN_SIM_VALUE 0
+#define NIOS2_A_KEY_EDGE_TYPE "FALLING"
+#define NIOS2_A_KEY_FREQ 50000000
+#define NIOS2_A_KEY_HAS_IN 1
+#define NIOS2_A_KEY_HAS_OUT 0
+#define NIOS2_A_KEY_HAS_TRI 0
+#define NIOS2_A_KEY_IRQ 1
+#define NIOS2_A_KEY_IRQ_INTERRUPT_CONTROLLER_ID 0
+#define NIOS2_A_KEY_IRQ_TYPE "EDGE"
+#define NIOS2_A_KEY_NAME "/dev/Nios2_A_key"
+#define NIOS2_A_KEY_RESET_VALUE 0
+#define NIOS2_A_KEY_SPAN 16
+#define NIOS2_A_KEY_TYPE "altera_avalon_pio"
+
+
+/*
+ * Nios2_A_sdram configuration
+ *
+ */
+
+#define ALT_MODULE_CLASS_Nios2_A_sdram altera_avalon_new_sdram_controller
+#define NIOS2_A_SDRAM_BASE 0x8000000
+#define NIOS2_A_SDRAM_CAS_LATENCY 3
+#define NIOS2_A_SDRAM_CONTENTS_INFO
+#define NIOS2_A_SDRAM_INIT_NOP_DELAY 0.0
+#define NIOS2_A_SDRAM_INIT_REFRESH_COMMANDS 2
+#define NIOS2_A_SDRAM_IRQ -1
+#define NIOS2_A_SDRAM_IRQ_INTERRUPT_CONTROLLER_ID -1
+#define NIOS2_A_SDRAM_IS_INITIALIZED 1
+#define NIOS2_A_SDRAM_NAME "/dev/Nios2_A_sdram"
+#define NIOS2_A_SDRAM_POWERUP_DELAY 100.0
+#define NIOS2_A_SDRAM_REFRESH_PERIOD 15.625
+#define NIOS2_A_SDRAM_REGISTER_DATA_IN 1
+#define NIOS2_A_SDRAM_SDRAM_ADDR_WIDTH 0x19
+#define NIOS2_A_SDRAM_SDRAM_BANK_WIDTH 2
+#define NIOS2_A_SDRAM_SDRAM_COL_WIDTH 10
+#define NIOS2_A_SDRAM_SDRAM_DATA_WIDTH 32
+#define NIOS2_A_SDRAM_SDRAM_NUM_BANKS 4
+#define NIOS2_A_SDRAM_SDRAM_NUM_CHIPSELECTS 1
+#define NIOS2_A_SDRAM_SDRAM_ROW_WIDTH 13
+#define NIOS2_A_SDRAM_SHARED_DATA 0
+#define NIOS2_A_SDRAM_SIM_MODEL_BASE 0
+#define NIOS2_A_SDRAM_SPAN 134217728
+#define NIOS2_A_SDRAM_STARVATION_INDICATOR 0
+#define NIOS2_A_SDRAM_TRISTATE_BRIDGE_SLAVE ""
+#define NIOS2_A_SDRAM_TYPE "altera_avalon_new_sdram_controller"
+#define NIOS2_A_SDRAM_T_AC 5.5
+#define NIOS2_A_SDRAM_T_MRD 3
+#define NIOS2_A_SDRAM_T_RCD 20.0
+#define NIOS2_A_SDRAM_T_RFC 70.0
+#define NIOS2_A_SDRAM_T_RP 20.0
+#define NIOS2_A_SDRAM_T_WR 14.0
+
+
+/*
+ * Nios2_A_switches configuration
+ *
+ */
+
+#define ALT_MODULE_CLASS_Nios2_A_switches altera_avalon_pio
+#define NIOS2_A_SWITCHES_BASE 0x10001050
+#define NIOS2_A_SWITCHES_BIT_CLEARING_EDGE_REGISTER 0
+#define NIOS2_A_SWITCHES_BIT_MODIFYING_OUTPUT_REGISTER 0
+#define NIOS2_A_SWITCHES_CAPTURE 0
+#define NIOS2_A_SWITCHES_DATA_WIDTH 18
+#define NIOS2_A_SWITCHES_DO_TEST_BENCH_WIRING 0
+#define NIOS2_A_SWITCHES_DRIVEN_SIM_VALUE 0
+#define NIOS2_A_SWITCHES_EDGE_TYPE "NONE"
+#define NIOS2_A_SWITCHES_FREQ 50000000
+#define NIOS2_A_SWITCHES_HAS_IN 1
+#define NIOS2_A_SWITCHES_HAS_OUT 0
+#define NIOS2_A_SWITCHES_HAS_TRI 0
+#define NIOS2_A_SWITCHES_IRQ -1
+#define NIOS2_A_SWITCHES_IRQ_INTERRUPT_CONTROLLER_ID -1
+#define NIOS2_A_SWITCHES_IRQ_TYPE "NONE"
+#define NIOS2_A_SWITCHES_NAME "/dev/Nios2_A_switches"
+#define NIOS2_A_SWITCHES_RESET_VALUE 0
+#define NIOS2_A_SWITCHES_SPAN 16
+#define NIOS2_A_SWITCHES_TYPE "altera_avalon_pio"
+
+
+/*
+ * Nios2_A_sysid_qsys_0 configuration
+ *
+ */
+
+#define ALT_MODULE_CLASS_Nios2_A_sysid_qsys_0 altera_avalon_sysid_qsys
+#define NIOS2_A_SYSID_QSYS_0_BASE 0x10001100
+#define NIOS2_A_SYSID_QSYS_0_ID 0
+#define NIOS2_A_SYSID_QSYS_0_IRQ -1
+#define NIOS2_A_SYSID_QSYS_0_IRQ_INTERRUPT_CONTROLLER_ID -1
+#define NIOS2_A_SYSID_QSYS_0_NAME "/dev/Nios2_A_sysid_qsys_0"
+#define NIOS2_A_SYSID_QSYS_0_SPAN 8
+#define NIOS2_A_SYSID_QSYS_0_TIMESTAMP 1636086916
+#define NIOS2_A_SYSID_QSYS_0_TYPE "altera_avalon_sysid_qsys"
+
+
+/*
+ * Nios2_A_timer_0 configuration
+ *
+ */
+
+#define ALT_MODULE_CLASS_Nios2_A_timer_0 altera_avalon_timer
+#define NIOS2_A_TIMER_0_ALWAYS_RUN 0
+#define NIOS2_A_TIMER_0_BASE 0x10001020
+#define NIOS2_A_TIMER_0_COUNTER_SIZE 32
+#define NIOS2_A_TIMER_0_FIXED_PERIOD 0
+#define NIOS2_A_TIMER_0_FREQ 50000000
+#define NIOS2_A_TIMER_0_IRQ 0
+#define NIOS2_A_TIMER_0_IRQ_INTERRUPT_CONTROLLER_ID 0
+#define NIOS2_A_TIMER_0_LOAD_VALUE 49999
+#define NIOS2_A_TIMER_0_MULT 0.001
+#define NIOS2_A_TIMER_0_NAME "/dev/Nios2_A_timer_0"
+#define NIOS2_A_TIMER_0_PERIOD 1
+#define NIOS2_A_TIMER_0_PERIOD_UNITS "ms"
+#define NIOS2_A_TIMER_0_RESET_OUTPUT 0
+#define NIOS2_A_TIMER_0_SNAPSHOT 1
+#define NIOS2_A_TIMER_0_SPAN 32
+#define NIOS2_A_TIMER_0_TICKS_PER_SEC 1000
+#define NIOS2_A_TIMER_0_TIMEOUT_PULSE_OUTPUT 0
+#define NIOS2_A_TIMER_0_TYPE "altera_avalon_timer"
+
+
+/*
+ * System configuration
+ *
+ */
+
+#define ALT_DEVICE_FAMILY "Cyclone IV E"
+#define ALT_ENHANCED_INTERRUPT_API_PRESENT
+#define ALT_IRQ_BASE NULL
+#define ALT_LOG_PORT "/dev/null"
+#define ALT_LOG_PORT_BASE 0x0
+#define ALT_LOG_PORT_DEV null
+#define ALT_LOG_PORT_TYPE ""
+#define ALT_NUM_EXTERNAL_INTERRUPT_CONTROLLERS 0
+#define ALT_NUM_INTERNAL_INTERRUPT_CONTROLLERS 1
+#define ALT_NUM_INTERRUPT_CONTROLLERS 1
+#define ALT_STDERR "/dev/Nios2_A_jtag_uart_0"
+#define ALT_STDERR_BASE 0x10001108
+#define ALT_STDERR_DEV Nios2_A_jtag_uart_0
+#define ALT_STDERR_IS_JTAG_UART
+#define ALT_STDERR_PRESENT
+#define ALT_STDERR_TYPE "altera_avalon_jtag_uart"
+#define ALT_STDIN "/dev/Nios2_A_jtag_uart_0"
+#define ALT_STDIN_BASE 0x10001108
+#define ALT_STDIN_DEV Nios2_A_jtag_uart_0
+#define ALT_STDIN_IS_JTAG_UART
+#define ALT_STDIN_PRESENT
+#define ALT_STDIN_TYPE "altera_avalon_jtag_uart"
+#define ALT_STDOUT "/dev/Nios2_A_jtag_uart_0"
+#define ALT_STDOUT_BASE 0x10001108
+#define ALT_STDOUT_DEV Nios2_A_jtag_uart_0
+#define ALT_STDOUT_IS_JTAG_UART
+#define ALT_STDOUT_PRESENT
+#define ALT_STDOUT_TYPE "altera_avalon_jtag_uart"
+#define ALT_SYSTEM_NAME "unsaved"
+
+
+/*
+ * hal configuration
+ *
+ */
+
+#define ALT_INCLUDE_INSTRUCTION_RELATED_EXCEPTION_API
+#define ALT_MAX_FD 32
+#define ALT_SYS_CLK NIOS2_A_TIMER_0
+#define ALT_TIMESTAMP_CLK none
+
+#endif /* __SYSTEM_H_ */
