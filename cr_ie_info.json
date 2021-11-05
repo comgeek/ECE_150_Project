@@ -1,0 +1,22 @@
+{
+	"system" : {
+		"platform" : "windows64",
+		"os_name" : "Windows 10",
+		"os_version" : "10.0"
+	},
+	"error" : {
+		"executable" : "quartus",
+		"comment" : "not_applicable",
+		"error_message" : "Access Violation at 0X00007FFF6FC3A6A3",
+		"source_file" : "unknown",
+		"line" : "0",
+		"stack_trace" : "\t0x7fff6fc3a6a2: CCL_FIO + 0xa6a2 (?fio_display_path_too_long_assert_message@@YAXPEBD@Z + 0x92)\n\t0x7fff6fc3b933: CCL_FIO + 0xb933 (?fullpath@FIO_PATH@@QEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ + 0x53)\n\t0x7ffe684e0b2d: pgm_pgme + 0x40b2d (?engage_ocpp_mode@PGME_PROGRAMMER@@QEAA_NPEAV?$vector@PEAVPGM_CHAIN_ELEMENT@@V?$allocator@PEAVPGM_CHAIN_ELEMENT@@@std@@@std@@@Z + 0x8dd)\n\t 0x51889550: QtCore4 + 0x29550 (?start@QThread@@QEAAXW4Priority@1@@Z + 0x400)\n\t0x7fff734b4f7e: MSVCR120 + 0x24f7e (_beginthreadex + 0x106)\n\t0x7fff734b5125: MSVCR120 + 0x25125 (_endthreadex + 0x191)\n\t0x7fff8e9354df: KERNEL32 + 0x154df (BaseThreadInitThunk + 0xf)\n\t0x7fff9038485a: ntdll + 0x485a (RtlUserThreadStart + 0x2a)\n",
+		"subsystem" : "unknown"
+	},
+	"quartus" : {
+		"quartus_bits" : "64",
+		"version" : "20.1.1",
+		"build" : "720",
+		"edition" : "Lite Edition"
+	}
+}
