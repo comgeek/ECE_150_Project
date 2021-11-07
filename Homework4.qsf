@@ -48,10 +48,8 @@ set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
 set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
 set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
 set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
-set_global_assignment -name QIP_FILE unsaved/synthesis/unsaved.qip
 set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
 set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
-set_global_assignment -name VERILOG_FILE Homework4.v
 set_location_assignment PIN_D2 -to AUD_ADCDAT
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to AUD_ADCDAT
 set_location_assignment PIN_C2 -to AUD_ADCLRCK
@@ -1105,4 +1103,29 @@ set_instance_assignment -name IO_STANDARD LVDS -to HSMC_CLKOUT_N1
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name ENABLE_SIGNALTAP ON
+set_global_assignment -name USE_SIGNALTAP_FILE output_files/stp1.stp
+set_global_assignment -name SYSTEMVERILOG_FILE avalon_aes_interface.sv
+set_global_assignment -name QIP_FILE unsaved/synthesis/unsaved.qip
+set_global_assignment -name VERILOG_FILE Homework4.v
+set_global_assignment -name SIGNALTAP_FILE output_files/stp1.stp
+set_global_assignment -name VERILOG_FILE aes.v
+set_global_assignment -name VERILOG_FILE controlUnit.v
+set_global_assignment -name VERILOG_FILE rO.v
+set_global_assignment -name SYSTEMVERILOG_FILE AES.sv
+set_global_assignment -name SYSTEMVERILOG_FILE counters.sv
+set_global_assignment -name SYSTEMVERILOG_FILE mux.sv
+set_global_assignment -name SYSTEMVERILOG_FILE AddRoundKey.sv
+set_global_assignment -name SYSTEMVERILOG_FILE control.sv
+set_global_assignment -name VERILOG_FILE hexdriver.v
+set_global_assignment -name VERILOG_FILE InvShiftRows.v
+set_global_assignment -name VERILOG_FILE InvMixColumns.v
+set_global_assignment -name VERILOG_FILE KeyExpansion.v
+set_global_assignment -name VERILOG_FILE SubBytes.v
+set_global_assignment -name VERILOG_FILE reg_128.v
+set_global_assignment -name VERILOG_FILE reg_32.v
+set_global_assignment -name VERILOG_FILE reg_file.v
+set_global_assignment -name VERILOG_FILE regmod_32.v
+set_global_assignment -name VERILOG_FILE SR_128b.v
+set_global_assignment -name SLD_FILE db/stp1_auto_stripped.stp
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

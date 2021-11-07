@@ -219,6 +219,14 @@
          type = "String";
       }
    }
+   element avalon_aes_interface_0
+   {
+      datum _sortIndex
+      {
+         value = "20";
+         type = "int";
+      }
+   }
    element clk_0
    {
       datum _sortIndex
@@ -474,6 +482,11 @@
    internal="LEDR.external_connection"
    type="conduit"
    dir="end" />
+ <interface
+   name="avalon_aes_interface_0_export_data"
+   internal="avalon_aes_interface_0.Export_Data"
+   type="conduit"
+   dir="end" />
  <interface name="clk_0_clk_in" internal="clk_0.clk_in" type="clock" dir="end" />
  <interface
    name="clk_0_clk_in_reset"
@@ -641,6 +654,11 @@
   <parameter name="simDrivenValue" value="0" />
   <parameter name="width" value="18" />
  </module>
+ <module
+   name="avalon_aes_interface_0"
+   kind="avalon_aes_interface"
+   version="1.0"
+   enabled="1" />
  <module name="clk_0" kind="clock_source" version="20.1" enabled="1">
   <parameter name="clockFrequency" value="50000000" />
   <parameter name="clockFrequencyKnown" value="true" />
@@ -716,7 +734,7 @@
   <parameter name="dataAddrWidth" value="29" />
   <parameter name="dataMasterHighPerformanceAddrWidth" value="1" />
   <parameter name="dataMasterHighPerformanceMapParam" value="" />
-  <parameter name="dataSlaveMapParam"><![CDATA[<address-map><slave name='sdram.s1' start='0x8000000' end='0x10000000' type='altera_avalon_new_sdram_controller.s1' /><slave name='nios2_gen2_0.debug_mem_slave' start='0x10000800' end='0x10001000' type='altera_nios2_gen2.debug_mem_slave' /><slave name='highres.s1' start='0x10001000' end='0x10001020' type='altera_avalon_timer.s1' /><slave name='timer_0.s1' start='0x10001020' end='0x10001040' type='altera_avalon_timer.s1' /><slave name='key.s1' start='0x10001040' end='0x10001050' type='altera_avalon_pio.s1' /><slave name='switches.s1' start='0x10001050' end='0x10001060' type='altera_avalon_pio.s1' /><slave name='HEX_7.s1' start='0x10001060' end='0x10001070' type='altera_avalon_pio.s1' /><slave name='HEX_6.s1' start='0x10001070' end='0x10001080' type='altera_avalon_pio.s1' /><slave name='HEX_5.s1' start='0x10001080' end='0x10001090' type='altera_avalon_pio.s1' /><slave name='HEX_4.s1' start='0x10001090' end='0x100010A0' type='altera_avalon_pio.s1' /><slave name='HEX_3.s1' start='0x100010A0' end='0x100010B0' type='altera_avalon_pio.s1' /><slave name='HEX_2.s1' start='0x100010B0' end='0x100010C0' type='altera_avalon_pio.s1' /><slave name='HEX_1.s1' start='0x100010C0' end='0x100010D0' type='altera_avalon_pio.s1' /><slave name='HEX_0.s1' start='0x100010D0' end='0x100010E0' type='altera_avalon_pio.s1' /><slave name='LEDG.s1' start='0x100010E0' end='0x100010F0' type='altera_avalon_pio.s1' /><slave name='LEDR.s1' start='0x100010F0' end='0x10001100' type='altera_avalon_pio.s1' /><slave name='sysid_qsys_0.control_slave' start='0x10001100' end='0x10001108' type='altera_avalon_sysid_qsys.control_slave' /><slave name='jtag_uart_0.avalon_jtag_slave' start='0x10001108' end='0x10001110' type='altera_avalon_jtag_uart.avalon_jtag_slave' /></address-map>]]></parameter>
+  <parameter name="dataSlaveMapParam"><![CDATA[<address-map><slave name='avalon_aes_interface_0.AES_Slave' start='0x0' end='0x40' type='avalon_aes_interface.AES_Slave' /><slave name='sdram.s1' start='0x8000000' end='0x10000000' type='altera_avalon_new_sdram_controller.s1' /><slave name='nios2_gen2_0.debug_mem_slave' start='0x10000800' end='0x10001000' type='altera_nios2_gen2.debug_mem_slave' /><slave name='highres.s1' start='0x10001000' end='0x10001020' type='altera_avalon_timer.s1' /><slave name='timer_0.s1' start='0x10001020' end='0x10001040' type='altera_avalon_timer.s1' /><slave name='key.s1' start='0x10001040' end='0x10001050' type='altera_avalon_pio.s1' /><slave name='switches.s1' start='0x10001050' end='0x10001060' type='altera_avalon_pio.s1' /><slave name='HEX_7.s1' start='0x10001060' end='0x10001070' type='altera_avalon_pio.s1' /><slave name='HEX_6.s1' start='0x10001070' end='0x10001080' type='altera_avalon_pio.s1' /><slave name='HEX_5.s1' start='0x10001080' end='0x10001090' type='altera_avalon_pio.s1' /><slave name='HEX_4.s1' start='0x10001090' end='0x100010A0' type='altera_avalon_pio.s1' /><slave name='HEX_3.s1' start='0x100010A0' end='0x100010B0' type='altera_avalon_pio.s1' /><slave name='HEX_2.s1' start='0x100010B0' end='0x100010C0' type='altera_avalon_pio.s1' /><slave name='HEX_1.s1' start='0x100010C0' end='0x100010D0' type='altera_avalon_pio.s1' /><slave name='HEX_0.s1' start='0x100010D0' end='0x100010E0' type='altera_avalon_pio.s1' /><slave name='LEDG.s1' start='0x100010E0' end='0x100010F0' type='altera_avalon_pio.s1' /><slave name='LEDR.s1' start='0x100010F0' end='0x10001100' type='altera_avalon_pio.s1' /><slave name='sysid_qsys_0.control_slave' start='0x10001100' end='0x10001108' type='altera_avalon_sysid_qsys.control_slave' /><slave name='jtag_uart_0.avalon_jtag_slave' start='0x10001108' end='0x10001110' type='altera_avalon_jtag_uart.avalon_jtag_slave' /></address-map>]]></parameter>
   <parameter name="data_master_high_performance_paddr_base" value="0" />
   <parameter name="data_master_high_performance_paddr_size" value="0" />
   <parameter name="data_master_paddr_base" value="0" />
@@ -956,6 +974,15 @@
    kind="avalon"
    version="20.1"
    start="nios2_gen2_0.data_master"
+   end="avalon_aes_interface_0.AES_Slave">
+  <parameter name="arbitrationPriority" value="1" />
+  <parameter name="baseAddress" value="0x0000" />
+  <parameter name="defaultConnection" value="false" />
+ </connection>
+ <connection
+   kind="avalon"
+   version="20.1"
+   start="nios2_gen2_0.data_master"
    end="jtag_uart_0.avalon_jtag_slave">
   <parameter name="arbitrationPriority" value="1" />
   <parameter name="baseAddress" value="0x10001108" />
@@ -1141,6 +1168,11 @@
    kind="clock"
    version="20.1"
    start="sys_sdram_pll_0.sys_clk"
+   end="avalon_aes_interface_0.CLK" />
+ <connection
+   kind="clock"
+   version="20.1"
+   start="sys_sdram_pll_0.sys_clk"
    end="LEDR.clk" />
  <connection
    kind="clock"
@@ -1265,6 +1297,11 @@
    version="20.1"
    start="clk_0.clk_reset"
    end="jtag_uart_0.reset" />
+ <connection
+   kind="reset"
+   version="20.1"
+   start="nios2_gen2_0.debug_reset_request"
+   end="avalon_aes_interface_0.RESET" />
  <connection
    kind="reset"
    version="20.1"

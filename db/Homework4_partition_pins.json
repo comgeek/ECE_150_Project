@@ -424,6 +424,134 @@
 					"strict" : false
 				},
 				{
+					"name" : "AES_EXPORT_DATA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "AES_EXPORT_DATA[1]",
+					"strict" : false
+				},
+				{
+					"name" : "AES_EXPORT_DATA[2]",
+					"strict" : false
+				},
+				{
+					"name" : "AES_EXPORT_DATA[3]",
+					"strict" : false
+				},
+				{
+					"name" : "AES_EXPORT_DATA[4]",
+					"strict" : false
+				},
+				{
+					"name" : "AES_EXPORT_DATA[5]",
+					"strict" : false
+				},
+				{
+					"name" : "AES_EXPORT_DATA[6]",
+					"strict" : false
+				},
+				{
+					"name" : "AES_EXPORT_DATA[7]",
+					"strict" : false
+				},
+				{
+					"name" : "AES_EXPORT_DATA[8]",
+					"strict" : false
+				},
+				{
+					"name" : "AES_EXPORT_DATA[9]",
+					"strict" : false
+				},
+				{
+					"name" : "AES_EXPORT_DATA[10]",
+					"strict" : false
+				},
+				{
+					"name" : "AES_EXPORT_DATA[11]",
+					"strict" : false
+				},
+				{
+					"name" : "AES_EXPORT_DATA[12]",
+					"strict" : false
+				},
+				{
+					"name" : "AES_EXPORT_DATA[13]",
+					"strict" : false
+				},
+				{
+					"name" : "AES_EXPORT_DATA[14]",
+					"strict" : false
+				},
+				{
+					"name" : "AES_EXPORT_DATA[15]",
+					"strict" : false
+				},
+				{
+					"name" : "AES_EXPORT_DATA[16]",
+					"strict" : false
+				},
+				{
+					"name" : "AES_EXPORT_DATA[17]",
+					"strict" : false
+				},
+				{
+					"name" : "AES_EXPORT_DATA[18]",
+					"strict" : false
+				},
+				{
+					"name" : "AES_EXPORT_DATA[19]",
+					"strict" : false
+				},
+				{
+					"name" : "AES_EXPORT_DATA[20]",
+					"strict" : false
+				},
+				{
+					"name" : "AES_EXPORT_DATA[21]",
+					"strict" : false
+				},
+				{
+					"name" : "AES_EXPORT_DATA[22]",
+					"strict" : false
+				},
+				{
+					"name" : "AES_EXPORT_DATA[23]",
+					"strict" : false
+				},
+				{
+					"name" : "AES_EXPORT_DATA[24]",
+					"strict" : false
+				},
+				{
+					"name" : "AES_EXPORT_DATA[25]",
+					"strict" : false
+				},
+				{
+					"name" : "AES_EXPORT_DATA[26]",
+					"strict" : false
+				},
+				{
+					"name" : "AES_EXPORT_DATA[27]",
+					"strict" : false
+				},
+				{
+					"name" : "AES_EXPORT_DATA[28]",
+					"strict" : false
+				},
+				{
+					"name" : "AES_EXPORT_DATA[29]",
+					"strict" : false
+				},
+				{
+					"name" : "AES_EXPORT_DATA[30]",
+					"strict" : false
+				},
+				{
+					"name" : "AES_EXPORT_DATA[31]",
+					"strict" : false
+				},
+				{
 					"name" : "DRAM_DQ[0]",
 					"strict" : false
 				},
@@ -588,6 +716,30 @@
 					"strict" : false
 				},
 				{
+					"name" : "SW[7]",
+					"strict" : false
+				},
+				{
+					"name" : "SW[15]",
+					"strict" : false
+				},
+				{
+					"name" : "SW[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SW[14]",
+					"strict" : false
+				},
+				{
+					"name" : "SW[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SW[13]",
+					"strict" : false
+				},
+				{
 					"name" : "SW[4]",
 					"strict" : false
 				},
@@ -621,30 +773,6 @@
 				},
 				{
 					"name" : "SW[9]",
-					"strict" : false
-				},
-				{
-					"name" : "SW[6]",
-					"strict" : false
-				},
-				{
-					"name" : "SW[14]",
-					"strict" : false
-				},
-				{
-					"name" : "SW[5]",
-					"strict" : false
-				},
-				{
-					"name" : "SW[13]",
-					"strict" : false
-				},
-				{
-					"name" : "SW[15]",
-					"strict" : false
-				},
-				{
-					"name" : "SW[7]",
 					"strict" : false
 				},
 				{

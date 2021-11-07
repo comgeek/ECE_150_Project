@@ -51,3 +51,21 @@ DRsize.010 0 0 0 1 0 1
 DRsize.011 0 0 1 0 0 1 
 DRsize.100 0 1 0 0 0 1 
 DRsize.101 1 0 0 0 0 1 
+
+State Machine - |Homework4|unsaved:NiosII|unsaved_Nios2_A:nios2_a|avalon_aes_interface:avalon_aes_interface_0|AES:aes_0|control_unit:state_machine|curr_state
+Name curr_state.r10 curr_state.r9 curr_state.r8 curr_state.r7 curr_state.r6 curr_state.r5 curr_state.r4 curr_state.r3 curr_state.r2 curr_state.r1 curr_state.r0 curr_state.mc_inv curr_state.finished curr_state.key_expansion curr_state.Halted 
+curr_state.Halted 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+curr_state.key_expansion 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+curr_state.finished 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+curr_state.mc_inv 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+curr_state.r0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+curr_state.r1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+curr_state.r2 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+curr_state.r3 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+curr_state.r4 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+curr_state.r5 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+curr_state.r6 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+curr_state.r7 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+curr_state.r8 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+curr_state.r9 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+curr_state.r10 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 

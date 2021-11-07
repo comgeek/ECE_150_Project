@@ -2,9 +2,9 @@
  * system.h - SOPC Builder system and BSP software package information
  *
  * Machine generated for CPU 'Nios2_A_nios2_gen2_0' in SOPC Builder design 'unsaved'
- * SOPC Builder design path: C:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/unsaved.sopcinfo
+ * SOPC Builder design path: C:/Users/jguti/OneDrive/Desktop/ECE_150_Project/ECE_150_Project/unsaved.sopcinfo
  *
- * Generated: Thu Nov 04 21:49:16 PDT 2021
+ * Generated: Sat Nov 06 23:57:15 PDT 2021
  */
 
 /*
@@ -147,6 +147,7 @@
 #define __ALTERA_AVALON_SYSID_QSYS
 #define __ALTERA_AVALON_TIMER
 #define __ALTERA_NIOS2_GEN2
+#define __AVALON_AES_INTERFACE
 
 
 /*
@@ -420,6 +421,20 @@
 
 
 /*
+ * Nios2_A_avalon_aes_interface_0 configuration
+ *
+ */
+
+#define ALT_MODULE_CLASS_Nios2_A_avalon_aes_interface_0 avalon_aes_interface
+#define NIOS2_A_AVALON_AES_INTERFACE_0_BASE 0x0
+#define NIOS2_A_AVALON_AES_INTERFACE_0_IRQ -1
+#define NIOS2_A_AVALON_AES_INTERFACE_0_IRQ_INTERRUPT_CONTROLLER_ID -1
+#define NIOS2_A_AVALON_AES_INTERFACE_0_NAME "/dev/Nios2_A_avalon_aes_interface_0"
+#define NIOS2_A_AVALON_AES_INTERFACE_0_SPAN 64
+#define NIOS2_A_AVALON_AES_INTERFACE_0_TYPE "avalon_aes_interface"
+
+
+/*
  * Nios2_A_highres configuration
  *
  */
@@ -568,7 +583,7 @@
 #define NIOS2_A_SYSID_QSYS_0_IRQ_INTERRUPT_CONTROLLER_ID -1
 #define NIOS2_A_SYSID_QSYS_0_NAME "/dev/Nios2_A_sysid_qsys_0"
 #define NIOS2_A_SYSID_QSYS_0_SPAN 8
-#define NIOS2_A_SYSID_QSYS_0_TIMESTAMP 1636086916
+#define NIOS2_A_SYSID_QSYS_0_TIMESTAMP 1636267223
 #define NIOS2_A_SYSID_QSYS_0_TYPE "altera_avalon_sysid_qsys"
 
 

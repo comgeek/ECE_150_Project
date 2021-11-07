@@ -1,6 +1,6 @@
 <sld_project_info>
   <project>
-    <hash md5_digest_80b="76ad0e7db73e89f778f8"/>
+    <hash md5_digest_80b="ed75e9b08d1a68913508"/>
   </project>
   <file_info>
     <file device="EP4CE115F29C7" path="Homework4_time_limited.sof" usercode="0xFFFFFFFF"/>
@@ -268,7 +268,7 @@
   <sld_infos>
     <sld_info hpath="unsaved:NiosII" name="NiosII">
       <assignment_values>
-        <assignment_value text="QSYS_NAME unsaved HAS_SOPCINFO 1 GENERATION_ID 1636086916"/>
+        <assignment_value text="QSYS_NAME unsaved HAS_SOPCINFO 1 GENERATION_ID 1636267223"/>
       </assignment_values>
       <parameters/>
     </sld_info>

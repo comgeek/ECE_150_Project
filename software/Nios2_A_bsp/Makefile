@@ -101,7 +101,7 @@ ACDS_VERSION := 20.1
 # BUILD_NUMBER: 720
 
 SETTINGS_FILE := settings.bsp
-SOPC_FILE := C:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/unsaved.sopcinfo
+SOPC_FILE := C:/Users/jguti/OneDrive/Desktop/ECE_150_Project/ECE_150_Project/unsaved.sopcinfo
 
 #-------------------------------------------------------------------------------
 #                             TOOL & COMMAND DEFINITIONS

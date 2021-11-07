@@ -2,7 +2,7 @@ Info: Starting: Create block symbol file (.bsf)
 Info: qsys-generate C:\Users\jguti\OneDrive\Desktop\Homework4\NEWTEST\unsaved.qsys --block-symbol-file --output-directory=C:\Users\jguti\OneDrive\Desktop\Homework4\NEWTEST\unsaved --family="Cyclone IV E" --part=EP4CE115F29C7
 Progress: Loading NEWTEST/unsaved.qsys
 Progress: Reading input file
-Progress: Adding Nios [subsystemA 1.0]
+Progress: Adding Nios2_A [subsystemA 1.0]
 Progress: Reading input file
 Progress: Adding HEX_0 [altera_avalon_pio 20.1]
 Progress: Parameterizing module HEX_0
@@ -48,10 +48,8 @@ Progress: Building connections
 Progress: Parameterizing connections
 Progress: Validating
 Progress: Done reading input file
-Progress: Parameterizing module Nios
-Progress: Adding clk_0 [clock_source 20.1]
-Progress: Parameterizing module clk_0
-Progress: Adding subsystemB_0 [subsystemB 1.0]
+Progress: Parameterizing module Nios2_A
+Progress: Adding Nios2_B [subsystemB 1.0]
 Progress: Reading input file
 Progress: Adding clk_0 [clock_source 20.1]
 Progress: Parameterizing module clk_0
@@ -69,21 +67,23 @@ Progress: Building connections
 Progress: Parameterizing connections
 Progress: Validating
 Progress: Done reading input file
-Progress: Parameterizing module subsystemB_0
+Progress: Parameterizing module Nios2_B
+Progress: Adding clk_0 [clock_source 20.1]
+Progress: Parameterizing module clk_0
 Progress: Building connections
 Progress: Parameterizing connections
 Progress: Validating
 Progress: Done reading input file
-Info: unsaved.Nios.jtag_uart_0: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
-Info: unsaved.Nios.key: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
-Info: unsaved.Nios.sdram: SDRAM Controller will only be supported in Quartus Prime Standard Edition in the future release.
-Info: unsaved.Nios.switches: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
-Info: unsaved.Nios.sys_sdram_pll_0: Refclk Freq: 50.0
-Info: unsaved.Nios.sysid_qsys_0: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
-Info: unsaved.Nios.sysid_qsys_0: Time stamp will be automatically updated when this component is generated.
-Info: unsaved.subsystemB_0.jtag_uart_0: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
-Info: unsaved.subsystemB_0.sysid_qsys_0: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
-Info: unsaved.subsystemB_0.sysid_qsys_0: Time stamp will be automatically updated when this component is generated.
+Info: unsaved.Nios2_A.jtag_uart_0: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: unsaved.Nios2_A.key: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: unsaved.Nios2_A.sdram: SDRAM Controller will only be supported in Quartus Prime Standard Edition in the future release.
+Info: unsaved.Nios2_A.switches: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: unsaved.Nios2_A.sys_sdram_pll_0: Refclk Freq: 50.0
+Info: unsaved.Nios2_A.sysid_qsys_0: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: unsaved.Nios2_A.sysid_qsys_0: Time stamp will be automatically updated when this component is generated.
+Info: unsaved.Nios2_B.jtag_uart_0: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: unsaved.Nios2_B.sysid_qsys_0: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: unsaved.Nios2_B.sysid_qsys_0: Time stamp will be automatically updated when this component is generated.
 Info: qsys-generate succeeded.
 Info: Finished: Create block symbol file (.bsf)
 Info: 
@@ -91,68 +91,68 @@ Info: Starting: Create HDL design files for synthesis
 Info: qsys-generate C:\Users\jguti\OneDrive\Desktop\Homework4\NEWTEST\unsaved.qsys --synthesis=VERILOG --output-directory=C:\Users\jguti\OneDrive\Desktop\Homework4\NEWTEST\unsaved\synthesis --family="Cyclone IV E" --part=EP4CE115F29C7
 Progress: Loading NEWTEST/unsaved.qsys
 Progress: Reading input file
-Progress: Adding Nios [subsystemA 1.0]
-Progress: Parameterizing module Nios
+Progress: Adding Nios2_A [subsystemA 1.0]
+Progress: Parameterizing module Nios2_A
+Progress: Adding Nios2_B [subsystemB 1.0]
+Progress: Parameterizing module Nios2_B
 Progress: Adding clk_0 [clock_source 20.1]
 Progress: Parameterizing module clk_0
-Progress: Adding subsystemB_0 [subsystemB 1.0]
-Progress: Parameterizing module subsystemB_0
 Progress: Building connections
 Progress: Parameterizing connections
 Progress: Validating
 Progress: Done reading input file
-Info: unsaved.Nios.jtag_uart_0: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
-Info: unsaved.Nios.key: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
-Info: unsaved.Nios.sdram: SDRAM Controller will only be supported in Quartus Prime Standard Edition in the future release.
-Info: unsaved.Nios.switches: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
-Info: unsaved.Nios.sys_sdram_pll_0: Refclk Freq: 50.0
-Info: unsaved.Nios.sysid_qsys_0: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
-Info: unsaved.Nios.sysid_qsys_0: Time stamp will be automatically updated when this component is generated.
-Info: unsaved.subsystemB_0.jtag_uart_0: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
-Info: unsaved.subsystemB_0.sysid_qsys_0: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
-Info: unsaved.subsystemB_0.sysid_qsys_0: Time stamp will be automatically updated when this component is generated.
+Info: unsaved.Nios2_A.jtag_uart_0: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: unsaved.Nios2_A.key: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: unsaved.Nios2_A.sdram: SDRAM Controller will only be supported in Quartus Prime Standard Edition in the future release.
+Info: unsaved.Nios2_A.switches: PIO inputs are not hardwired in test bench. Undefined values will be read from PIO inputs during simulation.
+Info: unsaved.Nios2_A.sys_sdram_pll_0: Refclk Freq: 50.0
+Info: unsaved.Nios2_A.sysid_qsys_0: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: unsaved.Nios2_A.sysid_qsys_0: Time stamp will be automatically updated when this component is generated.
+Info: unsaved.Nios2_B.jtag_uart_0: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: unsaved.Nios2_B.sysid_qsys_0: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: unsaved.Nios2_B.sysid_qsys_0: Time stamp will be automatically updated when this component is generated.
 Info: unsaved: Generating unsaved "unsaved" for QUARTUS_SYNTH
-Info: Nios: "unsaved" instantiated subsystemA "Nios"
-Info: subsystemB_0: "unsaved" instantiated subsystemB "subsystemB_0"
-Info: HEX_0: Starting RTL generation for module 'unsaved_Nios_HEX_0'
-Info: HEX_0:   Generation command is [exec C:/intelfpga_lite/20.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/20.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=unsaved_Nios_HEX_0 --dir=C:/Users/jguti/AppData/Local/Temp/alt8935_561820501347071244.dir/0336_HEX_0_gen/ --quartus_dir=C:/intelfpga_lite/20.1/quartus --verilog --config=C:/Users/jguti/AppData/Local/Temp/alt8935_561820501347071244.dir/0336_HEX_0_gen//unsaved_Nios_HEX_0_component_configuration.pl  --do_build_sim=0  ]
-Info: HEX_0: Done RTL generation for module 'unsaved_Nios_HEX_0'
-Info: HEX_0: "Nios" instantiated altera_avalon_pio "HEX_0"
-Info: LEDG: Starting RTL generation for module 'unsaved_Nios_LEDG'
-Info: LEDG:   Generation command is [exec C:/intelfpga_lite/20.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/20.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=unsaved_Nios_LEDG --dir=C:/Users/jguti/AppData/Local/Temp/alt8935_561820501347071244.dir/0337_LEDG_gen/ --quartus_dir=C:/intelfpga_lite/20.1/quartus --verilog --config=C:/Users/jguti/AppData/Local/Temp/alt8935_561820501347071244.dir/0337_LEDG_gen//unsaved_Nios_LEDG_component_configuration.pl  --do_build_sim=0  ]
-Info: LEDG: Done RTL generation for module 'unsaved_Nios_LEDG'
-Info: LEDG: "Nios" instantiated altera_avalon_pio "LEDG"
-Info: LEDR: Starting RTL generation for module 'unsaved_Nios_LEDR'
-Info: LEDR:   Generation command is [exec C:/intelfpga_lite/20.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/20.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=unsaved_Nios_LEDR --dir=C:/Users/jguti/AppData/Local/Temp/alt8935_561820501347071244.dir/0338_LEDR_gen/ --quartus_dir=C:/intelfpga_lite/20.1/quartus --verilog --config=C:/Users/jguti/AppData/Local/Temp/alt8935_561820501347071244.dir/0338_LEDR_gen//unsaved_Nios_LEDR_component_configuration.pl  --do_build_sim=0  ]
-Info: LEDR: Done RTL generation for module 'unsaved_Nios_LEDR'
-Info: LEDR: "Nios" instantiated altera_avalon_pio "LEDR"
-Info: highres: Starting RTL generation for module 'unsaved_Nios_highres'
-Info: highres:   Generation command is [exec C:/intelFPGA_lite/20.1/quartus/bin64//perl/bin/perl.exe -I C:/intelFPGA_lite/20.1/quartus/bin64//perl/lib -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer -- C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer/generate_rtl.pl --name=unsaved_Nios_highres --dir=C:/Users/jguti/AppData/Local/Temp/alt8935_561820501347071244.dir/0339_highres_gen/ --quartus_dir=C:/intelfpga_lite/20.1/quartus --verilog --config=C:/Users/jguti/AppData/Local/Temp/alt8935_561820501347071244.dir/0339_highres_gen//unsaved_Nios_highres_component_configuration.pl  --do_build_sim=0  ]
-Info: highres: Done RTL generation for module 'unsaved_Nios_highres'
-Info: highres: "Nios" instantiated altera_avalon_timer "highres"
-Info: jtag_uart_0: Starting RTL generation for module 'unsaved_Nios_jtag_uart_0'
-Info: jtag_uart_0:   Generation command is [exec C:/intelfpga_lite/20.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/20.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=unsaved_Nios_jtag_uart_0 --dir=C:/Users/jguti/AppData/Local/Temp/alt8935_561820501347071244.dir/0340_jtag_uart_0_gen/ --quartus_dir=C:/intelfpga_lite/20.1/quartus --verilog --config=C:/Users/jguti/AppData/Local/Temp/alt8935_561820501347071244.dir/0340_jtag_uart_0_gen//unsaved_Nios_jtag_uart_0_component_configuration.pl  --do_build_sim=0  ]
-Info: jtag_uart_0: Done RTL generation for module 'unsaved_Nios_jtag_uart_0'
-Info: jtag_uart_0: "Nios" instantiated altera_avalon_jtag_uart "jtag_uart_0"
-Info: key: Starting RTL generation for module 'unsaved_Nios_key'
-Info: key:   Generation command is [exec C:/intelfpga_lite/20.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/20.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=unsaved_Nios_key --dir=C:/Users/jguti/AppData/Local/Temp/alt8935_561820501347071244.dir/0341_key_gen/ --quartus_dir=C:/intelfpga_lite/20.1/quartus --verilog --config=C:/Users/jguti/AppData/Local/Temp/alt8935_561820501347071244.dir/0341_key_gen//unsaved_Nios_key_component_configuration.pl  --do_build_sim=0  ]
-Info: key: Done RTL generation for module 'unsaved_Nios_key'
-Info: key: "Nios" instantiated altera_avalon_pio "key"
-Info: nios2_gen2_0: "Nios" instantiated altera_nios2_gen2 "nios2_gen2_0"
-Info: sdram: Starting RTL generation for module 'unsaved_Nios_sdram'
-Info: sdram:   Generation command is [exec C:/intelfpga_lite/20.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/20.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller -- C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller/generate_rtl.pl --name=unsaved_Nios_sdram --dir=C:/Users/jguti/AppData/Local/Temp/alt8935_561820501347071244.dir/0342_sdram_gen/ --quartus_dir=C:/intelfpga_lite/20.1/quartus --verilog --config=C:/Users/jguti/AppData/Local/Temp/alt8935_561820501347071244.dir/0342_sdram_gen//unsaved_Nios_sdram_component_configuration.pl  --do_build_sim=0  ]
-Info: sdram: Done RTL generation for module 'unsaved_Nios_sdram'
-Info: sdram: "Nios" instantiated altera_avalon_new_sdram_controller "sdram"
-Info: switches: Starting RTL generation for module 'unsaved_Nios_switches'
-Info: switches:   Generation command is [exec C:/intelfpga_lite/20.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/20.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=unsaved_Nios_switches --dir=C:/Users/jguti/AppData/Local/Temp/alt8935_561820501347071244.dir/0343_switches_gen/ --quartus_dir=C:/intelfpga_lite/20.1/quartus --verilog --config=C:/Users/jguti/AppData/Local/Temp/alt8935_561820501347071244.dir/0343_switches_gen//unsaved_Nios_switches_component_configuration.pl  --do_build_sim=0  ]
-Info: switches: Done RTL generation for module 'unsaved_Nios_switches'
-Info: switches: "Nios" instantiated altera_avalon_pio "switches"
-Info: sys_sdram_pll_0: "Nios" instantiated altera_up_avalon_sys_sdram_pll "sys_sdram_pll_0"
-Info: sysid_qsys_0: "Nios" instantiated altera_avalon_sysid_qsys "sysid_qsys_0"
-Info: timer_0: Starting RTL generation for module 'unsaved_Nios_timer_0'
-Info: timer_0:   Generation command is [exec C:/intelFPGA_lite/20.1/quartus/bin64//perl/bin/perl.exe -I C:/intelFPGA_lite/20.1/quartus/bin64//perl/lib -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer -- C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer/generate_rtl.pl --name=unsaved_Nios_timer_0 --dir=C:/Users/jguti/AppData/Local/Temp/alt8935_561820501347071244.dir/0345_timer_0_gen/ --quartus_dir=C:/intelfpga_lite/20.1/quartus --verilog --config=C:/Users/jguti/AppData/Local/Temp/alt8935_561820501347071244.dir/0345_timer_0_gen//unsaved_Nios_timer_0_component_configuration.pl  --do_build_sim=0  ]
-Info: timer_0: Done RTL generation for module 'unsaved_Nios_timer_0'
-Info: timer_0: "Nios" instantiated altera_avalon_timer "timer_0"
+Info: Nios2_A: "unsaved" instantiated subsystemA "Nios2_A"
+Info: Nios2_B: "unsaved" instantiated subsystemB "Nios2_B"
+Info: HEX_0: Starting RTL generation for module 'unsaved_Nios2_A_HEX_0'
+Info: HEX_0:   Generation command is [exec C:/intelfpga_lite/20.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/20.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=unsaved_Nios2_A_HEX_0 --dir=C:/Users/jguti/AppData/Local/Temp/alt8936_4350215832756491658.dir/0002_HEX_0_gen/ --quartus_dir=C:/intelfpga_lite/20.1/quartus --verilog --config=C:/Users/jguti/AppData/Local/Temp/alt8936_4350215832756491658.dir/0002_HEX_0_gen//unsaved_Nios2_A_HEX_0_component_configuration.pl  --do_build_sim=0  ]
+Info: HEX_0: Done RTL generation for module 'unsaved_Nios2_A_HEX_0'
+Info: HEX_0: "Nios2_A" instantiated altera_avalon_pio "HEX_0"
+Info: LEDG: Starting RTL generation for module 'unsaved_Nios2_A_LEDG'
+Info: LEDG:   Generation command is [exec C:/intelfpga_lite/20.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/20.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=unsaved_Nios2_A_LEDG --dir=C:/Users/jguti/AppData/Local/Temp/alt8936_4350215832756491658.dir/0003_LEDG_gen/ --quartus_dir=C:/intelfpga_lite/20.1/quartus --verilog --config=C:/Users/jguti/AppData/Local/Temp/alt8936_4350215832756491658.dir/0003_LEDG_gen//unsaved_Nios2_A_LEDG_component_configuration.pl  --do_build_sim=0  ]
+Info: LEDG: Done RTL generation for module 'unsaved_Nios2_A_LEDG'
+Info: LEDG: "Nios2_A" instantiated altera_avalon_pio "LEDG"
+Info: LEDR: Starting RTL generation for module 'unsaved_Nios2_A_LEDR'
+Info: LEDR:   Generation command is [exec C:/intelfpga_lite/20.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/20.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=unsaved_Nios2_A_LEDR --dir=C:/Users/jguti/AppData/Local/Temp/alt8936_4350215832756491658.dir/0004_LEDR_gen/ --quartus_dir=C:/intelfpga_lite/20.1/quartus --verilog --config=C:/Users/jguti/AppData/Local/Temp/alt8936_4350215832756491658.dir/0004_LEDR_gen//unsaved_Nios2_A_LEDR_component_configuration.pl  --do_build_sim=0  ]
+Info: LEDR: Done RTL generation for module 'unsaved_Nios2_A_LEDR'
+Info: LEDR: "Nios2_A" instantiated altera_avalon_pio "LEDR"
+Info: highres: Starting RTL generation for module 'unsaved_Nios2_A_highres'
+Info: highres:   Generation command is [exec C:/intelFPGA_lite/20.1/quartus/bin64//perl/bin/perl.exe -I C:/intelFPGA_lite/20.1/quartus/bin64//perl/lib -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer -- C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer/generate_rtl.pl --name=unsaved_Nios2_A_highres --dir=C:/Users/jguti/AppData/Local/Temp/alt8936_4350215832756491658.dir/0005_highres_gen/ --quartus_dir=C:/intelfpga_lite/20.1/quartus --verilog --config=C:/Users/jguti/AppData/Local/Temp/alt8936_4350215832756491658.dir/0005_highres_gen//unsaved_Nios2_A_highres_component_configuration.pl  --do_build_sim=0  ]
+Info: highres: Done RTL generation for module 'unsaved_Nios2_A_highres'
+Info: highres: "Nios2_A" instantiated altera_avalon_timer "highres"
+Info: jtag_uart_0: Starting RTL generation for module 'unsaved_Nios2_A_jtag_uart_0'
+Info: jtag_uart_0:   Generation command is [exec C:/intelfpga_lite/20.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/20.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=unsaved_Nios2_A_jtag_uart_0 --dir=C:/Users/jguti/AppData/Local/Temp/alt8936_4350215832756491658.dir/0006_jtag_uart_0_gen/ --quartus_dir=C:/intelfpga_lite/20.1/quartus --verilog --config=C:/Users/jguti/AppData/Local/Temp/alt8936_4350215832756491658.dir/0006_jtag_uart_0_gen//unsaved_Nios2_A_jtag_uart_0_component_configuration.pl  --do_build_sim=0  ]
+Info: jtag_uart_0: Done RTL generation for module 'unsaved_Nios2_A_jtag_uart_0'
+Info: jtag_uart_0: "Nios2_A" instantiated altera_avalon_jtag_uart "jtag_uart_0"
+Info: key: Starting RTL generation for module 'unsaved_Nios2_A_key'
+Info: key:   Generation command is [exec C:/intelfpga_lite/20.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/20.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=unsaved_Nios2_A_key --dir=C:/Users/jguti/AppData/Local/Temp/alt8936_4350215832756491658.dir/0007_key_gen/ --quartus_dir=C:/intelfpga_lite/20.1/quartus --verilog --config=C:/Users/jguti/AppData/Local/Temp/alt8936_4350215832756491658.dir/0007_key_gen//unsaved_Nios2_A_key_component_configuration.pl  --do_build_sim=0  ]
+Info: key: Done RTL generation for module 'unsaved_Nios2_A_key'
+Info: key: "Nios2_A" instantiated altera_avalon_pio "key"
+Info: nios2_gen2_0: "Nios2_A" instantiated altera_nios2_gen2 "nios2_gen2_0"
+Info: sdram: Starting RTL generation for module 'unsaved_Nios2_A_sdram'
+Info: sdram:   Generation command is [exec C:/intelfpga_lite/20.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/20.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller -- C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller/generate_rtl.pl --name=unsaved_Nios2_A_sdram --dir=C:/Users/jguti/AppData/Local/Temp/alt8936_4350215832756491658.dir/0008_sdram_gen/ --quartus_dir=C:/intelfpga_lite/20.1/quartus --verilog --config=C:/Users/jguti/AppData/Local/Temp/alt8936_4350215832756491658.dir/0008_sdram_gen//unsaved_Nios2_A_sdram_component_configuration.pl  --do_build_sim=0  ]
+Info: sdram: Done RTL generation for module 'unsaved_Nios2_A_sdram'
+Info: sdram: "Nios2_A" instantiated altera_avalon_new_sdram_controller "sdram"
+Info: switches: Starting RTL generation for module 'unsaved_Nios2_A_switches'
+Info: switches:   Generation command is [exec C:/intelfpga_lite/20.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/20.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=unsaved_Nios2_A_switches --dir=C:/Users/jguti/AppData/Local/Temp/alt8936_4350215832756491658.dir/0009_switches_gen/ --quartus_dir=C:/intelfpga_lite/20.1/quartus --verilog --config=C:/Users/jguti/AppData/Local/Temp/alt8936_4350215832756491658.dir/0009_switches_gen//unsaved_Nios2_A_switches_component_configuration.pl  --do_build_sim=0  ]
+Info: switches: Done RTL generation for module 'unsaved_Nios2_A_switches'
+Info: switches: "Nios2_A" instantiated altera_avalon_pio "switches"
+Info: sys_sdram_pll_0: "Nios2_A" instantiated altera_up_avalon_sys_sdram_pll "sys_sdram_pll_0"
+Info: sysid_qsys_0: "Nios2_A" instantiated altera_avalon_sysid_qsys "sysid_qsys_0"
+Info: timer_0: Starting RTL generation for module 'unsaved_Nios2_A_timer_0'
+Info: timer_0:   Generation command is [exec C:/intelFPGA_lite/20.1/quartus/bin64//perl/bin/perl.exe -I C:/intelFPGA_lite/20.1/quartus/bin64//perl/lib -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer -- C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer/generate_rtl.pl --name=unsaved_Nios2_A_timer_0 --dir=C:/Users/jguti/AppData/Local/Temp/alt8936_4350215832756491658.dir/0011_timer_0_gen/ --quartus_dir=C:/intelfpga_lite/20.1/quartus --verilog --config=C:/Users/jguti/AppData/Local/Temp/alt8936_4350215832756491658.dir/0011_timer_0_gen//unsaved_Nios2_A_timer_0_component_configuration.pl  --do_build_sim=0  ]
+Info: timer_0: Done RTL generation for module 'unsaved_Nios2_A_timer_0'
+Info: timer_0: "Nios2_A" instantiated altera_avalon_timer "timer_0"
 Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
 Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
 Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
@@ -171,39 +171,39 @@ Info: avalon_st_adapter_014: Inserting error_adapter: error_adapter_0
 Info: avalon_st_adapter_015: Inserting error_adapter: error_adapter_0
 Info: avalon_st_adapter_016: Inserting error_adapter: error_adapter_0
 Info: avalon_st_adapter_017: Inserting error_adapter: error_adapter_0
-Info: mm_interconnect_0: "Nios" instantiated altera_mm_interconnect "mm_interconnect_0"
-Info: irq_mapper: "Nios" instantiated altera_irq_mapper "irq_mapper"
-Info: rst_controller: "Nios" instantiated altera_reset_controller "rst_controller"
-Info: nios2_gen2_0: "subsystemB_0" instantiated altera_nios2_gen2 "nios2_gen2_0"
-Info: onchip_memory2_0: Starting RTL generation for module 'unsaved_subsystemB_0_onchip_memory2_0'
-Info: onchip_memory2_0:   Generation command is [exec C:/intelfpga_lite/20.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/20.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=unsaved_subsystemB_0_onchip_memory2_0 --dir=C:/Users/jguti/AppData/Local/Temp/alt8935_561820501347071244.dir/0348_onchip_memory2_0_gen/ --quartus_dir=C:/intelfpga_lite/20.1/quartus --verilog --config=C:/Users/jguti/AppData/Local/Temp/alt8935_561820501347071244.dir/0348_onchip_memory2_0_gen//unsaved_subsystemB_0_onchip_memory2_0_component_configuration.pl  --do_build_sim=0  ]
-Info: onchip_memory2_0: Done RTL generation for module 'unsaved_subsystemB_0_onchip_memory2_0'
-Info: onchip_memory2_0: "subsystemB_0" instantiated altera_avalon_onchip_memory2 "onchip_memory2_0"
-Info: sysid_qsys_0: "subsystemB_0" instantiated altera_avalon_sysid_qsys "sysid_qsys_0"
+Info: mm_interconnect_0: "Nios2_A" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "Nios2_A" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "Nios2_A" instantiated altera_reset_controller "rst_controller"
+Info: nios2_gen2_0: "Nios2_B" instantiated altera_nios2_gen2 "nios2_gen2_0"
+Info: onchip_memory2_0: Starting RTL generation for module 'unsaved_Nios2_B_onchip_memory2_0'
+Info: onchip_memory2_0:   Generation command is [exec C:/intelfpga_lite/20.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/20.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga_lite/20.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=unsaved_Nios2_B_onchip_memory2_0 --dir=C:/Users/jguti/AppData/Local/Temp/alt8936_4350215832756491658.dir/0014_onchip_memory2_0_gen/ --quartus_dir=C:/intelfpga_lite/20.1/quartus --verilog --config=C:/Users/jguti/AppData/Local/Temp/alt8936_4350215832756491658.dir/0014_onchip_memory2_0_gen//unsaved_Nios2_B_onchip_memory2_0_component_configuration.pl  --do_build_sim=0  ]
+Info: onchip_memory2_0: Done RTL generation for module 'unsaved_Nios2_B_onchip_memory2_0'
+Info: onchip_memory2_0: "Nios2_B" instantiated altera_avalon_onchip_memory2 "onchip_memory2_0"
+Info: sysid_qsys_0: "Nios2_B" instantiated altera_avalon_sysid_qsys "sysid_qsys_0"
 Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
 Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
 Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
 Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
 Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
-Info: mm_interconnect_0: "subsystemB_0" instantiated altera_mm_interconnect "mm_interconnect_0"
-Info: irq_mapper: "subsystemB_0" instantiated altera_irq_mapper "irq_mapper"
-Info: cpu: Starting RTL generation for module 'unsaved_Nios_nios2_gen2_0_cpu'
-Info: cpu:   Generation command is [exec C:/intelFPGA_lite/20.1/quartus/bin64//perl/bin/perl.exe -I C:/intelFPGA_lite/20.1/quartus/bin64//perl/lib -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/20.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/intelfpga_lite/20.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/intelfpga_lite/20.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/intelfpga_lite/20.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/intelfpga_lite/20.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.pl --name=unsaved_Nios_nios2_gen2_0_cpu --dir=C:/Users/jguti/AppData/Local/Temp/alt8935_561820501347071244.dir/0351_cpu_gen/ --quartus_bindir=C:/intelFPGA_lite/20.1/quartus/bin64/ --verilog --config=C:/Users/jguti/AppData/Local/Temp/alt8935_561820501347071244.dir/0351_cpu_gen//unsaved_Nios_nios2_gen2_0_cpu_processor_configuration.pl  --do_build_sim=0  ]
-Info: cpu: # 2021.11.04 19:07:48 (*) Starting Nios II generation
-Info: cpu: # 2021.11.04 19:07:48 (*)   Elaborating CPU configuration settings
-Info: cpu: # 2021.11.04 19:07:48 (*)   Creating all objects for CPU
-Info: cpu: # 2021.11.04 19:07:48 (*)     Testbench
-Info: cpu: # 2021.11.04 19:07:48 (*)     Instruction decoding
-Info: cpu: # 2021.11.04 19:07:48 (*)       Instruction fields
-Info: cpu: # 2021.11.04 19:07:48 (*)       Instruction decodes
-Info: cpu: # 2021.11.04 19:07:48 (*)       Signals for RTL simulation waveforms
-Info: cpu: # 2021.11.04 19:07:48 (*)       Instruction controls
-Info: cpu: # 2021.11.04 19:07:48 (*)     Pipeline frontend
-Info: cpu: # 2021.11.04 19:07:48 (*)     Pipeline backend
-Info: cpu: # 2021.11.04 19:07:50 (*)   Generating RTL from CPU objects
-Info: cpu: # 2021.11.04 19:07:50 (*)   Creating plain-text RTL
-Info: cpu: # 2021.11.04 19:07:50 (*) Done Nios II generation
-Info: cpu: Done RTL generation for module 'unsaved_Nios_nios2_gen2_0_cpu'
+Info: mm_interconnect_0: "Nios2_B" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "Nios2_B" instantiated altera_irq_mapper "irq_mapper"
+Info: cpu: Starting RTL generation for module 'unsaved_Nios2_A_nios2_gen2_0_cpu'
+Info: cpu:   Generation command is [exec C:/intelFPGA_lite/20.1/quartus/bin64//perl/bin/perl.exe -I C:/intelFPGA_lite/20.1/quartus/bin64//perl/lib -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/20.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/intelfpga_lite/20.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/intelfpga_lite/20.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/intelfpga_lite/20.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/intelfpga_lite/20.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.pl --name=unsaved_Nios2_A_nios2_gen2_0_cpu --dir=C:/Users/jguti/AppData/Local/Temp/alt8936_4350215832756491658.dir/0017_cpu_gen/ --quartus_bindir=C:/intelFPGA_lite/20.1/quartus/bin64/ --verilog --config=C:/Users/jguti/AppData/Local/Temp/alt8936_4350215832756491658.dir/0017_cpu_gen//unsaved_Nios2_A_nios2_gen2_0_cpu_processor_configuration.pl  --do_build_sim=0  ]
+Info: cpu: # 2021.11.04 21:35:48 (*) Starting Nios II generation
+Info: cpu: # 2021.11.04 21:35:48 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2021.11.04 21:35:48 (*)   Creating all objects for CPU
+Info: cpu: # 2021.11.04 21:35:48 (*)     Testbench
+Info: cpu: # 2021.11.04 21:35:48 (*)     Instruction decoding
+Info: cpu: # 2021.11.04 21:35:48 (*)       Instruction fields
+Info: cpu: # 2021.11.04 21:35:48 (*)       Instruction decodes
+Info: cpu: # 2021.11.04 21:35:49 (*)       Signals for RTL simulation waveforms
+Info: cpu: # 2021.11.04 21:35:49 (*)       Instruction controls
+Info: cpu: # 2021.11.04 21:35:49 (*)     Pipeline frontend
+Info: cpu: # 2021.11.04 21:35:49 (*)     Pipeline backend
+Info: cpu: # 2021.11.04 21:35:50 (*)   Generating RTL from CPU objects
+Info: cpu: # 2021.11.04 21:35:50 (*)   Creating plain-text RTL
+Info: cpu: # 2021.11.04 21:35:51 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'unsaved_Nios2_A_nios2_gen2_0_cpu'
 Info: cpu: "nios2_gen2_0" instantiated altera_nios2_gen2_unit "cpu"
 Info: sys_pll: "sys_sdram_pll_0" instantiated altera_up_altpll "sys_pll"
 Info: reset_from_locked: "sys_sdram_pll_0" instantiated altera_up_avalon_reset_from_locked_signal "reset_from_locked"
@@ -230,23 +230,23 @@ Info: Reusing file C:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/unsaved/syn
 Info: rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_001"
 Info: Reusing file C:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/unsaved/synthesis/submodules/altera_merlin_arbitrator.sv
 Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
-Info: cpu: Starting RTL generation for module 'unsaved_subsystemB_0_nios2_gen2_0_cpu'
-Info: cpu:   Generation command is [exec C:/intelFPGA_lite/20.1/quartus/bin64//perl/bin/perl.exe -I C:/intelFPGA_lite/20.1/quartus/bin64//perl/lib -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/20.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/intelfpga_lite/20.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/intelfpga_lite/20.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/intelfpga_lite/20.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/intelfpga_lite/20.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.pl --name=unsaved_subsystemB_0_nios2_gen2_0_cpu --dir=C:/Users/jguti/AppData/Local/Temp/alt8935_561820501347071244.dir/0372_cpu_gen/ --quartus_bindir=C:/intelFPGA_lite/20.1/quartus/bin64/ --verilog --config=C:/Users/jguti/AppData/Local/Temp/alt8935_561820501347071244.dir/0372_cpu_gen//unsaved_subsystemB_0_nios2_gen2_0_cpu_processor_configuration.pl  --do_build_sim=0  ]
-Info: cpu: # 2021.11.04 19:07:52 (*) Starting Nios II generation
-Info: cpu: # 2021.11.04 19:07:52 (*)   Elaborating CPU configuration settings
-Info: cpu: # 2021.11.04 19:07:52 (*)   Creating all objects for CPU
-Info: cpu: # 2021.11.04 19:07:52 (*)     Testbench
-Info: cpu: # 2021.11.04 19:07:52 (*)     Instruction decoding
-Info: cpu: # 2021.11.04 19:07:52 (*)       Instruction fields
-Info: cpu: # 2021.11.04 19:07:52 (*)       Instruction decodes
-Info: cpu: # 2021.11.04 19:07:52 (*)       Signals for RTL simulation waveforms
-Info: cpu: # 2021.11.04 19:07:52 (*)       Instruction controls
-Info: cpu: # 2021.11.04 19:07:52 (*)     Pipeline frontend
-Info: cpu: # 2021.11.04 19:07:52 (*)     Pipeline backend
-Info: cpu: # 2021.11.04 19:07:54 (*)   Generating RTL from CPU objects
-Info: cpu: # 2021.11.04 19:07:54 (*)   Creating plain-text RTL
-Info: cpu: # 2021.11.04 19:07:54 (*) Done Nios II generation
-Info: cpu: Done RTL generation for module 'unsaved_subsystemB_0_nios2_gen2_0_cpu'
+Info: cpu: Starting RTL generation for module 'unsaved_Nios2_B_nios2_gen2_0_cpu'
+Info: cpu:   Generation command is [exec C:/intelFPGA_lite/20.1/quartus/bin64//perl/bin/perl.exe -I C:/intelFPGA_lite/20.1/quartus/bin64//perl/lib -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/20.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/20.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/intelfpga_lite/20.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/intelfpga_lite/20.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/intelfpga_lite/20.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/intelfpga_lite/20.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.pl --name=unsaved_Nios2_B_nios2_gen2_0_cpu --dir=C:/Users/jguti/AppData/Local/Temp/alt8936_4350215832756491658.dir/0038_cpu_gen/ --quartus_bindir=C:/intelFPGA_lite/20.1/quartus/bin64/ --verilog --config=C:/Users/jguti/AppData/Local/Temp/alt8936_4350215832756491658.dir/0038_cpu_gen//unsaved_Nios2_B_nios2_gen2_0_cpu_processor_configuration.pl  --do_build_sim=0  ]
+Info: cpu: # 2021.11.04 21:35:52 (*) Starting Nios II generation
+Info: cpu: # 2021.11.04 21:35:52 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2021.11.04 21:35:52 (*)   Creating all objects for CPU
+Info: cpu: # 2021.11.04 21:35:52 (*)     Testbench
+Info: cpu: # 2021.11.04 21:35:52 (*)     Instruction decoding
+Info: cpu: # 2021.11.04 21:35:52 (*)       Instruction fields
+Info: cpu: # 2021.11.04 21:35:52 (*)       Instruction decodes
+Info: cpu: # 2021.11.04 21:35:53 (*)       Signals for RTL simulation waveforms
+Info: cpu: # 2021.11.04 21:35:53 (*)       Instruction controls
+Info: cpu: # 2021.11.04 21:35:53 (*)     Pipeline frontend
+Info: cpu: # 2021.11.04 21:35:53 (*)     Pipeline backend
+Info: cpu: # 2021.11.04 21:35:54 (*)   Generating RTL from CPU objects
+Info: cpu: # 2021.11.04 21:35:54 (*)   Creating plain-text RTL
+Info: cpu: # 2021.11.04 21:35:55 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'unsaved_Nios2_B_nios2_gen2_0_cpu'
 Info: cpu: "nios2_gen2_0" instantiated altera_nios2_gen2_unit "cpu"
 Info: Reusing file C:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/unsaved/synthesis/submodules/altera_nios2_gen2_rtl_module.sv
 Info: Reusing file C:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/unsaved/synthesis/submodules/altera_nios2_gen2_rtl_module.ocp

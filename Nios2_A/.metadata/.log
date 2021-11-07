@@ -1,0 +1,1046 @@
+!SESSION 2021-11-05 20:58:56.530 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_265
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/20.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/20.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini -clean
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2021-11-05 20:59:57.078
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-11-05 20:59:57.710
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\jguti'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-11-05 21:04:45.106
+!MESSAGE Indexed 'Nios2_A_bsp' (83 sources, 64 headers) in 5.87 sec: 1,217 declarations; 2,700 references; 113 unresolved inclusions; 6 syntax errors; 195 unresolved names (4.7%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2021-11-05 21:04:54.078
+!MESSAGE Indexed 'Nios2_A' (1 sources, 0 headers) in 0.017 sec: 1 declarations; 1 references; 1 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.core.jobs 4 2 2021-11-05 21:05:20.878
+!MESSAGE An internal error occurred during: "Computing Git status for repository ECE_150_Project".
+!STACK 0
+java.lang.InternalError: Should not get here
+	at sun.nio.fs.WindowsNativeDispatcher.CreateSymbolicLink0(Native Method)
+	at sun.nio.fs.WindowsNativeDispatcher.CreateSymbolicLink(WindowsNativeDispatcher.java:901)
+	at sun.nio.fs.WindowsFileSystemProvider.createSymbolicLink(WindowsFileSystemProvider.java:578)
+	at java.nio.file.Files.createSymbolicLink(Files.java:1043)
+	at org.eclipse.jgit.util.FileUtils.createSymLink(FileUtils.java:415)
+	at org.eclipse.jgit.util.FS.createSymLink(FS.java:704)
+	at org.eclipse.jgit.util.FS_Win32.detectSymlinkSupport(FS_Win32.java:171)
+	at org.eclipse.jgit.util.FS_Win32.supportsSymlinks(FS_Win32.java:162)
+	at org.eclipse.egit.core.ContainerTreeIterator$ResourceEntry.<init>(ContainerTreeIterator.java:299)
+	at org.eclipse.egit.core.ContainerTreeIterator.entries(ContainerTreeIterator.java:190)
+	at org.eclipse.egit.core.ContainerTreeIterator.<init>(ContainerTreeIterator.java:142)
+	at org.eclipse.egit.core.ContainerTreeIterator.<init>(ContainerTreeIterator.java:135)
+	at org.eclipse.egit.core.AdaptableFileTreeIterator.createSubtreeIterator(AdaptableFileTreeIterator.java:84)
+	at org.eclipse.jgit.treewalk.AbstractTreeIterator.createSubtreeIterator(AbstractTreeIterator.java:535)
+	at org.eclipse.jgit.treewalk.TreeWalk.enterSubtree(TreeWalk.java:924)
+	at org.eclipse.jgit.treewalk.TreeWalk.next(TreeWalk.java:578)
+	at org.eclipse.jgit.lib.IndexDiff.diff(IndexDiff.java:434)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry.calcIndexDiffDataFull(IndexDiffCacheEntry.java:543)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry.access$6(IndexDiffCacheEntry.java:532)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry$4.run(IndexDiffCacheEntry.java:292)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2021-11-05 21:05:20.880
+!MESSAGE An internal error occurred during: "Computing Git status for repository ECE_150_Project".
+!STACK 0
+java.lang.InternalError: Should not get here
+	at sun.nio.fs.WindowsNativeDispatcher.CreateSymbolicLink0(Native Method)
+	at sun.nio.fs.WindowsNativeDispatcher.CreateSymbolicLink(WindowsNativeDispatcher.java:901)
+	at sun.nio.fs.WindowsFileSystemProvider.createSymbolicLink(WindowsFileSystemProvider.java:578)
+	at java.nio.file.Files.createSymbolicLink(Files.java:1043)
+	at org.eclipse.jgit.util.FileUtils.createSymLink(FileUtils.java:415)
+	at org.eclipse.jgit.util.FS.createSymLink(FS.java:704)
+	at org.eclipse.jgit.util.FS_Win32.detectSymlinkSupport(FS_Win32.java:171)
+	at org.eclipse.jgit.util.FS_Win32.supportsSymlinks(FS_Win32.java:162)
+	at org.eclipse.egit.core.ContainerTreeIterator$ResourceEntry.<init>(ContainerTreeIterator.java:299)
+	at org.eclipse.egit.core.ContainerTreeIterator.entries(ContainerTreeIterator.java:190)
+	at org.eclipse.egit.core.ContainerTreeIterator.<init>(ContainerTreeIterator.java:142)
+	at org.eclipse.egit.core.ContainerTreeIterator.<init>(ContainerTreeIterator.java:135)
+	at org.eclipse.egit.core.AdaptableFileTreeIterator.createSubtreeIterator(AdaptableFileTreeIterator.java:84)
+	at org.eclipse.jgit.treewalk.AbstractTreeIterator.createSubtreeIterator(AbstractTreeIterator.java:535)
+	at org.eclipse.jgit.treewalk.TreeWalk.enterSubtree(TreeWalk.java:924)
+	at org.eclipse.jgit.treewalk.TreeWalk.next(TreeWalk.java:578)
+	at org.eclipse.jgit.lib.IndexDiff.diff(IndexDiff.java:434)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry.calcIndexDiffDataFull(IndexDiffCacheEntry.java:543)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry.access$6(IndexDiffCacheEntry.java:532)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry$4.run(IndexDiffCacheEntry.java:292)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2021-11-05 21:05:20.882
+!MESSAGE An internal error occurred during: "Computing Git status for repository ECE_150_Project".
+!STACK 0
+java.lang.InternalError: Should not get here
+	at sun.nio.fs.WindowsNativeDispatcher.CreateSymbolicLink0(Native Method)
+	at sun.nio.fs.WindowsNativeDispatcher.CreateSymbolicLink(WindowsNativeDispatcher.java:901)
+	at sun.nio.fs.WindowsFileSystemProvider.createSymbolicLink(WindowsFileSystemProvider.java:578)
+	at java.nio.file.Files.createSymbolicLink(Files.java:1043)
+	at org.eclipse.jgit.util.FileUtils.createSymLink(FileUtils.java:415)
+	at org.eclipse.jgit.util.FS.createSymLink(FS.java:704)
+	at org.eclipse.jgit.util.FS_Win32.detectSymlinkSupport(FS_Win32.java:171)
+	at org.eclipse.jgit.util.FS_Win32.supportsSymlinks(FS_Win32.java:162)
+	at org.eclipse.egit.core.ContainerTreeIterator$ResourceEntry.<init>(ContainerTreeIterator.java:299)
+	at org.eclipse.egit.core.ContainerTreeIterator.entries(ContainerTreeIterator.java:190)
+	at org.eclipse.egit.core.ContainerTreeIterator.<init>(ContainerTreeIterator.java:142)
+	at org.eclipse.egit.core.ContainerTreeIterator.<init>(ContainerTreeIterator.java:135)
+	at org.eclipse.egit.core.AdaptableFileTreeIterator.createSubtreeIterator(AdaptableFileTreeIterator.java:84)
+	at org.eclipse.jgit.treewalk.AbstractTreeIterator.createSubtreeIterator(AbstractTreeIterator.java:535)
+	at org.eclipse.jgit.treewalk.TreeWalk.enterSubtree(TreeWalk.java:924)
+	at org.eclipse.jgit.treewalk.TreeWalk.next(TreeWalk.java:578)
+	at org.eclipse.jgit.lib.IndexDiff.diff(IndexDiff.java:434)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry.calcIndexDiffDataFull(IndexDiffCacheEntry.java:543)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry.access$6(IndexDiffCacheEntry.java:532)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry$4.run(IndexDiffCacheEntry.java:292)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2021-11-05 21:05:20.884
+!MESSAGE An internal error occurred during: "Computing Git status for repository ECE_150_Project".
+!STACK 0
+java.lang.InternalError: Should not get here
+	at sun.nio.fs.WindowsNativeDispatcher.CreateSymbolicLink0(Native Method)
+	at sun.nio.fs.WindowsNativeDispatcher.CreateSymbolicLink(WindowsNativeDispatcher.java:901)
+	at sun.nio.fs.WindowsFileSystemProvider.createSymbolicLink(WindowsFileSystemProvider.java:578)
+	at java.nio.file.Files.createSymbolicLink(Files.java:1043)
+	at org.eclipse.jgit.util.FileUtils.createSymLink(FileUtils.java:415)
+	at org.eclipse.jgit.util.FS.createSymLink(FS.java:704)
+	at org.eclipse.jgit.util.FS_Win32.detectSymlinkSupport(FS_Win32.java:171)
+	at org.eclipse.jgit.util.FS_Win32.supportsSymlinks(FS_Win32.java:162)
+	at org.eclipse.egit.core.ContainerTreeIterator$ResourceEntry.<init>(ContainerTreeIterator.java:299)
+	at org.eclipse.egit.core.ContainerTreeIterator.entries(ContainerTreeIterator.java:190)
+	at org.eclipse.egit.core.ContainerTreeIterator.<init>(ContainerTreeIterator.java:142)
+	at org.eclipse.egit.core.ContainerTreeIterator.<init>(ContainerTreeIterator.java:135)
+	at org.eclipse.egit.core.AdaptableFileTreeIterator.createSubtreeIterator(AdaptableFileTreeIterator.java:84)
+	at org.eclipse.jgit.treewalk.AbstractTreeIterator.createSubtreeIterator(AbstractTreeIterator.java:535)
+	at org.eclipse.jgit.treewalk.TreeWalk.enterSubtree(TreeWalk.java:924)
+	at org.eclipse.jgit.treewalk.TreeWalk.next(TreeWalk.java:578)
+	at org.eclipse.jgit.lib.IndexDiff.diff(IndexDiff.java:434)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry.calcIndexDiffDataFull(IndexDiffCacheEntry.java:543)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry.access$6(IndexDiffCacheEntry.java:532)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry$4.run(IndexDiffCacheEntry.java:292)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2021-11-05 21:05:42.852
+!MESSAGE An internal error occurred during: "Computing Git status for repository ECE_150_Project".
+!STACK 0
+java.lang.InternalError: Should not get here
+	at sun.nio.fs.WindowsNativeDispatcher.CreateSymbolicLink0(Native Method)
+	at sun.nio.fs.WindowsNativeDispatcher.CreateSymbolicLink(WindowsNativeDispatcher.java:901)
+	at sun.nio.fs.WindowsFileSystemProvider.createSymbolicLink(WindowsFileSystemProvider.java:578)
+	at java.nio.file.Files.createSymbolicLink(Files.java:1043)
+	at org.eclipse.jgit.util.FileUtils.createSymLink(FileUtils.java:415)
+	at org.eclipse.jgit.util.FS.createSymLink(FS.java:704)
+	at org.eclipse.jgit.util.FS_Win32.detectSymlinkSupport(FS_Win32.java:171)
+	at org.eclipse.jgit.util.FS_Win32.supportsSymlinks(FS_Win32.java:162)
+	at org.eclipse.egit.core.ContainerTreeIterator$ResourceEntry.<init>(ContainerTreeIterator.java:299)
+	at org.eclipse.egit.core.ContainerTreeIterator.entries(ContainerTreeIterator.java:190)
+	at org.eclipse.egit.core.ContainerTreeIterator.<init>(ContainerTreeIterator.java:142)
+	at org.eclipse.egit.core.ContainerTreeIterator.<init>(ContainerTreeIterator.java:135)
+	at org.eclipse.egit.core.AdaptableFileTreeIterator.createSubtreeIterator(AdaptableFileTreeIterator.java:84)
+	at org.eclipse.jgit.treewalk.AbstractTreeIterator.createSubtreeIterator(AbstractTreeIterator.java:535)
+	at org.eclipse.jgit.treewalk.TreeWalk.enterSubtree(TreeWalk.java:924)
+	at org.eclipse.jgit.treewalk.TreeWalk.next(TreeWalk.java:578)
+	at org.eclipse.jgit.lib.IndexDiff.diff(IndexDiff.java:434)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry.calcIndexDiffDataFull(IndexDiffCacheEntry.java:543)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry.access$6(IndexDiffCacheEntry.java:532)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry$4.run(IndexDiffCacheEntry.java:292)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2021-11-05 21:07:58.102
+!MESSAGE An internal error occurred during: "Computing Git status for repository ECE_150_Project".
+!STACK 0
+java.lang.InternalError: Should not get here
+	at sun.nio.fs.WindowsNativeDispatcher.CreateSymbolicLink0(Native Method)
+	at sun.nio.fs.WindowsNativeDispatcher.CreateSymbolicLink(WindowsNativeDispatcher.java:901)
+	at sun.nio.fs.WindowsFileSystemProvider.createSymbolicLink(WindowsFileSystemProvider.java:578)
+	at java.nio.file.Files.createSymbolicLink(Files.java:1043)
+	at org.eclipse.jgit.util.FileUtils.createSymLink(FileUtils.java:415)
+	at org.eclipse.jgit.util.FS.createSymLink(FS.java:704)
+	at org.eclipse.jgit.util.FS_Win32.detectSymlinkSupport(FS_Win32.java:171)
+	at org.eclipse.jgit.util.FS_Win32.supportsSymlinks(FS_Win32.java:162)
+	at org.eclipse.egit.core.ContainerTreeIterator$ResourceEntry.<init>(ContainerTreeIterator.java:299)
+	at org.eclipse.egit.core.ContainerTreeIterator.entries(ContainerTreeIterator.java:190)
+	at org.eclipse.egit.core.ContainerTreeIterator.<init>(ContainerTreeIterator.java:142)
+	at org.eclipse.egit.core.ContainerTreeIterator.<init>(ContainerTreeIterator.java:135)
+	at org.eclipse.egit.core.AdaptableFileTreeIterator.createSubtreeIterator(AdaptableFileTreeIterator.java:84)
+	at org.eclipse.jgit.treewalk.AbstractTreeIterator.createSubtreeIterator(AbstractTreeIterator.java:535)
+	at org.eclipse.jgit.treewalk.TreeWalk.enterSubtree(TreeWalk.java:924)
+	at org.eclipse.jgit.treewalk.TreeWalk.next(TreeWalk.java:578)
+	at org.eclipse.jgit.lib.IndexDiff.diff(IndexDiff.java:434)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry.calcIndexDiffDataFull(IndexDiffCacheEntry.java:543)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry.access$6(IndexDiffCacheEntry.java:532)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry$4.run(IndexDiffCacheEntry.java:292)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2021-11-05 21:07:58.106
+!MESSAGE An internal error occurred during: "Computing Git status for repository ECE_150_Project".
+!STACK 0
+java.lang.InternalError: Should not get here
+	at sun.nio.fs.WindowsNativeDispatcher.CreateSymbolicLink0(Native Method)
+	at sun.nio.fs.WindowsNativeDispatcher.CreateSymbolicLink(WindowsNativeDispatcher.java:901)
+	at sun.nio.fs.WindowsFileSystemProvider.createSymbolicLink(WindowsFileSystemProvider.java:578)
+	at java.nio.file.Files.createSymbolicLink(Files.java:1043)
+	at org.eclipse.jgit.util.FileUtils.createSymLink(FileUtils.java:415)
+	at org.eclipse.jgit.util.FS.createSymLink(FS.java:704)
+	at org.eclipse.jgit.util.FS_Win32.detectSymlinkSupport(FS_Win32.java:171)
+	at org.eclipse.jgit.util.FS_Win32.supportsSymlinks(FS_Win32.java:162)
+	at org.eclipse.egit.core.ContainerTreeIterator$ResourceEntry.<init>(ContainerTreeIterator.java:299)
+	at org.eclipse.egit.core.ContainerTreeIterator.entries(ContainerTreeIterator.java:190)
+	at org.eclipse.egit.core.ContainerTreeIterator.<init>(ContainerTreeIterator.java:142)
+	at org.eclipse.egit.core.ContainerTreeIterator.<init>(ContainerTreeIterator.java:135)
+	at org.eclipse.egit.core.AdaptableFileTreeIterator.createSubtreeIterator(AdaptableFileTreeIterator.java:84)
+	at org.eclipse.jgit.treewalk.AbstractTreeIterator.createSubtreeIterator(AbstractTreeIterator.java:535)
+	at org.eclipse.jgit.treewalk.TreeWalk.enterSubtree(TreeWalk.java:924)
+	at org.eclipse.jgit.treewalk.TreeWalk.next(TreeWalk.java:578)
+	at org.eclipse.jgit.lib.IndexDiff.diff(IndexDiff.java:434)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry.calcIndexDiffDataFull(IndexDiffCacheEntry.java:543)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry.access$6(IndexDiffCacheEntry.java:532)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry$4.run(IndexDiffCacheEntry.java:292)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2021-11-05 21:08:08.052
+!MESSAGE An internal error occurred during: "Computing Git status for repository ECE_150_Project".
+!STACK 0
+java.lang.InternalError: Should not get here
+	at sun.nio.fs.WindowsNativeDispatcher.CreateSymbolicLink0(Native Method)
+	at sun.nio.fs.WindowsNativeDispatcher.CreateSymbolicLink(WindowsNativeDispatcher.java:901)
+	at sun.nio.fs.WindowsFileSystemProvider.createSymbolicLink(WindowsFileSystemProvider.java:578)
+	at java.nio.file.Files.createSymbolicLink(Files.java:1043)
+	at org.eclipse.jgit.util.FileUtils.createSymLink(FileUtils.java:415)
+	at org.eclipse.jgit.util.FS.createSymLink(FS.java:704)
+	at org.eclipse.jgit.util.FS_Win32.detectSymlinkSupport(FS_Win32.java:171)
+	at org.eclipse.jgit.util.FS_Win32.supportsSymlinks(FS_Win32.java:162)
+	at org.eclipse.egit.core.ContainerTreeIterator$ResourceEntry.<init>(ContainerTreeIterator.java:299)
+	at org.eclipse.egit.core.ContainerTreeIterator.entries(ContainerTreeIterator.java:190)
+	at org.eclipse.egit.core.ContainerTreeIterator.<init>(ContainerTreeIterator.java:142)
+	at org.eclipse.egit.core.ContainerTreeIterator.<init>(ContainerTreeIterator.java:135)
+	at org.eclipse.egit.core.AdaptableFileTreeIterator.createSubtreeIterator(AdaptableFileTreeIterator.java:84)
+	at org.eclipse.jgit.treewalk.AbstractTreeIterator.createSubtreeIterator(AbstractTreeIterator.java:535)
+	at org.eclipse.jgit.treewalk.TreeWalk.enterSubtree(TreeWalk.java:924)
+	at org.eclipse.jgit.treewalk.TreeWalk.next(TreeWalk.java:578)
+	at org.eclipse.jgit.lib.IndexDiff.diff(IndexDiff.java:434)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry.calcIndexDiffDataFull(IndexDiffCacheEntry.java:543)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry.access$6(IndexDiffCacheEntry.java:532)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry$4.run(IndexDiffCacheEntry.java:292)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2021-11-05 21:08:39.684
+!MESSAGE An internal error occurred during: "Computing Git status for repository ECE_150_Project".
+!STACK 0
+java.lang.InternalError: Should not get here
+	at sun.nio.fs.WindowsNativeDispatcher.CreateSymbolicLink0(Native Method)
+	at sun.nio.fs.WindowsNativeDispatcher.CreateSymbolicLink(WindowsNativeDispatcher.java:901)
+	at sun.nio.fs.WindowsFileSystemProvider.createSymbolicLink(WindowsFileSystemProvider.java:578)
+	at java.nio.file.Files.createSymbolicLink(Files.java:1043)
+	at org.eclipse.jgit.util.FileUtils.createSymLink(FileUtils.java:415)
+	at org.eclipse.jgit.util.FS.createSymLink(FS.java:704)
+	at org.eclipse.jgit.util.FS_Win32.detectSymlinkSupport(FS_Win32.java:171)
+	at org.eclipse.jgit.util.FS_Win32.supportsSymlinks(FS_Win32.java:162)
+	at org.eclipse.egit.core.ContainerTreeIterator$ResourceEntry.<init>(ContainerTreeIterator.java:299)
+	at org.eclipse.egit.core.ContainerTreeIterator.entries(ContainerTreeIterator.java:190)
+	at org.eclipse.egit.core.ContainerTreeIterator.<init>(ContainerTreeIterator.java:142)
+	at org.eclipse.egit.core.ContainerTreeIterator.<init>(ContainerTreeIterator.java:135)
+	at org.eclipse.egit.core.AdaptableFileTreeIterator.createSubtreeIterator(AdaptableFileTreeIterator.java:84)
+	at org.eclipse.jgit.treewalk.AbstractTreeIterator.createSubtreeIterator(AbstractTreeIterator.java:535)
+	at org.eclipse.jgit.treewalk.TreeWalk.enterSubtree(TreeWalk.java:924)
+	at org.eclipse.jgit.treewalk.TreeWalk.next(TreeWalk.java:578)
+	at org.eclipse.jgit.lib.IndexDiff.diff(IndexDiff.java:434)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry.calcIndexDiffDataFull(IndexDiffCacheEntry.java:543)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry.access$6(IndexDiffCacheEntry.java:532)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry$4.run(IndexDiffCacheEntry.java:292)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2021-11-05 21:09:29.859
+!MESSAGE An internal error occurred during: "Computing Git status for repository ECE_150_Project".
+!STACK 0
+java.lang.InternalError: Should not get here
+	at sun.nio.fs.WindowsNativeDispatcher.CreateSymbolicLink0(Native Method)
+	at sun.nio.fs.WindowsNativeDispatcher.CreateSymbolicLink(WindowsNativeDispatcher.java:901)
+	at sun.nio.fs.WindowsFileSystemProvider.createSymbolicLink(WindowsFileSystemProvider.java:578)
+	at java.nio.file.Files.createSymbolicLink(Files.java:1043)
+	at org.eclipse.jgit.util.FileUtils.createSymLink(FileUtils.java:415)
+	at org.eclipse.jgit.util.FS.createSymLink(FS.java:704)
+	at org.eclipse.jgit.util.FS_Win32.detectSymlinkSupport(FS_Win32.java:171)
+	at org.eclipse.jgit.util.FS_Win32.supportsSymlinks(FS_Win32.java:162)
+	at org.eclipse.egit.core.ContainerTreeIterator$ResourceEntry.<init>(ContainerTreeIterator.java:299)
+	at org.eclipse.egit.core.ContainerTreeIterator.entries(ContainerTreeIterator.java:190)
+	at org.eclipse.egit.core.ContainerTreeIterator.<init>(ContainerTreeIterator.java:142)
+	at org.eclipse.egit.core.ContainerTreeIterator.<init>(ContainerTreeIterator.java:135)
+	at org.eclipse.egit.core.AdaptableFileTreeIterator.createSubtreeIterator(AdaptableFileTreeIterator.java:84)
+	at org.eclipse.jgit.treewalk.AbstractTreeIterator.createSubtreeIterator(AbstractTreeIterator.java:535)
+	at org.eclipse.jgit.treewalk.TreeWalk.enterSubtree(TreeWalk.java:924)
+	at org.eclipse.jgit.treewalk.TreeWalk.next(TreeWalk.java:578)
+	at org.eclipse.jgit.lib.IndexDiff.diff(IndexDiff.java:434)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry.calcIndexDiffDataFull(IndexDiffCacheEntry.java:543)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry.access$6(IndexDiffCacheEntry.java:532)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry$4.run(IndexDiffCacheEntry.java:292)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-05 21:09:42.576
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, wsl nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x10001100 --id=0x0 --timestamp=1636086916]
+
+!ENTRY org.eclipse.core.jobs 4 2 2021-11-05 21:09:42.784
+!MESSAGE An internal error occurred during: "Computing Git status for repository ECE_150_Project".
+!STACK 0
+java.lang.InternalError: Should not get here
+	at sun.nio.fs.WindowsNativeDispatcher.CreateSymbolicLink0(Native Method)
+	at sun.nio.fs.WindowsNativeDispatcher.CreateSymbolicLink(WindowsNativeDispatcher.java:901)
+	at sun.nio.fs.WindowsFileSystemProvider.createSymbolicLink(WindowsFileSystemProvider.java:578)
+	at java.nio.file.Files.createSymbolicLink(Files.java:1043)
+	at org.eclipse.jgit.util.FileUtils.createSymLink(FileUtils.java:415)
+	at org.eclipse.jgit.util.FS.createSymLink(FS.java:704)
+	at org.eclipse.jgit.util.FS_Win32.detectSymlinkSupport(FS_Win32.java:171)
+	at org.eclipse.jgit.util.FS_Win32.supportsSymlinks(FS_Win32.java:162)
+	at org.eclipse.egit.core.ContainerTreeIterator$ResourceEntry.<init>(ContainerTreeIterator.java:299)
+	at org.eclipse.egit.core.ContainerTreeIterator.entries(ContainerTreeIterator.java:190)
+	at org.eclipse.egit.core.ContainerTreeIterator.<init>(ContainerTreeIterator.java:142)
+	at org.eclipse.egit.core.ContainerTreeIterator.<init>(ContainerTreeIterator.java:135)
+	at org.eclipse.egit.core.AdaptableFileTreeIterator.createSubtreeIterator(AdaptableFileTreeIterator.java:84)
+	at org.eclipse.jgit.treewalk.AbstractTreeIterator.createSubtreeIterator(AbstractTreeIterator.java:535)
+	at org.eclipse.jgit.treewalk.TreeWalk.enterSubtree(TreeWalk.java:924)
+	at org.eclipse.jgit.treewalk.TreeWalk.next(TreeWalk.java:578)
+	at org.eclipse.jgit.lib.IndexDiff.diff(IndexDiff.java:434)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry.calcIndexDiffDataFull(IndexDiffCacheEntry.java:543)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry.access$6(IndexDiffCacheEntry.java:532)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry$4.run(IndexDiffCacheEntry.java:292)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2021-11-05 21:09:45.724
+!MESSAGE ELF file not specified for download for Nios2_A Nios II Hardware configuration
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-05 21:10:26.952
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, wsl nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x10001100 --id=0x0 --timestamp=1636086916]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-05 21:10:29.113
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, wsl nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x10001100 --id=0x0 --timestamp=1636086916 /mnt/c/Users/jguti/OneDrive/Desktop/ECE_150_Project/ECE_150_Project/software/Nios2_A/Nios2_A.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-05 21:11:49.468
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-05 21:11:51.177
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, wsl nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x10001100 --id=0x0 --timestamp=1636086916]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-05 21:11:53.489
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, wsl nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x10001100 --id=0x0 --timestamp=1636086916 /mnt/c/Users/jguti/OneDrive/Desktop/ECE_150_Project/ECE_150_Project/software/Nios2_A/Nios2_A.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-05 21:14:05.116
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-05 21:14:06.187
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, wsl nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x10001100 --id=0x0 --timestamp=1636086916]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-05 21:14:08.490
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, wsl nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x10001100 --id=0x0 --timestamp=1636086916 /mnt/c/Users/jguti/OneDrive/Desktop/ECE_150_Project/ECE_150_Project/software/Nios2_A/Nios2_A.elf]
+
+!ENTRY org.eclipse.core.jobs 4 2 2021-11-05 21:14:11.588
+!MESSAGE An internal error occurred during: "Computing Git status for repository ECE_150_Project".
+!STACK 0
+java.lang.InternalError: Should not get here
+	at sun.nio.fs.WindowsNativeDispatcher.CreateSymbolicLink0(Native Method)
+	at sun.nio.fs.WindowsNativeDispatcher.CreateSymbolicLink(WindowsNativeDispatcher.java:901)
+	at sun.nio.fs.WindowsFileSystemProvider.createSymbolicLink(WindowsFileSystemProvider.java:578)
+	at java.nio.file.Files.createSymbolicLink(Files.java:1043)
+	at org.eclipse.jgit.util.FileUtils.createSymLink(FileUtils.java:415)
+	at org.eclipse.jgit.util.FS.createSymLink(FS.java:704)
+	at org.eclipse.jgit.util.FS_Win32.detectSymlinkSupport(FS_Win32.java:171)
+	at org.eclipse.jgit.util.FS_Win32.supportsSymlinks(FS_Win32.java:162)
+	at org.eclipse.egit.core.ContainerTreeIterator$ResourceEntry.<init>(ContainerTreeIterator.java:299)
+	at org.eclipse.egit.core.ContainerTreeIterator.entries(ContainerTreeIterator.java:190)
+	at org.eclipse.egit.core.ContainerTreeIterator.<init>(ContainerTreeIterator.java:142)
+	at org.eclipse.egit.core.ContainerTreeIterator.<init>(ContainerTreeIterator.java:135)
+	at org.eclipse.egit.core.AdaptableFileTreeIterator.createSubtreeIterator(AdaptableFileTreeIterator.java:84)
+	at org.eclipse.jgit.treewalk.AbstractTreeIterator.createSubtreeIterator(AbstractTreeIterator.java:535)
+	at org.eclipse.jgit.treewalk.TreeWalk.enterSubtree(TreeWalk.java:924)
+	at org.eclipse.jgit.treewalk.TreeWalk.next(TreeWalk.java:578)
+	at org.eclipse.jgit.lib.IndexDiff.diff(IndexDiff.java:434)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry.calcIndexDiffDataFull(IndexDiffCacheEntry.java:543)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry.access$6(IndexDiffCacheEntry.java:532)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry$4.run(IndexDiffCacheEntry.java:292)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2021-11-06 00:38:45.974 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_265
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/20.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/20.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini -clean
+
+!ENTRY org.eclipse.core.resources 2 10035 2021-11-06 00:39:01.420
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2021-11-06 00:39:18.894
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-11-06 00:39:20.338
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\jguti'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.jobs 4 2 2021-11-06 00:39:55.863
+!MESSAGE An internal error occurred during: "Computing Git status for repository ECE_150_Project".
+!STACK 0
+java.lang.InternalError: Should not get here
+	at sun.nio.fs.WindowsNativeDispatcher.CreateSymbolicLink0(Native Method)
+	at sun.nio.fs.WindowsNativeDispatcher.CreateSymbolicLink(WindowsNativeDispatcher.java:901)
+	at sun.nio.fs.WindowsFileSystemProvider.createSymbolicLink(WindowsFileSystemProvider.java:578)
+	at java.nio.file.Files.createSymbolicLink(Files.java:1043)
+	at org.eclipse.jgit.util.FileUtils.createSymLink(FileUtils.java:415)
+	at org.eclipse.jgit.util.FS.createSymLink(FS.java:704)
+	at org.eclipse.jgit.util.FS_Win32.detectSymlinkSupport(FS_Win32.java:171)
+	at org.eclipse.jgit.util.FS_Win32.supportsSymlinks(FS_Win32.java:162)
+	at org.eclipse.egit.core.ContainerTreeIterator$ResourceEntry.<init>(ContainerTreeIterator.java:299)
+	at org.eclipse.egit.core.ContainerTreeIterator.entries(ContainerTreeIterator.java:190)
+	at org.eclipse.egit.core.ContainerTreeIterator.<init>(ContainerTreeIterator.java:142)
+	at org.eclipse.egit.core.ContainerTreeIterator.<init>(ContainerTreeIterator.java:135)
+	at org.eclipse.egit.core.AdaptableFileTreeIterator.createSubtreeIterator(AdaptableFileTreeIterator.java:84)
+	at org.eclipse.jgit.treewalk.AbstractTreeIterator.createSubtreeIterator(AbstractTreeIterator.java:535)
+	at org.eclipse.jgit.treewalk.TreeWalk.enterSubtree(TreeWalk.java:924)
+	at org.eclipse.jgit.treewalk.TreeWalk.next(TreeWalk.java:578)
+	at org.eclipse.jgit.lib.IndexDiff.diff(IndexDiff.java:434)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry.calcIndexDiffDataFull(IndexDiffCacheEntry.java:543)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry.access$6(IndexDiffCacheEntry.java:532)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry$4.run(IndexDiffCacheEntry.java:292)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2021-11-06 00:39:55.866
+!MESSAGE An internal error occurred during: "Computing Git status for repository ECE_150_Project".
+!STACK 0
+java.lang.InternalError: Should not get here
+	at sun.nio.fs.WindowsNativeDispatcher.CreateSymbolicLink0(Native Method)
+	at sun.nio.fs.WindowsNativeDispatcher.CreateSymbolicLink(WindowsNativeDispatcher.java:901)
+	at sun.nio.fs.WindowsFileSystemProvider.createSymbolicLink(WindowsFileSystemProvider.java:578)
+	at java.nio.file.Files.createSymbolicLink(Files.java:1043)
+	at org.eclipse.jgit.util.FileUtils.createSymLink(FileUtils.java:415)
+	at org.eclipse.jgit.util.FS.createSymLink(FS.java:704)
+	at org.eclipse.jgit.util.FS_Win32.detectSymlinkSupport(FS_Win32.java:171)
+	at org.eclipse.jgit.util.FS_Win32.supportsSymlinks(FS_Win32.java:162)
+	at org.eclipse.egit.core.ContainerTreeIterator$ResourceEntry.<init>(ContainerTreeIterator.java:299)
+	at org.eclipse.egit.core.ContainerTreeIterator.entries(ContainerTreeIterator.java:190)
+	at org.eclipse.egit.core.ContainerTreeIterator.<init>(ContainerTreeIterator.java:142)
+	at org.eclipse.egit.core.ContainerTreeIterator.<init>(ContainerTreeIterator.java:135)
+	at org.eclipse.egit.core.AdaptableFileTreeIterator.createSubtreeIterator(AdaptableFileTreeIterator.java:84)
+	at org.eclipse.jgit.treewalk.AbstractTreeIterator.createSubtreeIterator(AbstractTreeIterator.java:535)
+	at org.eclipse.jgit.treewalk.TreeWalk.enterSubtree(TreeWalk.java:924)
+	at org.eclipse.jgit.treewalk.TreeWalk.next(TreeWalk.java:578)
+	at org.eclipse.jgit.lib.IndexDiff.diff(IndexDiff.java:434)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry.calcIndexDiffDataFull(IndexDiffCacheEntry.java:543)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry.access$6(IndexDiffCacheEntry.java:532)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry$4.run(IndexDiffCacheEntry.java:292)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-06 00:40:11.918
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, wsl nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x10001100 --id=0x0 --timestamp=1636086916]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-06 00:40:14.547
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, wsl nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x10001100 --id=0x0 --timestamp=1636086916 /mnt/c/Users/jguti/OneDrive/Desktop/ECE_150_Project/ECE_150_Project/software/Nios2_A/Nios2_A.elf]
+
+!ENTRY org.eclipse.core.jobs 4 2 2021-11-06 23:58:19.816
+!MESSAGE An internal error occurred during: "Computing Git status for repository ECE_150_Project".
+!STACK 0
+java.lang.InternalError: Should not get here
+	at sun.nio.fs.WindowsNativeDispatcher.CreateSymbolicLink0(Native Method)
+	at sun.nio.fs.WindowsNativeDispatcher.CreateSymbolicLink(WindowsNativeDispatcher.java:901)
+	at sun.nio.fs.WindowsFileSystemProvider.createSymbolicLink(WindowsFileSystemProvider.java:578)
+	at java.nio.file.Files.createSymbolicLink(Files.java:1043)
+	at org.eclipse.jgit.util.FileUtils.createSymLink(FileUtils.java:415)
+	at org.eclipse.jgit.util.FS.createSymLink(FS.java:704)
+	at org.eclipse.jgit.util.FS_Win32.detectSymlinkSupport(FS_Win32.java:171)
+	at org.eclipse.jgit.util.FS_Win32.supportsSymlinks(FS_Win32.java:162)
+	at org.eclipse.egit.core.ContainerTreeIterator$ResourceEntry.<init>(ContainerTreeIterator.java:299)
+	at org.eclipse.egit.core.ContainerTreeIterator.entries(ContainerTreeIterator.java:190)
+	at org.eclipse.egit.core.ContainerTreeIterator.<init>(ContainerTreeIterator.java:142)
+	at org.eclipse.egit.core.ContainerTreeIterator.<init>(ContainerTreeIterator.java:135)
+	at org.eclipse.egit.core.AdaptableFileTreeIterator.createSubtreeIterator(AdaptableFileTreeIterator.java:84)
+	at org.eclipse.jgit.treewalk.AbstractTreeIterator.createSubtreeIterator(AbstractTreeIterator.java:535)
+	at org.eclipse.jgit.treewalk.TreeWalk.enterSubtree(TreeWalk.java:924)
+	at org.eclipse.jgit.treewalk.TreeWalk.next(TreeWalk.java:578)
+	at org.eclipse.jgit.lib.IndexDiff.diff(IndexDiff.java:434)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry.calcIndexDiffDataFull(IndexDiffCacheEntry.java:543)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry.access$6(IndexDiffCacheEntry.java:532)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry$4.run(IndexDiffCacheEntry.java:292)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2021-11-07 03:45:58.725
+!MESSAGE An internal error occurred during: "Computing Git status for repository ECE_150_Project".
+!STACK 0
+java.lang.InternalError: Should not get here
+	at sun.nio.fs.WindowsNativeDispatcher.CreateSymbolicLink0(Native Method)
+	at sun.nio.fs.WindowsNativeDispatcher.CreateSymbolicLink(WindowsNativeDispatcher.java:901)
+	at sun.nio.fs.WindowsFileSystemProvider.createSymbolicLink(WindowsFileSystemProvider.java:578)
+	at java.nio.file.Files.createSymbolicLink(Files.java:1043)
+	at org.eclipse.jgit.util.FileUtils.createSymLink(FileUtils.java:415)
+	at org.eclipse.jgit.util.FS.createSymLink(FS.java:704)
+	at org.eclipse.jgit.util.FS_Win32.detectSymlinkSupport(FS_Win32.java:171)
+	at org.eclipse.jgit.util.FS_Win32.supportsSymlinks(FS_Win32.java:162)
+	at org.eclipse.egit.core.ContainerTreeIterator$ResourceEntry.<init>(ContainerTreeIterator.java:299)
+	at org.eclipse.egit.core.ContainerTreeIterator.entries(ContainerTreeIterator.java:190)
+	at org.eclipse.egit.core.ContainerTreeIterator.<init>(ContainerTreeIterator.java:142)
+	at org.eclipse.egit.core.ContainerTreeIterator.<init>(ContainerTreeIterator.java:135)
+	at org.eclipse.egit.core.AdaptableFileTreeIterator.createSubtreeIterator(AdaptableFileTreeIterator.java:84)
+	at org.eclipse.jgit.treewalk.AbstractTreeIterator.createSubtreeIterator(AbstractTreeIterator.java:535)
+	at org.eclipse.jgit.treewalk.TreeWalk.enterSubtree(TreeWalk.java:924)
+	at org.eclipse.jgit.treewalk.TreeWalk.next(TreeWalk.java:578)
+	at org.eclipse.jgit.lib.IndexDiff.diff(IndexDiff.java:434)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry.calcIndexDiffDataFull(IndexDiffCacheEntry.java:543)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry.access$6(IndexDiffCacheEntry.java:532)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry$4.run(IndexDiffCacheEntry.java:292)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2021-11-07 03:46:11.348
+!MESSAGE An internal error occurred during: "Computing Git status for repository ECE_150_Project".
+!STACK 0
+java.lang.InternalError: Should not get here
+	at sun.nio.fs.WindowsNativeDispatcher.CreateSymbolicLink0(Native Method)
+	at sun.nio.fs.WindowsNativeDispatcher.CreateSymbolicLink(WindowsNativeDispatcher.java:901)
+	at sun.nio.fs.WindowsFileSystemProvider.createSymbolicLink(WindowsFileSystemProvider.java:578)
+	at java.nio.file.Files.createSymbolicLink(Files.java:1043)
+	at org.eclipse.jgit.util.FileUtils.createSymLink(FileUtils.java:415)
+	at org.eclipse.jgit.util.FS.createSymLink(FS.java:704)
+	at org.eclipse.jgit.util.FS_Win32.detectSymlinkSupport(FS_Win32.java:171)
+	at org.eclipse.jgit.util.FS_Win32.supportsSymlinks(FS_Win32.java:162)
+	at org.eclipse.egit.core.ContainerTreeIterator$ResourceEntry.<init>(ContainerTreeIterator.java:299)
+	at org.eclipse.egit.core.ContainerTreeIterator.entries(ContainerTreeIterator.java:190)
+	at org.eclipse.egit.core.ContainerTreeIterator.<init>(ContainerTreeIterator.java:142)
+	at org.eclipse.egit.core.ContainerTreeIterator.<init>(ContainerTreeIterator.java:135)
+	at org.eclipse.egit.core.AdaptableFileTreeIterator.createSubtreeIterator(AdaptableFileTreeIterator.java:84)
+	at org.eclipse.jgit.treewalk.AbstractTreeIterator.createSubtreeIterator(AbstractTreeIterator.java:535)
+	at org.eclipse.jgit.treewalk.TreeWalk.enterSubtree(TreeWalk.java:924)
+	at org.eclipse.jgit.treewalk.TreeWalk.next(TreeWalk.java:578)
+	at org.eclipse.jgit.lib.IndexDiff.diff(IndexDiff.java:434)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry.calcIndexDiffDataFull(IndexDiffCacheEntry.java:543)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry.access$6(IndexDiffCacheEntry.java:532)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry$4.run(IndexDiffCacheEntry.java:292)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2021-11-07 03:46:18.361
+!MESSAGE An internal error occurred during: "Computing Git status for repository ECE_150_Project".
+!STACK 0
+java.lang.InternalError: Should not get here
+	at sun.nio.fs.WindowsNativeDispatcher.CreateSymbolicLink0(Native Method)
+	at sun.nio.fs.WindowsNativeDispatcher.CreateSymbolicLink(WindowsNativeDispatcher.java:901)
+	at sun.nio.fs.WindowsFileSystemProvider.createSymbolicLink(WindowsFileSystemProvider.java:578)
+	at java.nio.file.Files.createSymbolicLink(Files.java:1043)
+	at org.eclipse.jgit.util.FileUtils.createSymLink(FileUtils.java:415)
+	at org.eclipse.jgit.util.FS.createSymLink(FS.java:704)
+	at org.eclipse.jgit.util.FS_Win32.detectSymlinkSupport(FS_Win32.java:171)
+	at org.eclipse.jgit.util.FS_Win32.supportsSymlinks(FS_Win32.java:162)
+	at org.eclipse.egit.core.ContainerTreeIterator$ResourceEntry.<init>(ContainerTreeIterator.java:299)
+	at org.eclipse.egit.core.ContainerTreeIterator.entries(ContainerTreeIterator.java:190)
+	at org.eclipse.egit.core.ContainerTreeIterator.<init>(ContainerTreeIterator.java:142)
+	at org.eclipse.egit.core.ContainerTreeIterator.<init>(ContainerTreeIterator.java:135)
+	at org.eclipse.egit.core.AdaptableFileTreeIterator.createSubtreeIterator(AdaptableFileTreeIterator.java:84)
+	at org.eclipse.jgit.treewalk.AbstractTreeIterator.createSubtreeIterator(AbstractTreeIterator.java:535)
+	at org.eclipse.jgit.treewalk.TreeWalk.enterSubtree(TreeWalk.java:924)
+	at org.eclipse.jgit.treewalk.TreeWalk.next(TreeWalk.java:578)
+	at org.eclipse.jgit.lib.IndexDiff.diff(IndexDiff.java:434)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry.calcIndexDiffDataFull(IndexDiffCacheEntry.java:543)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry.access$6(IndexDiffCacheEntry.java:532)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry$4.run(IndexDiffCacheEntry.java:292)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.core.jobs 4 2 2021-11-07 03:46:47.571
+!MESSAGE An internal error occurred during: "Computing Git status for repository ECE_150_Project".
+!STACK 0
+java.lang.InternalError: Should not get here
+	at sun.nio.fs.WindowsNativeDispatcher.CreateSymbolicLink0(Native Method)
+	at sun.nio.fs.WindowsNativeDispatcher.CreateSymbolicLink(WindowsNativeDispatcher.java:901)
+	at sun.nio.fs.WindowsFileSystemProvider.createSymbolicLink(WindowsFileSystemProvider.java:578)
+	at java.nio.file.Files.createSymbolicLink(Files.java:1043)
+	at org.eclipse.jgit.util.FileUtils.createSymLink(FileUtils.java:415)
+	at org.eclipse.jgit.util.FS.createSymLink(FS.java:704)
+	at org.eclipse.jgit.util.FS_Win32.detectSymlinkSupport(FS_Win32.java:171)
+	at org.eclipse.jgit.util.FS_Win32.supportsSymlinks(FS_Win32.java:162)
+	at org.eclipse.egit.core.ContainerTreeIterator$ResourceEntry.<init>(ContainerTreeIterator.java:299)
+	at org.eclipse.egit.core.ContainerTreeIterator.entries(ContainerTreeIterator.java:190)
+	at org.eclipse.egit.core.ContainerTreeIterator.<init>(ContainerTreeIterator.java:142)
+	at org.eclipse.egit.core.ContainerTreeIterator.<init>(ContainerTreeIterator.java:135)
+	at org.eclipse.egit.core.AdaptableFileTreeIterator.createSubtreeIterator(AdaptableFileTreeIterator.java:84)
+	at org.eclipse.jgit.treewalk.AbstractTreeIterator.createSubtreeIterator(AbstractTreeIterator.java:535)
+	at org.eclipse.jgit.treewalk.TreeWalk.enterSubtree(TreeWalk.java:924)
+	at org.eclipse.jgit.treewalk.TreeWalk.next(TreeWalk.java:578)
+	at org.eclipse.jgit.lib.IndexDiff.diff(IndexDiff.java:434)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry.calcIndexDiffDataFull(IndexDiffCacheEntry.java:543)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry.access$6(IndexDiffCacheEntry.java:532)
+	at org.eclipse.egit.core.internal.indexdiff.IndexDiffCacheEntry$4.run(IndexDiffCacheEntry.java:292)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2021-11-07 03:47:17.766 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_265
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/20.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/20.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini -clean
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2021-11-07 03:48:11.003
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-11-07 03:48:11.395
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\jguti'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.core 4 0 2021-11-07 03:48:11.428
+!MESSAGE Remove repository mapping of Git mapped resource for which project or mapped git repository has disappeared: 'RepositoryMapping[<empty> -> '../../.git', absolute path: 'C:/Users/jguti/OneDrive/Desktop/ECE_150_Project/ECE_150_Project/.git' ]'
+!STACK 0
+java.io.FileNotFoundException: 
+	at org.eclipse.egit.core.project.GitProjectData.logAndUnmapGoneMappedResource(GitProjectData.java:544)
+	at org.eclipse.egit.core.project.GitProjectData.map(GitProjectData.java:510)
+	at org.eclipse.egit.core.project.GitProjectData.remapAll(GitProjectData.java:479)
+	at org.eclipse.egit.core.project.GitProjectData.load(GitProjectData.java:472)
+	at org.eclipse.egit.core.project.GitProjectData.get(GitProjectData.java:210)
+	at org.eclipse.egit.core.GitProvider.getData(GitProvider.java:103)
+	at org.eclipse.egit.core.project.RepositoryMapping.getMapping(RepositoryMapping.java:374)
+	at org.eclipse.egit.core.project.RepositoryMapping.getMapping(RepositoryMapping.java:349)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.getIndexDiffDataOrNull(GitLightweightDecorator.java:233)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorateResource(GitLightweightDecorator.java:203)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorate(GitLightweightDecorator.java:184)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:267)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:83)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:367)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:349)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:372)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:332)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.egit.core 4 0 2021-11-07 03:48:11.438
+!MESSAGE Remove repository mapping of Git mapped resource for which project or mapped git repository has disappeared: 'RepositoryMapping[<empty> -> '../../.git', absolute path: 'C:/Users/jguti/OneDrive/Desktop/ECE_150_Project/ECE_150_Project/.git' ]'
+!STACK 0
+java.io.FileNotFoundException: 
+	at org.eclipse.egit.core.project.GitProjectData.logAndUnmapGoneMappedResource(GitProjectData.java:544)
+	at org.eclipse.egit.core.project.GitProjectData.map(GitProjectData.java:510)
+	at org.eclipse.egit.core.project.GitProjectData.remapAll(GitProjectData.java:479)
+	at org.eclipse.egit.core.project.GitProjectData.load(GitProjectData.java:472)
+	at org.eclipse.egit.core.project.GitProjectData.get(GitProjectData.java:210)
+	at org.eclipse.egit.core.GitProvider.getData(GitProvider.java:103)
+	at org.eclipse.egit.core.project.RepositoryMapping.getMapping(RepositoryMapping.java:374)
+	at org.eclipse.egit.core.project.RepositoryMapping.getMapping(RepositoryMapping.java:349)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.getIndexDiffDataOrNull(GitLightweightDecorator.java:233)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorateResource(GitLightweightDecorator.java:203)
+	at org.eclipse.egit.ui.internal.decorators.GitLightweightDecorator.decorate(GitLightweightDecorator.java:184)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:267)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:83)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:367)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:349)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:372)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:332)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.egit.core 4 0 2021-11-07 03:49:55.411
+!MESSAGE Remove repository mapping of Git mapped resource for which project or mapped git repository has disappeared: 'RepositoryMapping[<empty> -> '../../.git', absolute path: 'C:/Users/jguti/OneDrive/Desktop/ECE_150_Project/ECE_150_Project/.git' ]'
+!STACK 0
+java.io.FileNotFoundException: 
+	at org.eclipse.egit.core.project.GitProjectData.logAndUnmapGoneMappedResource(GitProjectData.java:544)
+	at org.eclipse.egit.core.project.GitProjectData.map(GitProjectData.java:510)
+	at org.eclipse.egit.core.project.GitProjectData.remapAll(GitProjectData.java:479)
+	at org.eclipse.egit.core.project.GitProjectData.load(GitProjectData.java:472)
+	at org.eclipse.egit.core.project.GitProjectData.get(GitProjectData.java:210)
+	at org.eclipse.egit.core.GitProvider.getData(GitProvider.java:103)
+	at org.eclipse.egit.core.project.RepositoryMapping.getMapping(RepositoryMapping.java:374)
+	at org.eclipse.egit.core.project.RepositoryMapping.getMapping(RepositoryMapping.java:400)
+	at org.eclipse.egit.ui.internal.selection.SelectionUtils.getRepository(SelectionUtils.java:228)
+	at org.eclipse.egit.ui.internal.selection.SelectionUtils.getRepository(SelectionUtils.java:72)
+	at org.eclipse.egit.ui.internal.actions.PushMenu.getContributionItems(PushMenu.java:72)
+	at org.eclipse.ui.actions.CompoundContributionItem.getContributionItemsToFill(CompoundContributionItem.java:89)
+	at org.eclipse.ui.actions.CompoundContributionItem.fill(CompoundContributionItem.java:62)
+	at org.eclipse.ui.internal.menus.DynamicMenuContributionItem.fill(DynamicMenuContributionItem.java:208)
+	at org.eclipse.jface.action.MenuManager.doItemFill(MenuManager.java:724)
+	at org.eclipse.jface.action.MenuManager.update(MenuManager.java:806)
+	at org.eclipse.jface.action.MenuManager.update(MenuManager.java:665)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.scheduleManagerUpdate(MenuManagerRenderer.java:1164)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.access$3(MenuManagerRenderer.java:1159)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer$3.handleEvent(MenuManagerRenderer.java:235)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:186)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:145)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4761)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:211)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:36)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:85)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:59)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setVisible(UIElementImpl.java:345)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.updateVisibility(ContributionRecord.java:100)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:188)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:199)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.showMenu(MenuManagerShowProcessor.java:230)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.menuAboutToHide(MenuManagerShowProcessor.java:110)
+	at org.eclipse.jface.internal.MenuManagerEventHelper.showEventPostHelper(MenuManagerEventHelper.java:92)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:467)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:461)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:493)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:255)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1137)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1118)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5037)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4705)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:339)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1633)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2117)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5050)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:262)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4221)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3763)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:694)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:606)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1488)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-07 03:50:45.408
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, wsl nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x10001100 --id=0x0 --timestamp=1636267223]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-07 03:50:47.632
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, wsl nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x10001100 --id=0x0 --timestamp=1636267223 /mnt/c/Users/jguti/OneDrive/Desktop/ECE_150_Project/ECE_150_Project/software/Nios2_A/Nios2_A.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-07 03:51:50.618
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, wsl nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x10001100 --id=0x0 --timestamp=1636267223]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-07 03:51:52.921
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, wsl nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x10001100 --id=0x0 --timestamp=1636267223 /mnt/c/Users/jguti/OneDrive/Desktop/ECE_150_Project/ECE_150_Project/software/Nios2_A/Nios2_A.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-07 03:55:37.477
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-07 03:55:38.468
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, wsl nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x10001100 --id=0x0 --timestamp=1636267223]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-07 03:55:40.586
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, wsl nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x10001100 --id=0x0 --timestamp=1636267223 /mnt/c/Users/jguti/OneDrive/Desktop/ECE_150_Project/ECE_150_Project/software/Nios2_A/Nios2_A.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-07 03:56:32.149
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-07 03:56:33.794
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, wsl nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x10001100 --id=0x0 --timestamp=1636267223]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-07 03:56:37.373
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, wsl nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x10001100 --id=0x0 --timestamp=1636267223 /mnt/c/Users/jguti/OneDrive/Desktop/ECE_150_Project/ECE_150_Project/software/Nios2_A/Nios2_A.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-07 03:56:57.366
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-07 03:56:58.849
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, wsl nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x10001100 --id=0x0 --timestamp=1636267223]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-07 03:57:01.414
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, wsl nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x10001100 --id=0x0 --timestamp=1636267223 /mnt/c/Users/jguti/OneDrive/Desktop/ECE_150_Project/ECE_150_Project/software/Nios2_A/Nios2_A.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-07 03:57:44.142
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-07 03:57:45.824
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, wsl nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x10001100 --id=0x0 --timestamp=1636267223]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-07 03:57:48.523
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, wsl nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x10001100 --id=0x0 --timestamp=1636267223 /mnt/c/Users/jguti/OneDrive/Desktop/ECE_150_Project/ECE_150_Project/software/Nios2_A/Nios2_A.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-07 03:57:49.637
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2021-11-07 03:57:57.746
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2021-11-07 03:57:57.753
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-07 03:58:34.890
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, wsl nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x10001100 --id=0x0 --timestamp=1636267223]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-07 03:58:37.513
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, wsl nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x10001100 --id=0x0 --timestamp=1636267223 /mnt/c/Users/jguti/OneDrive/Desktop/ECE_150_Project/ECE_150_Project/software/Nios2_A/Nios2_A.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-07 04:06:02.611
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, wsl nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x10001100 --id=0x0 --timestamp=1636267223]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-07 04:06:05.382
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, wsl nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x10001100 --id=0x0 --timestamp=1636267223 /mnt/c/Users/jguti/OneDrive/Desktop/ECE_150_Project/ECE_150_Project/software/Nios2_A/Nios2_A.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-07 04:16:22.381
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, wsl nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x10001100 --id=0x0 --timestamp=1636267223]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-07 04:16:24.543
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, wsl nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x10001100 --id=0x0 --timestamp=1636267223 /mnt/c/Users/jguti/OneDrive/Desktop/ECE_150_Project/ECE_150_Project/software/Nios2_A/Nios2_A.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-07 04:19:00.611
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, wsl nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x10001100 --id=0x0 --timestamp=1636267223]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-07 04:19:03.281
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, wsl nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x10001100 --id=0x0 --timestamp=1636267223 /mnt/c/Users/jguti/OneDrive/Desktop/ECE_150_Project/ECE_150_Project/software/Nios2_A/Nios2_A.elf]
+!SESSION 2021-11-07 04:30:34.044 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_265
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/20.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga_lite/20.1/nios2eds/bin/eclipse_nios2/plugin_customization.ini -clean
+
+!ENTRY org.eclipse.core.resources 2 10035 2021-11-07 04:30:50.266
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 16 2021-11-07 04:31:14.708
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1. ; version: 1.100.0.v20160217-0435
+!STACK 0
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:176)
+	at com.google.gson.Gson.fromJson(Gson.java:803)
+	at com.google.gson.Gson.fromJson(Gson.java:768)
+	at com.google.gson.Gson.fromJson(Gson.java:717)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.json.Json.deserialize(Json.java:88)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:70)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:101)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:165)
+	... 9 more
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-11-07 04:31:17.742
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\jguti'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-07 04:32:52.310
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, wsl nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x10001100 --id=0x0 --timestamp=1636267223]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-07 04:32:54.178
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, wsl nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x10001100 --id=0x0 --timestamp=1636267223 /mnt/c/Users/jguti/OneDrive/Desktop/ECE_150_Project/ECE_150_Project/software/Nios2_A/Nios2_A.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-07 04:34:05.752
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, wsl nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x10001100 --id=0x0 --timestamp=1636267223]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-07 04:34:07.753
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, wsl nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x10001100 --id=0x0 --timestamp=1636267223 /mnt/c/Users/jguti/OneDrive/Desktop/ECE_150_Project/ECE_150_Project/software/Nios2_A/Nios2_A.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-07 04:38:29.525
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, wsl nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x10001100 --id=0x0 --timestamp=1636267223]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-07 04:38:31.327
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, wsl nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x10001100 --id=0x0 --timestamp=1636267223 /mnt/c/Users/jguti/OneDrive/Desktop/ECE_150_Project/ECE_150_Project/software/Nios2_A/Nios2_A.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2021-11-07 04:43:36.071
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2021-11-07 04:43:36.076
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-07 04:55:09.637
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, wsl nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x10001100 --id=0x0 --timestamp=1636267223]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-07 04:55:11.687
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, wsl nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x10001100 --id=0x0 --timestamp=1636267223 /mnt/c/Users/jguti/OneDrive/Desktop/ECE_150_Project/ECE_150_Project/software/Nios2_A/Nios2_A.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-07 05:13:32.606
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, wsl nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x10001100 --id=0x0 --timestamp=1636267223]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-07 05:13:34.482
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, wsl nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x10001100 --id=0x0 --timestamp=1636267223 /mnt/c/Users/jguti/OneDrive/Desktop/ECE_150_Project/ECE_150_Project/software/Nios2_A/Nios2_A.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-07 05:14:41.078
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, wsl nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x10001100 --id=0x0 --timestamp=1636267223]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-07 05:14:43.154
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, wsl nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x10001100 --id=0x0 --timestamp=1636267223 /mnt/c/Users/jguti/OneDrive/Desktop/ECE_150_Project/ECE_150_Project/software/Nios2_A/Nios2_A.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-07 05:14:44.229
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2021-11-07 05:14:51.847
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2021-11-07 05:14:51.890
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-07 05:15:27.910
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, wsl nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x10001100 --id=0x0 --timestamp=1636267223]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-07 05:15:29.909
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, wsl nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x10001100 --id=0x0 --timestamp=1636267223 /mnt/c/Users/jguti/OneDrive/Desktop/ECE_150_Project/ECE_150_Project/software/Nios2_A/Nios2_A.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-07 05:16:38.405
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, wsl nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x10001100 --id=0x0 --timestamp=1636267223]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-07 05:16:40.323
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, wsl nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x10001100 --id=0x0 --timestamp=1636267223 /mnt/c/Users/jguti/OneDrive/Desktop/ECE_150_Project/ECE_150_Project/software/Nios2_A/Nios2_A.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-07 05:17:25.823
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-07 05:17:27.437
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, wsl nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x10001100 --id=0x0 --timestamp=1636267223]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-07 05:17:29.719
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, wsl nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x10001100 --id=0x0 --timestamp=1636267223 /mnt/c/Users/jguti/OneDrive/Desktop/ECE_150_Project/ECE_150_Project/software/Nios2_A/Nios2_A.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-07 05:22:20.729
+!MESSAGE Terminated Launch with connection: 10USB-Blaster on localhost [USB-0]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-07 05:22:21.849
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, wsl nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x10001100 --id=0x0 --timestamp=1636267223]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2021-11-07 05:22:23.902
+!MESSAGE Executing: [C:\WINDOWS\system32\cmd.exe, /C, wsl nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x10001100 --id=0x0 --timestamp=1636267223 /mnt/c/Users/jguti/OneDrive/Desktop/ECE_150_Project/ECE_150_Project/software/Nios2_A/Nios2_A.elf]

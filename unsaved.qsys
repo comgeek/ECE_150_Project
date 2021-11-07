@@ -111,6 +111,11 @@
    type="conduit"
    dir="end" />
  <interface
+   name="nios2_a_avalon_aes_interface_0_export_data"
+   internal="Nios2_A.avalon_aes_interface_0_export_data"
+   type="conduit"
+   dir="end" />
+ <interface
    name="nios_sys_sdram_pll_0_sdram_clk"
    internal="Nios2_A.sys_sdram_pll_0_sdram_clk"
    type="clock"

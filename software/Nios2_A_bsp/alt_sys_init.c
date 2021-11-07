@@ -2,9 +2,9 @@
  * alt_sys_init.c - HAL initialization source
  *
  * Machine generated for CPU 'Nios2_A_nios2_gen2_0' in SOPC Builder design 'unsaved'
- * SOPC Builder design path: C:/Users/jguti/OneDrive/Desktop/Homework4/NEWTEST/unsaved.sopcinfo
+ * SOPC Builder design path: C:/Users/jguti/OneDrive/Desktop/ECE_150_Project/ECE_150_Project/unsaved.sopcinfo
  *
- * Generated: Thu Nov 04 21:49:16 PDT 2021
+ * Generated: Fri Nov 05 21:12:47 PDT 2021
  */
 
 /*

@@ -23,7 +23,8 @@ module unsaved (
 	sdram_dqm,
 	sdram_ras_n,
 	sdram_we_n,
-	switches_external_connection_export);	
+	switches_external_connection_export,
+	nios2_a_avalon_aes_interface_0_export_data_export_data);	
 
 	input		clk_clk;
 	output	[6:0]	hex_0_external_connection_export;
@@ -49,4 +50,5 @@ module unsaved (
 	output		sdram_ras_n;
 	output		sdram_we_n;
 	input	[17:0]	switches_external_connection_export;
+	output	[31:0]	nios2_a_avalon_aes_interface_0_export_data_export_data;
 endmodule
