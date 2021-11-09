@@ -4,7 +4,7 @@
  * Machine generated for CPU 'Nios2_A_nios2_gen2_0' in SOPC Builder design 'unsaved'
  * SOPC Builder design path: C:/Users/jguti/OneDrive/Desktop/ECE_150_Project/ECE_150_Project/unsaved.sopcinfo
  *
- * Generated: Sat Nov 06 23:57:15 PDT 2021
+ * Generated: Mon Nov 08 22:24:55 PST 2021
  */
 
 /*
@@ -583,7 +583,7 @@
 #define NIOS2_A_SYSID_QSYS_0_IRQ_INTERRUPT_CONTROLLER_ID -1
 #define NIOS2_A_SYSID_QSYS_0_NAME "/dev/Nios2_A_sysid_qsys_0"
 #define NIOS2_A_SYSID_QSYS_0_SPAN 8
-#define NIOS2_A_SYSID_QSYS_0_TIMESTAMP 1636267223
+#define NIOS2_A_SYSID_QSYS_0_TIMESTAMP 1636430330
 #define NIOS2_A_SYSID_QSYS_0_TYPE "altera_avalon_sysid_qsys"
 
 

@@ -12,6 +12,7 @@
 			key_external_connection_export                         : in    std_logic_vector(3 downto 0)  := (others => 'X'); -- export
 			ledg_export                                            : out   std_logic_vector(7 downto 0);                     -- export
 			ledr_export                                            : out   std_logic_vector(17 downto 0);                    -- export
+			nios2_a_avalon_aes_interface_0_export_data_export_data : out   std_logic_vector(31 downto 0);                    -- export_data
 			nios_sys_sdram_pll_0_sdram_clk_clk                     : out   std_logic;                                        -- clk
 			reset_reset_n                                          : in    std_logic                     := 'X';             -- reset_n
 			sdram_addr                                             : out   std_logic_vector(12 downto 0);                    -- addr
@@ -24,7 +25,7 @@
 			sdram_ras_n                                            : out   std_logic;                                        -- ras_n
 			sdram_we_n                                             : out   std_logic;                                        -- we_n
 			switches_external_connection_export                    : in    std_logic_vector(17 downto 0) := (others => 'X'); -- export
-			nios2_a_avalon_aes_interface_0_export_data_export_data : out   std_logic_vector(31 downto 0)                     -- export_data
+			nios2_b_ring_oscillator_0_conduit_export_export_data   : out   std_logic_vector(31 downto 0)                     -- export_data
 		);
 	end component unsaved;
 
@@ -42,6 +43,7 @@
 			key_external_connection_export                         => CONNECTED_TO_key_external_connection_export,                         --                    key_external_connection.export
 			ledg_export                                            => CONNECTED_TO_ledg_export,                                            --                                       ledg.export
 			ledr_export                                            => CONNECTED_TO_ledr_export,                                            --                                       ledr.export
+			nios2_a_avalon_aes_interface_0_export_data_export_data => CONNECTED_TO_nios2_a_avalon_aes_interface_0_export_data_export_data, -- nios2_a_avalon_aes_interface_0_export_data.export_data
 			nios_sys_sdram_pll_0_sdram_clk_clk                     => CONNECTED_TO_nios_sys_sdram_pll_0_sdram_clk_clk,                     --             nios_sys_sdram_pll_0_sdram_clk.clk
 			reset_reset_n                                          => CONNECTED_TO_reset_reset_n,                                          --                                      reset.reset_n
 			sdram_addr                                             => CONNECTED_TO_sdram_addr,                                             --                                      sdram.addr
@@ -54,6 +56,6 @@
 			sdram_ras_n                                            => CONNECTED_TO_sdram_ras_n,                                            --                                           .ras_n
 			sdram_we_n                                             => CONNECTED_TO_sdram_we_n,                                             --                                           .we_n
 			switches_external_connection_export                    => CONNECTED_TO_switches_external_connection_export,                    --               switches_external_connection.export
-			nios2_a_avalon_aes_interface_0_export_data_export_data => CONNECTED_TO_nios2_a_avalon_aes_interface_0_export_data_export_data  -- nios2_a_avalon_aes_interface_0_export_data.export_data
+			nios2_b_ring_oscillator_0_conduit_export_export_data   => CONNECTED_TO_nios2_b_ring_oscillator_0_conduit_export_export_data    --   nios2_b_ring_oscillator_0_conduit_export.export_data
 		);
 

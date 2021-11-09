@@ -2,8 +2,8 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>hal</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>Nov 6, 2021 11:57:14 PM</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1636268234178</BspGeneratedUnixTimeStamp>
+        <BspGeneratedTimeStamp>Nov 8, 2021 10:24:50 PM</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1636439090030</BspGeneratedUnixTimeStamp>
         <BspGeneratedLocation>C:\Users\jguti\OneDrive\Desktop\ECE_150_Project\ECE_150_Project\software\Nios2_A_bsp</BspGeneratedLocation>
         <BspSettingsFile>settings.bsp</BspSettingsFile>
         <SopcDesignFile>C:\Users\jguti\OneDrive\Desktop\ECE_150_Project\ECE_150_Project\unsaved.sopcinfo</SopcDesignFile>

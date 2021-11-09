@@ -17,6 +17,7 @@ module unsaved (
 		output wire [7:0]  ledg_export,                                            //                                       ledg.export
 		output wire [17:0] ledr_export,                                            //                                       ledr.export
 		output wire [31:0] nios2_a_avalon_aes_interface_0_export_data_export_data, // nios2_a_avalon_aes_interface_0_export_data.export_data
+		output wire [31:0] nios2_b_ring_oscillator_0_conduit_export_export_data,   //   nios2_b_ring_oscillator_0_conduit_export.export_data
 		output wire        nios_sys_sdram_pll_0_sdram_clk_clk,                     //             nios_sys_sdram_pll_0_sdram_clk.clk
 		input  wire        reset_reset_n,                                          //                                      reset.reset_n
 		output wire [12:0] sdram_addr,                                             //                                      sdram.addr
@@ -61,9 +62,10 @@ module unsaved (
 	);
 
 	unsaved_Nios2_B nios2_b (
-		.clk_clk                                       (clk_clk),       //                                    clk.clk
-		.nios2_gen2_0_custom_instruction_master_readra (),              // nios2_gen2_0_custom_instruction_master.readra
-		.reset_reset_n                                 (reset_reset_n)  //                                  reset.reset_n
+		.clk_clk                                       (clk_clk),                                              //                                    clk.clk
+		.nios2_gen2_0_custom_instruction_master_readra (),                                                     // nios2_gen2_0_custom_instruction_master.readra
+		.reset_reset_n                                 (reset_reset_n),                                        //                                  reset.reset_n
+		.ring_oscillator_0_conduit_export_export_data  (nios2_b_ring_oscillator_0_conduit_export_export_data)  //       ring_oscillator_0_conduit_export.export_data
 	);
 
 endmodule

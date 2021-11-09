@@ -47,7 +47,7 @@ logic [31:0] selected_bits; // selecting 32 bits
 
 // this is needed for invMixCol - we only look at one word a time
 // this selects either the first, second, third, orfourth words
-always_ff @ (posedge CLK) begin
+always @ (posedge CLK) begin
 
         if(select == 2'd3)
             data_out[31:0] <= out_bits;

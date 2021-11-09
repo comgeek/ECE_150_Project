@@ -2376,6 +2376,7 @@ int main()
  8001058:	e0bfff17 	ldw	r2,-4(fp)
  800105c:	10800110 	cmplti	r2,r2,4
  8001060:	103ff11e 	bne	r2,zero,8001028 <main+0x100>
+
 			}
 
 			for(i = WORD_MAT; i < 8; ++i) {

@@ -11,6 +11,7 @@
 		.key_external_connection_export                         (<connected-to-key_external_connection_export>),                         //                    key_external_connection.export
 		.ledg_export                                            (<connected-to-ledg_export>),                                            //                                       ledg.export
 		.ledr_export                                            (<connected-to-ledr_export>),                                            //                                       ledr.export
+		.nios2_a_avalon_aes_interface_0_export_data_export_data (<connected-to-nios2_a_avalon_aes_interface_0_export_data_export_data>), // nios2_a_avalon_aes_interface_0_export_data.export_data
 		.nios_sys_sdram_pll_0_sdram_clk_clk                     (<connected-to-nios_sys_sdram_pll_0_sdram_clk_clk>),                     //             nios_sys_sdram_pll_0_sdram_clk.clk
 		.reset_reset_n                                          (<connected-to-reset_reset_n>),                                          //                                      reset.reset_n
 		.sdram_addr                                             (<connected-to-sdram_addr>),                                             //                                      sdram.addr
@@ -23,6 +24,6 @@
 		.sdram_ras_n                                            (<connected-to-sdram_ras_n>),                                            //                                           .ras_n
 		.sdram_we_n                                             (<connected-to-sdram_we_n>),                                             //                                           .we_n
 		.switches_external_connection_export                    (<connected-to-switches_external_connection_export>),                    //               switches_external_connection.export
-		.nios2_a_avalon_aes_interface_0_export_data_export_data (<connected-to-nios2_a_avalon_aes_interface_0_export_data_export_data>)  // nios2_a_avalon_aes_interface_0_export_data.export_data
+		.nios2_b_ring_oscillator_0_conduit_export_export_data   (<connected-to-nios2_b_ring_oscillator_0_conduit_export_export_data>)    //   nios2_b_ring_oscillator_0_conduit_export.export_data
 	);
 

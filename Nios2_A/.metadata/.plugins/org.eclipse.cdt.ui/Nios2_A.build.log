@@ -1,9 +1,9 @@
-05:22:18 **** Incremental Build of configuration Nios II for project Nios2_A ****
+22:52:24 **** Incremental Build of configuration Nios II for project Nios2_A ****
 wsl make all 
 Info: Building /mnt/c/Users/jguti/OneDrive/Desktop/ECE_150_Project/ECE_150_Project/software/Nios2_A_bsp/
 make --no-print-directory -C /mnt/c/Users/jguti/OneDrive/Desktop/ECE_150_Project/ECE_150_Project/software/Nios2_A_bsp/
 [BSP build complete]
 [Nios2_A build complete]
 
-05:22:19 Build Finished (took 1s.172ms)
+22:52:25 Build Finished (took 1s.200ms)
 

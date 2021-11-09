@@ -12,6 +12,7 @@ module unsaved (
 	key_external_connection_export,
 	ledg_export,
 	ledr_export,
+	nios2_a_avalon_aes_interface_0_export_data_export_data,
 	nios_sys_sdram_pll_0_sdram_clk_clk,
 	reset_reset_n,
 	sdram_addr,
@@ -24,7 +25,7 @@ module unsaved (
 	sdram_ras_n,
 	sdram_we_n,
 	switches_external_connection_export,
-	nios2_a_avalon_aes_interface_0_export_data_export_data);	
+	nios2_b_ring_oscillator_0_conduit_export_export_data);	
 
 	input		clk_clk;
 	output	[6:0]	hex_0_external_connection_export;
@@ -38,6 +39,7 @@ module unsaved (
 	input	[3:0]	key_external_connection_export;
 	output	[7:0]	ledg_export;
 	output	[17:0]	ledr_export;
+	output	[31:0]	nios2_a_avalon_aes_interface_0_export_data_export_data;
 	output		nios_sys_sdram_pll_0_sdram_clk_clk;
 	input		reset_reset_n;
 	output	[12:0]	sdram_addr;
@@ -50,5 +52,5 @@ module unsaved (
 	output		sdram_ras_n;
 	output		sdram_we_n;
 	input	[17:0]	switches_external_connection_export;
-	output	[31:0]	nios2_a_avalon_aes_interface_0_export_data_export_data;
+	output	[31:0]	nios2_b_ring_oscillator_0_conduit_export_export_data;
 endmodule

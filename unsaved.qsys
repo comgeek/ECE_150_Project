@@ -116,6 +116,11 @@
    type="conduit"
    dir="end" />
  <interface
+   name="nios2_b_ring_oscillator_0_conduit_export"
+   internal="Nios2_B.ring_oscillator_0_conduit_export"
+   type="conduit"
+   dir="end" />
+ <interface
    name="nios_sys_sdram_pll_0_sdram_clk"
    internal="Nios2_A.sys_sdram_pll_0_sdram_clk"
    type="clock"
@@ -135,7 +140,7 @@
   <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone IV E" />
   <parameter name="AUTO_DEVICE_SPEEDGRADE" value="7" />
   <parameter name="AUTO_GENERATION_ID" value="0" />
-  <parameter name="AUTO_UNIQUE_ID">$${FILENAME}_Nios2_A</parameter>
+  <parameter name="AUTO_UNIQUE_ID" value="unsaved_Nios2_A" />
  </module>
  <module name="Nios2_B" kind="subsystemB" version="1.0" enabled="1">
   <parameter name="AUTO_CLK_CLOCK_DOMAIN" value="1" />
@@ -145,7 +150,7 @@
   <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone IV E" />
   <parameter name="AUTO_DEVICE_SPEEDGRADE" value="7" />
   <parameter name="AUTO_GENERATION_ID" value="0" />
-  <parameter name="AUTO_UNIQUE_ID">$${FILENAME}_Nios2_B</parameter>
+  <parameter name="AUTO_UNIQUE_ID" value="unsaved_Nios2_B" />
  </module>
  <module name="clk_0" kind="clock_source" version="20.1" enabled="1">
   <parameter name="clockFrequency" value="50000000" />

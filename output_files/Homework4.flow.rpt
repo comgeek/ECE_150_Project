@@ -1,5 +1,5 @@
 Flow report for Homework4
-Sun Nov 07 03:31:02 2021
+Mon Nov 08 23:04:21 2021
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -41,22 +41,22 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Sun Nov 07 03:30:50 2021       ;
+; Flow Status                        ; Flow Failed - Mon Nov 08 23:04:21 2021      ;
 ; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                      ; Homework4                                   ;
 ; Top-level Entity Name              ; Homework4                                   ;
 ; Family                             ; Cyclone IV E                                ;
 ; Device                             ; EP4CE115F29C7                               ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 11,516 / 114,480 ( 10 % )                   ;
-;     Total combinational functions  ; 10,421 / 114,480 ( 9 % )                    ;
-;     Dedicated logic registers      ; 5,737 / 114,480 ( 5 % )                     ;
-; Total registers                    ; 5856                                        ;
-; Total pins                         ; 195 / 529 ( 37 % )                          ;
-; Total virtual pins                 ; 0                                           ;
-; Total memory bits                  ; 406,912 / 3,981,312 ( 10 % )                ;
-; Embedded Multiplier 9-bit elements ; 12 / 532 ( 2 % )                            ;
-; Total PLLs                         ; 1 / 4 ( 25 % )                              ;
+; Total logic elements               ; N/A until Partition Merge                   ;
+;     Total combinational functions  ; N/A until Partition Merge                   ;
+;     Dedicated logic registers      ; N/A until Partition Merge                   ;
+; Total registers                    ; N/A until Partition Merge                   ;
+; Total pins                         ; N/A until Partition Merge                   ;
+; Total virtual pins                 ; N/A until Partition Merge                   ;
+; Total memory bits                  ; N/A until Partition Merge                   ;
+; Embedded Multiplier 9-bit elements ; N/A until Partition Merge                   ;
+; Total PLLs                         ; N/A until Partition Merge                   ;
 +------------------------------------+---------------------------------------------+
 
 
@@ -65,7 +65,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 11/07/2021 03:26:07 ;
+; Start date & time ; 11/08/2021 23:04:14 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; Homework4           ;
 +-------------------+---------------------+
@@ -76,7 +76,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------+-----------------------------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                                     ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+-----------------------------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 9447195492532.163628436630936                             ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 346655606019.163644145426700                              ; --            ; --          ; --         ;
 ; ENABLE_SIGNALTAP                    ; On                                                        ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                                        ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                                         ; --            ; --          ; --         ;
@@ -92,7 +92,7 @@ https://fpgasoftware.intel.com/eula.
 ; SLD_FILE                            ; unsaved/synthesis/unsaved.regmap                          ; --            ; --          ; --         ;
 ; SLD_FILE                            ; unsaved/synthesis/unsaved.debuginfo                       ; --            ; --          ; --         ;
 ; SLD_FILE                            ; db/stp1_auto_stripped.stp                                 ; --            ; --          ; --         ;
-; SLD_INFO                            ; QSYS_NAME unsaved HAS_SOPCINFO 1 GENERATION_ID 1636267223 ; --            ; unsaved     ; --         ;
+; SLD_INFO                            ; QSYS_NAME unsaved HAS_SOPCINFO 1 GENERATION_ID 1636430330 ; --            ; unsaved     ; --         ;
 ; SOPCINFO_FILE                       ; unsaved/synthesis/../../unsaved.sopcinfo                  ; --            ; --          ; --         ;
 ; SYNTHESIS_ONLY_QIP                  ; On                                                        ; --            ; --          ; --         ;
 ; USE_SIGNALTAP_FILE                  ; output_files/stp1.stp                                     ; --            ; --          ; --         ;
@@ -104,11 +104,8 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:01:58     ; 1.0                     ; 5122 MB             ; 00:02:34                           ;
-; Fitter               ; 00:01:21     ; 1.1                     ; 5894 MB             ; 00:01:44                           ;
-; Assembler            ; 00:00:09     ; 1.0                     ; 4755 MB             ; 00:00:07                           ;
-; Timing Analyzer      ; 00:00:10     ; 1.2                     ; 4980 MB             ; 00:00:10                           ;
-; Total                ; 00:03:38     ; --                      ; --                  ; 00:04:35                           ;
+; Analysis & Synthesis ; 00:00:08     ; 1.0                     ; 4754 MB             ; 00:00:20                           ;
+; Total                ; 00:00:08     ; --                      ; --                  ; 00:00:20                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -117,10 +114,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+------------------+------------+------------+----------------+
 ; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
 +----------------------+------------------+------------+------------+----------------+
-; Analysis & Synthesis ; Nitro-5-Laptop   ; Windows 10 ; 10.0       ; x86_64         ;
-; Fitter               ; Nitro-5-Laptop   ; Windows 10 ; 10.0       ; x86_64         ;
-; Assembler            ; Nitro-5-Laptop   ; Windows 10 ; 10.0       ; x86_64         ;
-; Timing Analyzer      ; Nitro-5-Laptop   ; Windows 10 ; 10.0       ; x86_64         ;
+; Analysis & Synthesis ; DESKTOP-FRHF5OT  ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 
@@ -128,9 +122,6 @@ https://fpgasoftware.intel.com/eula.
 ; Flow Log ;
 ------------
 quartus_map --read_settings_files=on --write_settings_files=off Homework4 -c Homework4
-quartus_fit --read_settings_files=off --write_settings_files=off Homework4 -c Homework4
-quartus_asm --read_settings_files=off --write_settings_files=off Homework4 -c Homework4
-quartus_sta Homework4 -c Homework4
 
 
 

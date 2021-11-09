@@ -73,18 +73,30 @@ module GF_Mul_9 (
 
 	wire [0:7] two, four, eight;
 	
+	
+	
 	function [7:0] xtime;
+	
 	input [7:0] in;
 	reg [7:0] temp1;
 	reg [7:0] temp2;
-	begin
-		temp1 =  {in[6:0],1'b0};
-		temp2 = ( 8'h1b & {8{in[7]}} );
-		xtime  = temp1 ^ temp2;
-	end
-	endfunction
+	reg [6:0] temp3;
+	
+	temp3[0] = in[7];
+	temp3[1] = in[6];
+	temp3[2] = in[5];
+	temp3[3] = in[4];
+	temp3[4] = in[3];
+	temp3[5] = in[2];
+	temp3[6] = in[1];
 
 	
+		//temp1 =  {in[1:7],1'b0};	
+		temp1 =  {temp3[6:0],1'b0};
+		temp2 = ( 8'h1b & {8{in[0]}} );
+		xtime  = temp1 ^ temp2;
+
+	endfunction
 
 	assign two = xtime(in);
 	assign four = xtime(two);
@@ -106,14 +118,26 @@ module GF_Mul_b (
 	wire [0:7] two, four, eight;
 
 	function [7:0] xtime;
+	
 	input [7:0] in;
 	reg [7:0] temp1;
 	reg [7:0] temp2;
-	begin
-		temp1 =  {in[6:0],1'b0};
-		temp2 = ( 8'h1b & {8{in[7]}} );
+	reg [6:0] temp3;
+	
+	temp3[0] = in[7];
+	temp3[1] = in[6];
+	temp3[2] = in[5];
+	temp3[3] = in[4];
+	temp3[4] = in[3];
+	temp3[5] = in[2];
+	temp3[6] = in[1];
+
+	
+		//temp1 =  {in[1:7],1'b0};	
+		temp1 =  {temp3[6:0],1'b0};
+		temp2 = ( 8'h1b & {8{in[0]}} );
 		xtime  = temp1 ^ temp2;
-	end
+
 	endfunction
 	
 	
@@ -138,14 +162,26 @@ module GF_Mul_d (
 	output wire [0:7] out
 );
 	function [7:0] xtime;
+	
 	input [7:0] in;
 	reg [7:0] temp1;
 	reg [7:0] temp2;
-	begin
-		temp1 =  {in[6:0],1'b0};
-		temp2 = ( 8'h1b & {8{in[7]}} );
+	reg [6:0] temp3;
+	
+	temp3[0] = in[7];
+	temp3[1] = in[6];
+	temp3[2] = in[5];
+	temp3[3] = in[4];
+	temp3[4] = in[3];
+	temp3[5] = in[2];
+	temp3[6] = in[1];
+
+	
+		//temp1 =  {in[1:7],1'b0};	
+		temp1 =  {temp3[6:0],1'b0};
+		temp2 = ( 8'h1b & {8{in[0]}} );
 		xtime  = temp1 ^ temp2;
-	end
+
 	endfunction
 
 
@@ -173,16 +209,29 @@ module GF_Mul_e (
 
 	wire [0:7] two, four, eight;
 
-		function [7:0] xtime;
+	function [7:0] xtime;
+	
 	input [7:0] in;
 	reg [7:0] temp1;
 	reg [7:0] temp2;
-	begin
-		temp1 =  {in[6:0],1'b0};
-		temp2 = ( 8'h1b & {8{in[7]}} );
+	reg [6:0] temp3;
+	
+	temp3[0] = in[7];
+	temp3[1] = in[6];
+	temp3[2] = in[5];
+	temp3[3] = in[4];
+	temp3[4] = in[3];
+	temp3[5] = in[2];
+	temp3[6] = in[1];
+
+	
+		//temp1 =  {in[1:7],1'b0};	
+		temp1 =  {temp3[6:0],1'b0};
+		temp2 = ( 8'h1b & {8{in[0]}} );
 		xtime  = temp1 ^ temp2;
-	end
+
 	endfunction
+
 	
 	
 	assign two = xtime(in);
